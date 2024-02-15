@@ -19,8 +19,6 @@ alias stjavahome='sudo update-alternatives --config java'
 
 alias wine='WINEPREFIX=~/.wine64 wine'
 
-alias proj='cd $HOME/Bureau/Projets/'
-
 # Bash functions
 
 function nwdir {
