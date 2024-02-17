@@ -38,7 +38,9 @@ alias stjavahome='sudo update-alternatives --config java'
 # Exports
 #-----------
 
-
+if [ -f "$HOME/.dotfiles_private/exports" ]; then
+  . "$HOME/.dotfiles_private/exports"
+fi
 
 #-----------
 # Functions
