@@ -27,9 +27,17 @@ if [ -n "$force_color_prompt" ]; then
 fi
 unset color_prompt force_color_prompt
 
+#----------------
+# ZSH Plugins
+#----------------
+
+source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 #----------
 # Prompt
 #----------
+
 function parse_git_dirty {
   STATUS="$(git status 2> /dev/null)"
   if [[ $? -ne 0 ]]; then printf ""; return; else printf " ["; fi
@@ -48,8 +56,6 @@ parse_git_branch() {
  # Short form
   # git rev-parse --abbrev-ref HEAD 2> /dev/null | sed -e 's/.*\/\(.*\)/\1/'
 }
-
-test_var="Hello, world!"
 
 PROMPT='%B%F{003} 󰣇 %B%F{015}%~ %B%F{006} %b%F{015}'
 RPROMPT="%B%F{006}$(parse_git_branch)%F{003}$(parse_git_dirty) %B%F{015}"
