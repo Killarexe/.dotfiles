@@ -1,0 +1,5 @@
+[credential]
+	helper = cache --timeout=10800
+[user]
+	email = killar.exe@gmail.com
+	name = Killar.exe
