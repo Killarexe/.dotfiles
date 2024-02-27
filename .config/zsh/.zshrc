@@ -66,4 +66,6 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
   exec tmux
 fi
 
+source "$HOME/.cargo/env"
+
 neofetch
