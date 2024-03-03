@@ -57,7 +57,7 @@ DialogWidth=720
 [PlasmaViews][Panel 102]
 alignment=132
 floating=1
-panelOpacity=0
+panelOpacity=1
 
 [PlasmaViews][Panel 102][Defaults]
 offset=0

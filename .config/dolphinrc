@@ -11,6 +11,10 @@ ViewPropsTimestamp=2024,2,20,13,45,0.871
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
+[KPropertiesDialog]
+3 screens: Height=443
+3 screens: Width=461
+
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled

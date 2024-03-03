@@ -18,14 +18,14 @@ Recent URLs[$e]=file:$HOME/Pictures/wallpapers/,file:$HOME/
 detailViewIconSize=16
 
 [MainWindow]
-3 screens: Height=1440
-3 screens: Width=900
-3 screens: Window-Maximized=true
-3 screens: XPosition=3600
-3 screens: YPosition=0
+3 screens: Height=1044
+3 screens: Width=1916
+3 screens: XPosition=1680
+3 screens: YPosition=426
 640x480 screen: Height=264
 640x480 screen: Width=418
 640x480 screen: Window-Maximized=true
+DP-0 DP-5 DP-6=DP-5
 DP-1 DP-2 DP-3=DP-3
 State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAAQ0BAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABdgEAAAMAAAaQAAAD/QAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
 

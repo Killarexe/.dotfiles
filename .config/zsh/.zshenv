@@ -32,11 +32,11 @@ alias rshell='ssh hover@192.168.1.156'
 
 alias stjavahome='sudo update-alternatives --config java'
 
-#alias wine='WINEPREFIX=~/.wine64 wine'
-
 #-----------
 # Exports
 #-----------
+
+export PATH=$PATH:$HOME/.local/bin
 
 if [ -f "$HOME/.dotfiles_private/exports" ]; then
   . "$HOME/.dotfiles_private/exports"
