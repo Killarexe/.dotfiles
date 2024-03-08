@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creatorversion="1.2.2" type="instrumenttracksettings" creator="LMMS">
+  <head/>
+  <instrumenttracksettings type="0" name="Moog_Fsharp.wav" solo="0" muted="0">
+    <instrumenttrack basenote="42" pitch="0.0061035156" pitchrange="1" fxch="0" vol="100" usemasterpitch="1" pan="0">
+      <instrument name="audiofileprocessor">
+        <audiofileprocessor amp="100" looped="1" sframe="8.9349538e-05" lframe="0.8560912" stutter="0" src="intru/Moog_Fsharp.wav" reversed="0" eframe="1" interp="1"/>
+      </instrument>
+      <eldata ftype="0" fcut="14000" fwet="0" fres="0.5">
+        <elvol lspd="0.1" hold="0.5" lspd_syncmode="0" x100="0" lspd_numerator="4" lshp="0" lspd_denominator="4" rel="0.1" sustain="0.5" dec="0.5" amt="0" userwavefile="" lpdel="0" latt="0" ctlenvamt="0" pdel="0" att="0" lamt="0"/>
+        <elcut lspd="0.1" hold="0.5" lspd_syncmode="0" x100="0" lspd_numerator="4" lshp="0" lspd_denominator="4" rel="0.1" sustain="0.5" dec="0.5" amt="0" userwavefile="" lpdel="0" latt="0" ctlenvamt="0" pdel="0" att="0" lamt="0"/>
+        <elres lspd="0.1" hold="0.5" lspd_syncmode="0" x100="0" lspd_numerator="4" lshp="0" lspd_denominator="4" rel="0.1" sustain="0.5" dec="0.5" amt="0" userwavefile="" lpdel="0" latt="0" ctlenvamt="0" pdel="0" att="0" lamt="0"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+      <arpeggiator arpmiss="0" arptime="200" arpdir="0" arp-enabled="0" arpskip="0" arptime_denominator="4" arptime_numerator="4" arpcycle="0" arptime_syncmode="0" arp="0" arpgate="100" arpmode="0" arprange="1"/>
+      <midiport outputcontroller="0" inputchannel="0" writable="0" fixedoutputvelocity="-1" basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" readable="1" inports="" inputcontroller="0" outputchannel="1" outputprogram="1"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

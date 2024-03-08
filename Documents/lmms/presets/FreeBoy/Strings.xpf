@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" creator="LMMS" type="instrumenttracksettings" version="1.0">
+  <head/>
+  <instrumenttracksettings name="Strings" muted="0" type="0" solo="1">
+    <instrumenttrack basenote="57" pitchrange="1" usemasterpitch="1" fxch="1">
+      <vol value="100" scale_type="linear" id="3827257"/>
+      <pan value="0" scale_type="linear" id="2470106"/>
+      <pitch value="-0.78125" scale_type="linear" id="590842"/>
+      <instrument name="papu">
+        <papu srs="4" ch2ssl="0" ch3so1="1" sampleShape="AACAPwAAgEAAAMBAAAAAQQAAAEEAABBBAAAQQQAAEEEAABBBAADAQAAAgD8AAAAAAAAAAAAAgD8AAABAAACAQAAAoEAAAKBAAADAQAAA4EAAAABBAAAgQQAAMEEAACBBAAAAQQAAwEAAAMBAAADgQAAAIEEAAEBBAABwQQAAcEE=" ch2so2="1" ch1vol="10" so1vol="5" ch4vsd="0" ch2vol="8" Treble="-2" ch2wpd="2" ch4vol="15" so2vol="5" ch4ssl="0" ch1so1="1" ch2so1="0" srw="0" ch4so2="0" sd="0" Bass="216" ch1wpd="3" ch3so2="1" ch2vsd="0" ch1vsd="0" ch3vol="3" ch4so1="0" st="4" ch1ssl="0" ch1so2="0"/>
+      </instrument>
+      <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+        <elvol lspd_syncmode="0" pdel="0" lpdel="0" amt="1" lamt="0.12" att="0.10600001" x100="0" rel="0.13600001" ctlenvamt="0" userwavefile="" lshp="0" dec="0.66700006" lspd_numerator="4" lspd_denominator="4" sustain="0.116" latt="0.21200001" hold="0.54400003" lspd="0.012999999"/>
+        <elcut lspd_syncmode="0" pdel="0" lpdel="0" amt="0" lamt="0" att="0" x100="0" rel="0.1" ctlenvamt="0" userwavefile="" lshp="0" dec="0.5" lspd_numerator="4" lspd_denominator="4" sustain="0.5" latt="0" hold="0.5" lspd="0.1"/>
+        <elres lspd_syncmode="0" pdel="0" lpdel="0" amt="0" lamt="0" att="0" x100="0" rel="0.1" ctlenvamt="0" userwavefile="" lshp="0" dec="0.5" lspd_numerator="4" lspd_denominator="4" sustain="0.5" latt="0" hold="0.5" lspd="0.1"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="2" chord-enabled="0"/>
+      <arpeggiator arpcycle="0" arpmiss="0" arpmode="0" arpdir="0" arp="0" arptime_numerator="4" arpgate="100" arprange="1" arptime="100" arp-enabled="0" arptime_denominator="4" arptime_syncmode="0" arpskip="0"/>
+      <midiport basevelocity="63" outputchannel="1" inputchannel="0" outputcontroller="0" fixedinputvelocity="-1" fixedoutputnote="-1" readable="0" outputprogram="1" inputcontroller="0" fixedoutputvelocity="-1" writable="0"/>
+      <fxchain numofeffects="1" enabled="1">
+        <effect name="stereomatrix" on="1" autoquit_syncmode="0" autoquit_numerator="4" autoquit_denominator="4" autoquit="1" gate="0" wet="1">
+          <stereomatrixcontrols r-l="-0.48999998" r-r="1" l-r="-0.41" l-l="-0.22999999"/>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

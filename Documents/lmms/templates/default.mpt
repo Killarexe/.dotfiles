@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creatorversion="1.2.2" type="song" creator="LMMS">
+  <head masterpitch="0" bpm="140" mastervol="100" timesig_numerator="4" timesig_denominator="4"/>
+  <song>
+    <trackcontainer maximized="0" y="5" type="song" minimized="0" visible="1" width="600" x="5" height="300"/>
+    <track name="Automation track" type="6" muted="0" solo="0">
+      <automationtrack/>
+      <automationpattern prog="0" tens="1" name="Numerator" len="192" mute="0" pos="0"/>
+      <automationpattern prog="0" tens="1" name="Denominator" len="192" mute="0" pos="0"/>
+      <automationpattern prog="0" tens="1" name="Tempo" len="192" mute="0" pos="0"/>
+      <automationpattern prog="0" tens="1" name="Master volume" len="192" mute="0" pos="0"/>
+      <automationpattern prog="0" tens="1" name="Master pitch" len="192" mute="0" pos="0"/>
+    </track>
+    <fxmixer maximized="0" y="310" minimized="0" visible="1" width="543" x="5" height="333">
+      <fxchannel num="0" name="Master" muted="0" volume="1" soloed="0">
+        <fxchain enabled="0" numofeffects="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView maximized="0" y="310" minimized="0" visible="1" width="350" x="680" height="200"/>
+    <pianoroll maximized="0" y="5" minimized="0" visible="0" width="860" x="5" height="480"/>
+    <automationeditor maximized="0" y="1" minimized="0" visible="0" width="860" x="1" height="400"/>
+    <projectnotes maximized="0" y="10" minimized="0" visible="0" width="745" x="700" height="400"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp1pos="192" lpstate="0" lp0pos="0"/>
+    <controllers/>
+  </song>
+</lmms-project>

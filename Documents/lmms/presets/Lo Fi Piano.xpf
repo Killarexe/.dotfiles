@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" type="instrumenttracksettings" creator="LMMS" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings type="0" name="Lo Fi Piano" muted="0" solo="1">
+    <instrumenttrack vol="100" pitchrange="1" pan="0" basenote="57" usemasterpitch="1" fxch="0" pitch="0">
+      <instrument name="OPL2">
+        <OPL2 op1_lvl="40" op2_lvl="54" op2_r="7" op2_s="13" op1_r="7" op1_mul="1" op1_s="12" op2_mul="1" op2_trem="0" trem_depth="1" op2_scale="0" op1_scale="1" op1_trem="0" op1_waveform="1" op1_vib="1" op2_perc="0" op2_vib="1" op2_a="0" op1_a="0" op2_waveform="1" op1_ksr="0" op2_d="14" op2_ksr="0" op1_perc="1" op1_d="14" vib_depth="0" fm="1" feedback="0"/>
+      </instrument>
+      <eldata fwet="0" fres="0.5" ftype="0" fcut="14000">
+        <elvol rel="0.1" lspd="0.1" pdel="0" hold="0.5" dec="0.5" att="0" latt="0" lspd_numerator="4" amt="0" userwavefile="" lamt="0" lpdel="0" sustain="0.5" lspd_syncmode="0" lshp="0" x100="0" lspd_denominator="4" ctlenvamt="0"/>
+        <elcut rel="0.1" lspd="0.1" pdel="0" hold="0.5" dec="0.5" att="0" latt="0" lspd_numerator="4" amt="0" userwavefile="" lamt="0" lpdel="0" sustain="0.5" lspd_syncmode="0" lshp="0" x100="0" lspd_denominator="4" ctlenvamt="0"/>
+        <elres rel="0.1" lspd="0.1" pdel="0" hold="0.5" dec="0.5" att="0" latt="0" lspd_numerator="4" amt="0" userwavefile="" lamt="0" lpdel="0" sustain="0.5" lspd_syncmode="0" lshp="0" x100="0" lspd_denominator="4" ctlenvamt="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord-enabled="0" chord="0"/>
+      <arpeggiator arpcycle="0" arpdir="0" arptime_denominator="4" arp-enabled="0" arprange="1" arpmiss="0" arptime_numerator="4" arpmode="0" arp="0" arptime_syncmode="0" arpskip="0" arptime="100" arpgate="100"/>
+      <midiport fixedinputvelocity="-1" inports="28:0 Oxygen Pro Mini:Oxygen Pro Mini USB MIDI" fixedoutputnote="-1" readable="1" writable="0" inputchannel="0" inputcontroller="0" fixedoutputvelocity="-1" outputchannel="1" outputcontroller="0" outputprogram="1" basevelocity="63"/>
+      <fxchain numofeffects="0" enabled="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

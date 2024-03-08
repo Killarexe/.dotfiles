@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" type="instrumenttracksettings" version="1.0" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings name="bassEm031Normal.wav" muted="0" solo="0" type="0">
+    <instrumenttrack pitch="0.0061035156" vol="100" basenote="35" pitchrange="1" usemasterpitch="1" pan="0" fxch="0">
+      <instrument name="audiofileprocessor">
+        <audiofileprocessor reversed="0" eframe="0.80000001" sframe="0" interp="1" amp="100" looped="1" lframe="0.6745016" src="intru/bassEm031Normal.wav" stutter="0"/>
+      </instrument>
+      <eldata fres="0.5" fwet="0" ftype="0" fcut="14000">
+        <elvol lamt="0" sustain="0" hold="2" lspd_syncmode="0" ctlenvamt="0" latt="0" pdel="0" rel="0.096000001" lspd_denominator="4" lpdel="0" amt="1" dec="0.016000001" att="0" lshp="0" lspd_numerator="4" x100="0" userwavefile="" lspd="0.1"/>
+        <elcut lamt="0" sustain="0.5" hold="0.5" lspd_syncmode="0" ctlenvamt="0" latt="0" pdel="0" rel="0.1" lspd_denominator="4" lpdel="0" amt="0" dec="0.5" att="0" lshp="0" lspd_numerator="4" x100="0" userwavefile="" lspd="0.1"/>
+        <elres lamt="0" sustain="0.5" hold="0.5" lspd_syncmode="0" ctlenvamt="0" latt="0" pdel="0" rel="0.1" lspd_denominator="4" lpdel="0" amt="0" dec="0.5" att="0" lshp="0" lspd_numerator="4" x100="0" userwavefile="" lspd="0.1"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+      <arpeggiator arpdir="0" arptime_denominator="4" arprange="1" arpmiss="0" arpcycle="0" arptime="200" arpskip="0" arpmode="0" arp-enabled="0" arpgate="100" arptime_syncmode="0" arptime_numerator="4" arp="0"/>
+      <midiport readable="1" basevelocity="63" inports="24:0 USB MIDI Interface:USB MIDI Interface MIDI 1" fixedinputvelocity="-1" inputcontroller="0" writable="0" outputcontroller="0" fixedoutputvelocity="-1" outputprogram="1" inputchannel="0" outputchannel="1" fixedoutputnote="-1"/>
+      <fxchain enabled="1" numofeffects="1">
+        <effect name="bassbooster" wet="1" autoquit="1" autoquit_numerator="4" autoquit_denominator="4" autoquit_syncmode="0" on="1" gate="0">
+          <bassboostercontrols freq="155" ratio="1.5" gain="1.0500001"/>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

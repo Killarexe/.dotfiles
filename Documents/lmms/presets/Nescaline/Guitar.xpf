@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" type="instrumenttracksettings" creator="LMMS" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings muted="0" type="0" name="Guitar" solo="1">
+    <instrumenttrack pan="0" vol="46.299999" basenote="57" pitch="0" pitchrange="2" fxch="1" usemasterpitch="1">
+      <instrument name="nes">
+        <nes swamt2="0" envlen2="0" nfrqmode4="0" vol="1" vol1="8" sweep2="0" vol4="15" envon2="0" swrate2="0" vibr="0" dc2="2" envon1="0" on3="1" vol3="4" envlen1="0" nq4="1" vol2="15" nmode4="0" on1="1" sweep1="0" on2="0" nfreq4="0" nswp4="0" on4="0" crs1="-12" envlen4="0" envloop1="0" envon4="0" crs3="0" crs2="0" swrate1="0" dc1="0" envloop4="0" swamt1="0" envloop2="0"/>
+      </instrument>
+      <eldata fres="0.5" fcut="14000" fwet="0" ftype="0">
+        <elvol dec="0.68000001" sustain="0.57200003" lpdel="0" lspd="0.1" hold="0" pdel="0" amt="1" rel="0.1" ctlenvamt="0" lspd_syncmode="0" lshp="0" att="0" lspd_numerator="4" userwavefile="" x100="0" lamt="0" lspd_denominator="4" latt="0"/>
+        <elcut dec="0.5" sustain="0.5" lpdel="0" lspd="0.1" hold="0.5" pdel="0" amt="0" rel="0.1" ctlenvamt="0" lspd_syncmode="0" lshp="0" att="0" lspd_numerator="4" userwavefile="" x100="0" lamt="0" lspd_denominator="4" latt="0"/>
+        <elres dec="0.5" sustain="0.5" lpdel="0" lspd="0.1" hold="0.5" pdel="0" amt="0" rel="0.1" ctlenvamt="0" lspd_syncmode="0" lshp="0" att="0" lspd_numerator="4" userwavefile="" x100="0" lamt="0" lspd_denominator="4" latt="0"/>
+      </eldata>
+      <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+      <arpeggiator arptime_numerator="4" arpgate="100" arpdir="0" arpmode="0" arptime="200" arpcycle="0" arpmiss="0" arptime_denominator="4" arp="0" arprange="1" arpskip="0" arptime_syncmode="0" arp-enabled="0"/>
+      <midiport inputcontroller="0" outputchannel="1" fixedinputvelocity="-1" writable="0" outputcontroller="0" fixedoutputnote="-1" readable="0" fixedoutputvelocity="-1" inputchannel="0" outputprogram="1" basevelocity="63"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

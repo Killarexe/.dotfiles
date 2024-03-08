@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creator="LMMS" version="1.0" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings muted="0" solo="0" type="0" name="niark_noigng.wav">
+    <instrumenttrack fxch="0" basenote="21" pan="0" vol="138.40001" usemasterpitch="1" pitchrange="1" pitch="58">
+      <instrument name="audiofileprocessor">
+        <audiofileprocessor sframe="0" src="voices/niark_noigng.wav" eframe="1" reversed="0" lframe="0" looped="0" amp="18" stutter="0" interp="2"/>
+      </instrument>
+      <eldata fres="0.5" ftype="0" fwet="0" fcut="14000">
+        <elvol lshp="0" pdel="0" userwavefile="" lamt="0" lspd="0.1" amt="0" dec="0.5" ctlenvamt="0" rel="0.1" sustain="0.5" lspd_numerator="4" att="0" lspd_syncmode="0" lspd_denominator="4" x100="0" hold="0.5" lpdel="0" latt="0"/>
+        <elcut lshp="0" pdel="0" userwavefile="" lamt="0" lspd="0.1" amt="0" dec="0.5" ctlenvamt="0" rel="0.1" sustain="0.5" lspd_numerator="4" att="0" lspd_syncmode="0" lspd_denominator="4" x100="0" hold="0.5" lpdel="0" latt="0"/>
+        <elres lshp="0" pdel="0" userwavefile="" lamt="0" lspd="0.1" amt="0" dec="0.5" ctlenvamt="0" rel="0.1" sustain="0.5" lspd_numerator="4" att="0" lspd_syncmode="0" lspd_denominator="4" x100="0" hold="0.5" lpdel="0" latt="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord-enabled="0" chord="0"/>
+      <arpeggiator arpmiss="0" arpcycle="0" arprange="1" arpgate="100" arpdir="0" arptime="200" arpmode="0" arptime_denominator="4" arp="0" arpskip="0" arptime_numerator="4" arp-enabled="0" arptime_syncmode="0"/>
+      <midiport fixedinputvelocity="-1" outputcontroller="0" writable="0" readable="0" fixedoutputnote="-1" inputcontroller="0" outputchannel="1" inputchannel="0" fixedoutputvelocity="-1" outputprogram="1" basevelocity="63"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
