@@ -1,6 +1,10 @@
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
 
+[FileDialogSize]
+3 screens: Height=596
+3 screens: Width=869
+
 [General]
 BrowseThroughArchives=true
 RememberOpenedTabs=false

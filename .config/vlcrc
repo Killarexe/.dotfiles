@@ -1,0 +1,8 @@
+[FileDialogSize]
+3 screens: Height=598
+3 screens: Width=980
+
+[KFileDialog Settings]
+Recent Files[$e]=GeneralUser GS v1.471.sf2,file:$HOME/Documents/lmms/samples/soundfonts/GeneralUser GS v1.471.sf2
+Recent URLs[$e]=file:$HOME/Documents/lmms/samples/soundfonts/
+detailViewIconSize=16

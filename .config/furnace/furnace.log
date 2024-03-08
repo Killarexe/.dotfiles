@@ -1,0 +1,2687 @@
+11:11:36 [info] Furnace version 0.6.1.
+11:11:36 [debug] opening config for read: /home/killar/.config/furnace/furnace.cfg
+11:11:36 [trace] trying: /home/killar/.config/furnace/furnace.cfg
+11:11:36 [info] loading config.
+11:11:36 [debug] end of file (Success)
+11:11:36 [debug] setting default preset
+11:11:36 [debug] preset size 132
+11:11:36 [info] initializing audio.
+11:11:36 [trace] listing audio devices
+11:11:36 [trace] setting callback
+11:11:36 [trace] calling init
+11:11:36 [debug] SDL audio driver: pulseaudio
+11:11:36 [trace] opening audio device...
+11:11:36 [trace] got info: 2 channels, 1024 bufsize
+11:11:36 [trace] allocating oscBuf...
+11:11:36 [info] initializing MIDI.
+11:11:36 [debug] listing devices.
+11:11:36 [debug] got port count.
+11:11:36 [info] opening MIDI input.
+11:11:36 [debug] finding port USB MIDI Interface:USB MIDI Interface MIDI 1...
+11:11:36 [trace] - 0: Midi Through:Midi Through Port-0
+11:11:36 [trace] - 1: USB MIDI Interface:USB MIDI Interface MIDI 1
+11:11:36 [debug] opening port 1...
+11:11:36 [trace] no MIDI output device selected.
+11:11:36 [trace] initAudioBackend done
+11:11:36 [trace] creating blip_buf
+11:11:36 [trace] setting blip rate of samp_bb (44100.000000)
+11:11:36 [trace] initializing dispatch...
+11:11:36 [debug] rendering samples...
+11:11:36 [info] initializing GUI.
+11:11:36 [trace] setting window type to NORMAL.
+11:11:36 [debug] initializing video...
+11:11:36 [trace] video backend: x11
+11:11:36 [trace] scaling managed by application.
+11:11:36 [debug] auto-detecting UI scale factor.
+11:11:36 [debug] scale factor: 1.000000
+11:11:36 [trace] loading image 0 to pool.
+11:11:36 [trace] 256x256
+11:11:36 [trace] portrait: 0 (1272x673)
+11:11:36 [debug] bounds check: display 0 is at 1705x415x3575x1445: xy
+11:11:36 [trace] window size: 1272x673
+11:11:36 [info] render backend: OpenGL
+11:11:36 [debug] creating window...
+11:11:36 [trace] available render drivers:
+11:11:36 [trace] - opengl
+11:11:36 [trace] - opengles2
+11:11:36 [trace] - software
+11:11:36 [debug] starting render backend...
+11:11:36 [trace] render backend started
+11:11:36 [trace] canvas size: 1272x673
+11:11:36 [debug] preparing user interface...
+11:11:36 [debug] auto-detecting UI scale factor.
+11:11:36 [debug] scale factor: 1.000000
+11:11:36 [debug] building font...
+11:11:36 [debug] preparing layout...
+11:11:36 [info] done!
+11:11:36 [debug] key input: event filter
+11:11:36 [trace] window moved to 1680x426
+11:11:36 [trace] window size changed to 1920x1044
+11:11:36 [trace] portrait: 0 (1920x1044)
+11:11:36 [debug] window resized to 1920x1044
+11:11:36 [trace] window exposed
+11:11:36 [trace] updateWindow is true
+11:11:36 [debug] initializing small sinc integral table.
+11:11:36 [trace] creating chan osc work pool
+11:11:36 [debug] creating FFT plan for channel 0
+11:11:36 [debug] creating FFT plan for channel 1
+11:11:36 [debug] creating FFT plan for channel 2
+11:11:36 [debug] creating FFT plan for channel 3
+11:11:36 [debug] creating FFT plan for channel 4
+11:11:36 [debug] creating FFT plan for channel 5
+11:11:36 [debug] creating FFT plan for channel 6
+11:11:36 [debug] creating FFT plan for channel 7
+11:11:36 [debug] creating FFT plan for channel 8
+11:11:36 [debug] creating FFT plan for channel 9
+11:11:43 [trace] terminating dispatch...
+11:11:43 [trace] initializing dispatch...
+11:11:43 [debug] rendering samples...
+11:11:45 [trace] finish selection: 4.0,0 - 4.0,0
+11:11:45 [debug] growing dispatch 0 bbIn to 41814
+11:11:48 [debug] opening load file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+11:11:50 [debug] - returning /home/killar/Documents/furnace/samples/NES/Sunsoft_Bass.wav
+11:11:50 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+11:11:50 [debug] sample is 16-bit signed
+11:11:50 [trace] initInternal(16,12187)
+11:11:50 [debug] rendering samples...
+11:11:50 [trace] initInternal(1,12187)
+11:11:50 [trace] initInternal(8,12187)
+11:11:50 [trace] 0 padded length: 1600
+11:12:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:12:05 [trace] curFileName: 
+11:12:05 [debug] saving backup...
+11:12:05 [trace] writing file...
+11:12:05 [debug] backup saved.
+11:12:24 [debug] recreating sample texture.
+11:12:24 [debug] updating sample texture.
+11:12:26 [debug] rendering samples...
+11:12:26 [trace] initInternal(1,12187)
+11:12:26 [trace] initInternal(8,12187)
+11:12:26 [trace] 0 padded length: 1600
+11:12:26 [debug] updating sample texture.
+11:12:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:12:35 [trace] curFileName: 
+11:12:35 [debug] saving backup...
+11:12:35 [trace] writing file...
+11:12:35 [debug] backup saved.
+11:12:54 [trace] finish selection: 3.4,0 - 3.4,0
+11:12:54 [trace] finish selection: 4.0,0 - 4.0,0
+11:13:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:13:05 [trace] curFileName: 
+11:13:05 [debug] saving backup...
+11:13:05 [trace] writing file...
+11:13:05 [debug] backup saved.
+11:13:13 [debug] updating sample texture.
+11:13:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:13:35 [trace] curFileName: 
+11:13:35 [debug] saving backup...
+11:13:35 [trace] writing file...
+11:13:35 [debug] backup saved.
+11:14:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:14:05 [trace] curFileName: 
+11:14:05 [debug] saving backup...
+11:14:05 [trace] writing file...
+11:14:05 [debug] backup saved.
+11:14:29 [trace] finish selection: 4.0,0 - 4.0,0
+11:14:33 [trace] finish selection: 4.0,0 - 4.0,0
+11:14:35 [trace] finish selection: 4.0,0 - 4.0,0
+11:14:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:14:35 [trace] curFileName: 
+11:14:35 [debug] saving backup...
+11:14:35 [trace] writing file...
+11:14:35 [debug] backup saved.
+11:14:36 [trace] playSub() called
+11:14:36 [trace] goal: 0 goalRow: 0
+11:14:36 [trace] playSub() took 53µs
+11:14:38 [trace] playSub() called
+11:14:38 [trace] goal: 0 goalRow: 0
+11:14:38 [trace] playSub() took 16µs
+11:14:52 [trace] playSub() called
+11:14:52 [trace] goal: 0 goalRow: 0
+11:14:52 [trace] playSub() took 14µs
+11:14:53 [trace] playSub() called
+11:14:53 [trace] goal: 0 goalRow: 0
+11:14:53 [trace] playSub() took 14µs
+11:14:54 [trace] playSub() called
+11:14:54 [trace] goal: 0 goalRow: 0
+11:14:54 [trace] playSub() took 16µs
+11:14:59 [trace] playSub() called
+11:14:59 [trace] goal: 0 goalRow: 0
+11:14:59 [trace] playSub() took 14µs
+11:15:00 [trace] playSub() called
+11:15:00 [trace] goal: 0 goalRow: 0
+11:15:00 [trace] playSub() took 14µs
+11:15:03 [trace] finish selection: 4.0,4 - 4.0,4
+11:15:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:15:05 [trace] curFileName: 
+11:15:05 [debug] saving backup...
+11:15:05 [trace] writing file...
+11:15:05 [debug] backup saved.
+11:15:25 [debug] rendering samples...
+11:15:25 [trace] initInternal(1,12187)
+11:15:25 [trace] initInternal(8,12187)
+11:15:25 [trace] initInternal(1,0)
+11:15:25 [trace] initInternal(8,0)
+11:15:25 [trace] 0 padded length: 1600
+11:15:25 [trace] 1 padded length: 64
+11:15:25 [trace] initInternal(16,12187)
+11:15:25 [debug] rendering samples...
+11:15:25 [trace] initInternal(1,12187)
+11:15:25 [trace] initInternal(8,12187)
+11:15:25 [trace] initInternal(1,12187)
+11:15:25 [trace] initInternal(8,12187)
+11:15:25 [trace] 0 padded length: 1600
+11:15:25 [trace] 1 padded length: 1600
+11:15:25 [debug] updating sample texture.
+11:15:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:15:35 [trace] curFileName: 
+11:15:35 [debug] saving backup...
+11:15:35 [trace] writing file...
+11:15:35 [debug] backup saved.
+11:15:36 [debug] updating sample texture.
+11:15:48 [trace] finish selection: 4.0,4 - 4.0,4
+11:16:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:16:05 [trace] curFileName: 
+11:16:05 [debug] saving backup...
+11:16:05 [trace] writing file...
+11:16:05 [debug] backup saved.
+11:16:09 [debug] updating sample texture.
+11:16:21 [debug] updating sample texture.
+11:16:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:16:35 [trace] curFileName: 
+11:16:35 [debug] saving backup...
+11:16:35 [trace] writing file...
+11:16:35 [debug] backup saved.
+11:16:36 [debug] rendering samples...
+11:16:36 [trace] initInternal(1,12187)
+11:16:36 [trace] initInternal(8,12187)
+11:16:36 [trace] 0 padded length: 1600
+11:16:36 [trace] 1 padded length: 1600
+11:16:36 [debug] updating sample texture.
+11:16:38 [debug] rendering samples...
+11:16:38 [trace] initInternal(1,12187)
+11:16:38 [trace] initInternal(8,12187)
+11:16:38 [trace] 0 padded length: 1600
+11:16:38 [trace] 1 padded length: 1600
+11:16:38 [debug] updating sample texture.
+11:16:40 [debug] rendering samples...
+11:16:40 [trace] initInternal(1,12187)
+11:16:40 [trace] initInternal(8,12187)
+11:16:40 [trace] 0 padded length: 1600
+11:16:40 [trace] 1 padded length: 1600
+11:16:40 [debug] updating sample texture.
+11:16:43 [debug] updating sample texture.
+11:17:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:17:05 [trace] curFileName: 
+11:17:05 [debug] saving backup...
+11:17:05 [trace] writing file...
+11:17:05 [debug] backup saved.
+11:17:06 [trace] initInternal(0,12187)
+11:17:06 [trace] initInternal(1,12187)
+11:17:06 [trace] initInternal(3,12187)
+11:17:06 [trace] initInternal(4,12187)
+11:17:06 [trace] initInternal(5,12187)
+11:17:06 [trace] initInternal(6,12187)
+11:17:06 [trace] initInternal(7,12187)
+11:17:06 [trace] initInternal(8,12187)
+11:17:06 [trace] initInternal(9,12187)
+11:17:07 [trace] initInternal(10,12187)
+11:17:07 [trace] initInternal(11,12187)
+11:17:07 [trace] initInternal(12,12187)
+11:17:07 [trace] initInternal(16,12296)
+11:17:07 [trace] initInternal(0,12296)
+11:17:07 [trace] initInternal(3,12296)
+11:17:07 [trace] initInternal(4,12296)
+11:17:07 [trace] initInternal(5,12296)
+11:17:07 [trace] initInternal(6,12296)
+11:17:07 [trace] initInternal(7,12296)
+11:17:07 [trace] initInternal(8,12296)
+11:17:07 [trace] initInternal(9,12296)
+11:17:07 [trace] initInternal(10,12296)
+11:17:07 [trace] initInternal(11,12296)
+11:17:07 [trace] initInternal(12,12296)
+11:17:07 [debug] rendering samples...
+11:17:07 [trace] initInternal(16,12296)
+11:17:07 [trace] initInternal(8,12296)
+11:17:07 [trace] 0 padded length: 1600
+11:17:07 [trace] 1 padded length: 1600
+11:17:07 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:12 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:13 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:14 [debug] updating sample texture.
+11:17:15 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:16 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:17 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:18 [debug] updating sample texture.
+11:17:19 [debug] updating sample texture.
+11:17:19 [debug] updating sample texture.
+11:17:19 [debug] updating sample texture.
+11:17:19 [debug] updating sample texture.
+11:17:19 [debug] updating sample texture.
+11:17:20 [debug] updating sample texture.
+11:17:20 [debug] updating sample texture.
+11:17:20 [debug] updating sample texture.
+11:17:20 [debug] updating sample texture.
+11:17:20 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:21 [debug] updating sample texture.
+11:17:27 [trace] finish selection: 4.0,4 - 4.0,4
+11:17:33 [trace] playSub() called
+11:17:33 [trace] goal: 0 goalRow: 0
+11:17:33 [trace] playSub() took 22µs
+11:17:34 [trace] playSub() called
+11:17:34 [trace] goal: 0 goalRow: 0
+11:17:34 [trace] playSub() took 33µs
+11:17:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:17:35 [trace] curFileName: 
+11:17:35 [debug] saving backup...
+11:17:35 [trace] writing file...
+11:17:35 [debug] backup saved.
+11:17:41 [trace] playSub() called
+11:17:41 [trace] goal: 0 goalRow: 0
+11:17:41 [trace] playSub() took 18µs
+11:17:53 [debug] updating sample texture.
+11:18:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:18:05 [trace] curFileName: 
+11:18:05 [debug] saving backup...
+11:18:05 [trace] writing file...
+11:18:05 [debug] backup saved.
+11:18:06 [trace] finish selection: 4.1,4 - 4.1,4
+11:18:07 [trace] finish selection: 4.0,4 - 4.0,4
+11:18:20 [debug] updating sample texture.
+11:18:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:18:35 [trace] curFileName: 
+11:18:35 [debug] saving backup...
+11:18:35 [trace] writing file...
+11:18:35 [debug] backup saved.
+11:19:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:19:05 [trace] curFileName: 
+11:19:05 [debug] saving backup...
+11:19:05 [trace] writing file...
+11:19:05 [debug] backup saved.
+11:19:11 [debug] updating sample texture.
+11:19:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:19:35 [trace] curFileName: 
+11:19:35 [debug] saving backup...
+11:19:35 [trace] writing file...
+11:19:35 [debug] backup saved.
+11:20:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:20:05 [trace] curFileName: 
+11:20:05 [debug] saving backup...
+11:20:05 [trace] writing file...
+11:20:05 [debug] backup saved.
+11:20:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:20:35 [trace] curFileName: 
+11:20:35 [debug] saving backup...
+11:20:35 [trace] writing file...
+11:20:35 [debug] backup saved.
+11:21:04 [debug] rendering samples...
+11:21:04 [trace] initInternal(1,12187)
+11:21:04 [trace] initInternal(8,12187)
+11:21:04 [trace] 0 padded length: 1600
+11:21:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:21:05 [trace] curFileName: 
+11:21:05 [debug] saving backup...
+11:21:05 [trace] writing file...
+11:21:05 [debug] backup saved.
+11:21:09 [trace] finish selection: 4.0,0 - 4.0,0
+11:21:10 [trace] finish selection: 4.0,0 - 4.0,0
+11:21:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:21:35 [trace] curFileName: 
+11:21:35 [debug] saving backup...
+11:21:35 [trace] writing file...
+11:21:35 [debug] backup saved.
+11:21:52 [trace] terminating dispatch...
+11:21:52 [trace] initializing dispatch...
+11:21:52 [debug] rendering samples...
+11:21:52 [trace] initInternal(1,12187)
+11:21:52 [trace] initInternal(8,12187)
+11:21:52 [trace] 0 padded length: 1600
+11:21:52 [trace] sysCountMap:
+11:21:52 [trace] NES (Ricoh 2A03): 1
+11:21:52 [trace] Generic PCM DAC: 1
+11:21:57 [trace] finish selection: 5.0,0 - 5.0,0
+11:21:58 [debug] growing dispatch 0 bbIn to 41814
+11:22:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:22:05 [trace] curFileName: 
+11:22:05 [debug] saving backup...
+11:22:05 [trace] writing file...
+11:22:05 [debug] backup saved.
+11:22:24 [trace] finish selection: 4.0,0 - 4.0,0
+11:22:27 [trace] finish selection: 5.0,0 - 5.0,0
+11:22:30 [debug] updating sample texture.
+11:22:32 [trace] initInternal(0,12187)
+11:22:32 [trace] initInternal(1,12187)
+11:22:32 [trace] initInternal(3,12187)
+11:22:32 [trace] initInternal(4,12187)
+11:22:32 [trace] initInternal(5,12187)
+11:22:32 [trace] initInternal(6,12187)
+11:22:32 [trace] initInternal(7,12187)
+11:22:32 [trace] initInternal(8,12187)
+11:22:32 [trace] initInternal(9,12187)
+11:22:32 [trace] initInternal(10,12187)
+11:22:32 [trace] initInternal(11,12187)
+11:22:32 [trace] initInternal(12,12187)
+11:22:32 [trace] initInternal(16,12296)
+11:22:32 [trace] initInternal(0,12296)
+11:22:32 [trace] initInternal(3,12296)
+11:22:32 [trace] initInternal(4,12296)
+11:22:32 [trace] initInternal(5,12296)
+11:22:32 [trace] initInternal(6,12296)
+11:22:32 [trace] initInternal(7,12296)
+11:22:32 [trace] initInternal(8,12296)
+11:22:32 [trace] initInternal(9,12296)
+11:22:32 [trace] initInternal(10,12296)
+11:22:32 [trace] initInternal(11,12296)
+11:22:32 [trace] initInternal(12,12296)
+11:22:32 [debug] rendering samples...
+11:22:32 [trace] initInternal(16,12296)
+11:22:32 [trace] initInternal(8,12296)
+11:22:32 [trace] 0 padded length: 1600
+11:22:32 [debug] updating sample texture.
+11:22:35 [trace] finish selection: 4.4,0 - 4.4,0
+11:22:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:22:35 [trace] curFileName: 
+11:22:35 [debug] saving backup...
+11:22:35 [trace] writing file...
+11:22:35 [debug] backup saved.
+11:22:35 [trace] finish selection: 5.0,0 - 5.0,0
+11:22:58 [debug] updating sample texture.
+11:23:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:23:05 [trace] curFileName: 
+11:23:05 [debug] saving backup...
+11:23:05 [trace] writing file...
+11:23:05 [debug] backup saved.
+11:23:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:23:35 [trace] curFileName: 
+11:23:35 [debug] saving backup...
+11:23:35 [trace] writing file...
+11:23:35 [debug] backup saved.
+11:24:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:24:05 [trace] curFileName: 
+11:24:05 [debug] saving backup...
+11:24:05 [trace] writing file...
+11:24:05 [debug] backup saved.
+11:24:23 [debug] rendering samples...
+11:24:23 [trace] initInternal(16,12296)
+11:24:23 [trace] initInternal(8,12296)
+11:24:23 [trace] 0 padded length: 1600
+11:24:23 [debug] updating sample texture.
+11:24:24 [debug] rendering samples...
+11:24:24 [trace] initInternal(16,12296)
+11:24:24 [trace] initInternal(8,12296)
+11:24:24 [trace] 0 padded length: 1600
+11:24:24 [debug] updating sample texture.
+11:24:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:24:35 [trace] curFileName: 
+11:24:35 [debug] saving backup...
+11:24:35 [trace] writing file...
+11:24:35 [debug] backup saved.
+11:25:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:25:05 [trace] curFileName: 
+11:25:05 [debug] saving backup...
+11:25:05 [trace] writing file...
+11:25:05 [debug] backup saved.
+11:25:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:25:35 [trace] curFileName: 
+11:25:35 [debug] saving backup...
+11:25:35 [trace] writing file...
+11:25:35 [debug] backup saved.
+11:26:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:26:05 [trace] curFileName: 
+11:26:05 [debug] saving backup...
+11:26:05 [trace] writing file...
+11:26:05 [debug] backup saved.
+11:26:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:26:35 [trace] curFileName: 
+11:26:35 [debug] saving backup...
+11:26:35 [trace] writing file...
+11:26:35 [debug] backup saved.
+11:27:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:27:05 [trace] curFileName: 
+11:27:05 [debug] saving backup...
+11:27:05 [trace] writing file...
+11:27:05 [debug] backup saved.
+11:27:27 [trace] finish selection: 5.0,0 - 5.0,0
+11:27:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:27:35 [trace] curFileName: 
+11:27:35 [debug] saving backup...
+11:27:35 [trace] writing file...
+11:27:35 [debug] backup saved.
+11:28:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:28:05 [trace] curFileName: 
+11:28:05 [debug] saving backup...
+11:28:05 [trace] writing file...
+11:28:05 [debug] backup saved.
+11:28:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:28:35 [trace] curFileName: 
+11:28:35 [debug] saving backup...
+11:28:35 [trace] writing file...
+11:28:35 [debug] backup saved.
+11:28:41 [trace] finish selection: 5.0,0 - 5.0,0
+11:28:48 [trace] finish selection: 5.0,0 - 5.0,0
+11:28:49 [trace] finish selection: 5.0,1 - 5.0,1
+11:28:49 [trace] finish selection: 5.0,2 - 5.0,2
+11:28:53 [trace] finish selection: 5.0,3 - 5.0,3
+11:28:53 [trace] finish selection: 5.0,4 - 5.0,4
+11:28:55 [trace] finish selection: 5.0,5 - 5.0,5
+11:28:57 [trace] finish selection: 5.0,6 - 5.0,6
+11:28:57 [trace] finish selection: 5.0,7 - 5.0,7
+11:28:58 [trace] finish selection: 5.0,8 - 5.0,8
+11:28:58 [trace] finish selection: 5.0,9 - 5.0,9
+11:28:58 [trace] finish selection: 5.0,10 - 5.0,10
+11:28:59 [trace] finish selection: 5.0,11 - 5.0,11
+11:29:01 [trace] finish selection: 5.0,12 - 5.0,12
+11:29:01 [trace] finish selection: 5.0,13 - 5.0,13
+11:29:01 [trace] finish selection: 5.0,14 - 5.0,14
+11:29:02 [trace] finish selection: 5.0,15 - 5.0,15
+11:29:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:29:05 [trace] curFileName: 
+11:29:05 [debug] saving backup...
+11:29:05 [trace] writing file...
+11:29:05 [debug] backup saved.
+11:29:06 [trace] finish selection: 5.0,16 - 5.0,16
+11:29:07 [trace] finish selection: 5.0,17 - 5.0,17
+11:29:07 [trace] finish selection: 5.0,18 - 5.0,18
+11:29:08 [trace] finish selection: 5.0,19 - 5.0,19
+11:29:08 [trace] finish selection: 5.0,20 - 5.0,20
+11:29:09 [trace] finish selection: 5.0,21 - 5.0,21
+11:29:09 [trace] finish selection: 5.0,22 - 5.0,22
+11:29:09 [trace] finish selection: 5.0,23 - 5.0,23
+11:29:10 [trace] finish selection: 5.0,24 - 5.0,24
+11:29:10 [trace] finish selection: 5.0,25 - 5.0,25
+11:29:10 [trace] finish selection: 5.0,26 - 5.0,26
+11:29:10 [trace] finish selection: 5.0,27 - 5.0,27
+11:29:10 [trace] finish selection: 5.0,28 - 5.0,28
+11:29:11 [trace] finish selection: 5.0,29 - 5.0,29
+11:29:11 [trace] finish selection: 5.0,30 - 5.0,30
+11:29:12 [trace] finish selection: 5.0,31 - 5.0,31
+11:29:12 [trace] finish selection: 5.0,32 - 5.0,32
+11:29:12 [trace] finish selection: 5.0,33 - 5.0,33
+11:29:12 [trace] finish selection: 5.0,34 - 5.0,34
+11:29:12 [trace] finish selection: 5.0,35 - 5.0,35
+11:29:13 [trace] finish selection: 5.0,36 - 5.0,36
+11:29:13 [trace] finish selection: 5.0,37 - 5.0,37
+11:29:13 [trace] finish selection: 5.0,38 - 5.0,38
+11:29:13 [trace] finish selection: 5.0,39 - 5.0,39
+11:29:13 [trace] finish selection: 5.0,40 - 5.0,40
+11:29:14 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:14 [trace] finish selection: 5.0,42 - 5.0,42
+11:29:14 [trace] finish selection: 5.0,43 - 5.0,43
+11:29:15 [trace] finish selection: 5.0,42 - 5.0,42
+11:29:16 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:16 [trace] finish selection: 5.0,63 - 5.0,63
+11:29:17 [trace] finish selection: 5.0,62 - 5.0,62
+11:29:17 [trace] finish selection: 5.0,61 - 5.0,61
+11:29:17 [trace] finish selection: 5.0,60 - 5.0,60
+11:29:17 [trace] finish selection: 5.0,59 - 5.0,59
+11:29:17 [trace] finish selection: 5.0,58 - 5.0,58
+11:29:17 [trace] finish selection: 5.0,57 - 5.0,57
+11:29:17 [trace] finish selection: 5.0,56 - 5.0,56
+11:29:17 [trace] finish selection: 5.0,55 - 5.0,55
+11:29:17 [trace] finish selection: 5.0,54 - 5.0,54
+11:29:17 [trace] finish selection: 5.0,53 - 5.0,53
+11:29:17 [trace] finish selection: 5.0,52 - 5.0,52
+11:29:17 [trace] finish selection: 5.0,51 - 5.0,51
+11:29:17 [trace] finish selection: 5.0,50 - 5.0,50
+11:29:17 [trace] finish selection: 5.0,49 - 5.0,49
+11:29:17 [trace] finish selection: 5.0,48 - 5.0,48
+11:29:18 [trace] finish selection: 5.0,47 - 5.0,47
+11:29:18 [trace] finish selection: 5.0,46 - 5.0,46
+11:29:18 [trace] finish selection: 5.0,45 - 5.0,45
+11:29:18 [trace] finish selection: 5.0,44 - 5.0,44
+11:29:18 [trace] finish selection: 5.0,43 - 5.0,43
+11:29:18 [trace] finish selection: 5.0,42 - 5.0,42
+11:29:18 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:18 [trace] finish selection: 5.0,40 - 5.0,40
+11:29:18 [trace] finish selection: 5.0,39 - 5.0,39
+11:29:18 [trace] finish selection: 5.0,40 - 5.0,40
+11:29:20 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:20 [trace] finish selection: 5.0,63 - 5.0,63
+11:29:21 [trace] finish selection: 5.0,62 - 5.0,62
+11:29:21 [trace] finish selection: 5.0,61 - 5.0,61
+11:29:21 [trace] finish selection: 5.0,60 - 5.0,60
+11:29:21 [trace] finish selection: 5.0,59 - 5.0,59
+11:29:21 [trace] finish selection: 5.0,58 - 5.0,58
+11:29:21 [trace] finish selection: 5.0,57 - 5.0,57
+11:29:21 [trace] finish selection: 5.0,56 - 5.0,56
+11:29:21 [trace] finish selection: 5.0,55 - 5.0,55
+11:29:21 [trace] finish selection: 5.0,54 - 5.0,54
+11:29:21 [trace] finish selection: 5.0,53 - 5.0,53
+11:29:21 [trace] finish selection: 5.0,52 - 5.0,52
+11:29:21 [trace] finish selection: 5.0,51 - 5.0,51
+11:29:21 [trace] finish selection: 5.0,50 - 5.0,50
+11:29:21 [trace] finish selection: 5.0,49 - 5.0,49
+11:29:22 [trace] finish selection: 5.0,48 - 5.0,48
+11:29:22 [trace] finish selection: 5.0,47 - 5.0,47
+11:29:22 [trace] finish selection: 5.0,46 - 5.0,46
+11:29:22 [trace] finish selection: 5.0,45 - 5.0,45
+11:29:22 [trace] finish selection: 5.0,44 - 5.0,44
+11:29:22 [trace] finish selection: 5.0,43 - 5.0,43
+11:29:22 [trace] finish selection: 5.0,42 - 5.0,42
+11:29:22 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:23 [trace] finish selection: 5.0,40 - 5.0,40
+11:29:23 [trace] finish selection: 5.0,39 - 5.0,39
+11:29:23 [trace] finish selection: 5.0,40 - 5.0,40
+11:29:24 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:24 [trace] finish selection: 5.0,41 - 5.0,41
+11:29:24 [trace] finish selection: 5.0,42 - 5.0,42
+11:29:24 [trace] finish selection: 5.0,43 - 5.0,43
+11:29:25 [trace] finish selection: 5.0,44 - 5.0,44
+11:29:26 [trace] finish selection: 5.0,45 - 5.0,45
+11:29:26 [trace] finish selection: 5.0,46 - 5.0,46
+11:29:26 [trace] finish selection: 5.0,47 - 5.0,47
+11:29:26 [trace] finish selection: 5.0,48 - 5.0,48
+11:29:27 [trace] finish selection: 5.0,49 - 5.0,49
+11:29:27 [trace] finish selection: 5.0,50 - 5.0,50
+11:29:27 [trace] finish selection: 5.0,51 - 5.0,51
+11:29:27 [trace] finish selection: 5.0,52 - 5.0,52
+11:29:28 [trace] finish selection: 5.0,53 - 5.0,53
+11:29:28 [trace] finish selection: 5.0,54 - 5.0,54
+11:29:28 [trace] finish selection: 5.0,55 - 5.0,55
+11:29:28 [trace] finish selection: 5.0,56 - 5.0,56
+11:29:29 [trace] finish selection: 5.0,57 - 5.0,57
+11:29:29 [trace] finish selection: 5.0,58 - 5.0,58
+11:29:29 [trace] finish selection: 5.0,59 - 5.0,59
+11:29:29 [trace] finish selection: 5.0,60 - 5.0,60
+11:29:31 [trace] playSub() called
+11:29:31 [trace] goal: 0 goalRow: 0
+11:29:31 [trace] playSub() took 32µs
+11:29:35 [trace] end of orders reached
+11:29:35 [debug] last loop pos: 768 for a size of 1024 and runLeftG of 65536
+11:29:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:29:35 [trace] curFileName: 
+11:29:35 [debug] saving backup...
+11:29:35 [trace] writing file...
+11:29:35 [debug] backup saved.
+11:29:38 [trace] playSub() called
+11:29:38 [trace] goal: 0 goalRow: 0
+11:29:38 [trace] playSub() took 33µs
+11:29:38 [trace] playSub() called
+11:29:38 [trace] goal: 0 goalRow: 0
+11:29:38 [trace] playSub() took 24µs
+11:29:44 [trace] end of orders reached
+11:29:45 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+11:29:51 [trace] end of orders reached
+11:29:51 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+11:29:55 [trace] finish selection: 5.0,20 - 5.0,20
+11:29:56 [trace] finish selection: 5.0,20 - 5.1,20
+11:29:57 [trace] finish selection: 5.0,20 - 5.1,20
+11:29:58 [trace] finish selection: 5.0,18 - 5.0,18
+11:29:58 [trace] finish selection: 5.0,18 - 5.0,18
+11:30:01 [trace] finish selection: 5.0,18 - 5.1,60
+11:30:02 [trace] finish selection: 5.0,18 - 5.1,60
+11:30:04 [trace] finish selection: 5.0,16 - 5.0,16
+11:30:05 [trace] finish selection: 5.0,18 - 5.0,18
+11:30:05 [trace] backupPath: /home/killar/.config/furnace/backups
+11:30:05 [trace] curFileName: 
+11:30:05 [debug] saving backup...
+11:30:05 [trace] writing file...
+11:30:05 [debug] backup saved.
+11:30:07 [trace] finish selection: 5.0,18 - 5.0,18
+11:30:08 [trace] finish selection: 5.0,19 - 5.0,19
+11:30:09 [trace] finish selection: 5.0,20 - 5.0,20
+11:30:09 [trace] finish selection: 5.0,21 - 5.0,21
+11:30:10 [trace] finish selection: 5.0,20 - 5.0,20
+11:30:11 [trace] finish selection: 5.0,21 - 5.0,21
+11:30:11 [trace] finish selection: 5.0,22 - 5.0,22
+11:30:11 [trace] finish selection: 5.0,23 - 5.0,23
+11:30:12 [trace] finish selection: 5.0,24 - 5.0,24
+11:30:12 [trace] finish selection: 5.0,23 - 5.0,23
+11:30:12 [trace] finish selection: 5.0,22 - 5.0,22
+11:30:12 [trace] finish selection: 5.0,23 - 5.0,23
+11:30:13 [trace] finish selection: 5.0,24 - 5.0,24
+11:30:13 [trace] finish selection: 5.0,25 - 5.0,25
+11:30:13 [trace] finish selection: 5.0,24 - 5.0,24
+11:30:13 [trace] finish selection: 5.0,25 - 5.0,25
+11:30:14 [trace] finish selection: 5.0,26 - 5.0,26
+11:30:14 [trace] finish selection: 5.0,27 - 5.0,27
+11:30:15 [trace] finish selection: 5.0,28 - 5.0,28
+11:30:15 [trace] finish selection: 5.0,29 - 5.0,29
+11:30:15 [trace] finish selection: 5.0,30 - 5.0,30
+11:30:16 [trace] finish selection: 5.0,31 - 5.0,31
+11:30:16 [trace] finish selection: 5.0,32 - 5.0,32
+11:30:16 [trace] finish selection: 5.0,33 - 5.0,33
+11:30:16 [trace] finish selection: 5.0,34 - 5.0,34
+11:30:18 [trace] playSub() called
+11:30:18 [trace] goal: 0 goalRow: 0
+11:30:18 [trace] playSub() took 32µs
+11:30:24 [trace] finish selection: 5.0,36 - 5.0,36
+11:30:25 [trace] finish selection: 5.0,36 - 5.0,36
+11:30:25 [trace] finish selection: 5.0,37 - 5.0,37
+11:30:26 [trace] finish selection: 5.0,38 - 5.0,38
+11:30:26 [trace] finish selection: 5.0,39 - 5.0,39
+11:30:27 [trace] finish selection: 5.0,40 - 5.0,40
+11:30:27 [trace] finish selection: 5.0,41 - 5.0,41
+11:30:28 [trace] finish selection: 5.0,42 - 5.0,42
+11:30:30 [trace] playSub() called
+11:30:30 [trace] goal: 0 goalRow: 0
+11:30:30 [trace] playSub() took 25µs
+11:30:35 [trace] backupPath: /home/killar/.config/furnace/backups
+11:30:35 [trace] curFileName: 
+11:30:35 [debug] saving backup...
+11:30:35 [trace] writing file...
+11:30:35 [debug] backup saved.
+11:30:36 [trace] finish selection: 5.0,44 - 5.0,44
+11:30:37 [trace] finish selection: 5.0,44 - 5.0,44
+11:30:38 [trace] finish selection: 5.0,45 - 5.0,45
+11:30:38 [trace] finish selection: 5.0,46 - 5.0,46
+11:30:40 [trace] playSub() called
+11:30:40 [trace] goal: 0 goalRow: 0
+11:30:40 [trace] playSub() took 31µs
+11:30:46 [trace] playSub() called
+11:30:46 [trace] goal: 0 goalRow: 0
+11:30:46 [trace] playSub() took 26µs
+11:30:52 [trace] playSub() called
+11:30:52 [trace] goal: 0 goalRow: 0
+11:30:52 [trace] playSub() took 26µs
+11:31:05 [trace] terminating dispatch...
+11:31:05 [trace] initializing dispatch...
+11:31:05 [debug] rendering samples...
+11:31:05 [trace] finish selection: 7.4,14 - 7.4,14
+11:31:06 [trace] finish selection: 7.3,7 - 7.3,7
+11:31:13 [trace] finish selection: 5.0,1 - 5.0,1
+11:31:14 [trace] finish selection: 5.0,0 - 5.0,0
+11:31:18 [debug] opening load file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+11:31:20 [debug] - returning /home/killar/Documents/furnace/samples/NES/Sunsoft_Bass.wav
+11:31:20 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+11:31:20 [debug] sample is 16-bit signed
+11:31:20 [trace] initInternal(16,12187)
+11:31:20 [debug] rendering samples...
+11:31:20 [trace] initInternal(1,12187)
+11:31:20 [trace] initInternal(8,12187)
+11:31:20 [trace] 0 padded length: 1600
+11:31:21 [trace] backupPath: /home/killar/.config/furnace/backups
+11:31:21 [trace] curFileName: 
+11:31:21 [debug] saving backup...
+11:31:21 [trace] writing file...
+11:31:21 [debug] backup saved.
+11:31:25 [trace] finish selection: 5.0,0 - 5.0,0
+11:31:25 [debug] growing dispatch 0 bbIn to 41814
+11:31:26 [trace] finish selection: 5.0,1 - 5.0,1
+11:31:27 [trace] finish selection: 5.0,0 - 5.0,0
+11:31:39 [debug] updating sample texture.
+11:31:51 [trace] backupPath: /home/killar/.config/furnace/backups
+11:31:51 [trace] curFileName: 
+11:31:51 [debug] saving backup...
+11:31:51 [trace] writing file...
+11:31:51 [debug] backup saved.
+11:31:59 [trace] finish selection: 5.0,0 - 5.0,0
+11:32:21 [trace] backupPath: /home/killar/.config/furnace/backups
+11:32:21 [trace] curFileName: 
+11:32:21 [debug] saving backup...
+11:32:21 [trace] writing file...
+11:32:21 [debug] backup saved.
+11:32:51 [trace] backupPath: /home/killar/.config/furnace/backups
+11:32:51 [trace] curFileName: 
+11:32:51 [debug] saving backup...
+11:32:51 [trace] writing file...
+11:32:51 [debug] backup saved.
+11:33:10 [trace] finish selection: 5.0,0 - 5.0,0
+11:33:14 [trace] finish selection: 5.0,0 - 5.0,0
+11:33:14 [trace] finish selection: 5.0,1 - 5.0,1
+11:33:14 [trace] finish selection: 5.0,2 - 5.0,2
+11:33:15 [trace] finish selection: 5.0,3 - 5.0,3
+11:33:15 [trace] finish selection: 5.0,4 - 5.0,4
+11:33:16 [trace] finish selection: 5.0,3 - 5.0,3
+11:33:17 [trace] finish selection: 5.0,63 - 5.0,63
+11:33:18 [trace] finish selection: 5.0,47 - 5.0,47
+11:33:18 [trace] finish selection: 5.0,31 - 5.0,31
+11:33:18 [trace] finish selection: 5.0,15 - 5.0,15
+11:33:19 [trace] finish selection: 5.0,0 - 5.0,0
+11:33:19 [trace] finish selection: 5.0,1 - 5.0,1
+11:33:20 [trace] finish selection: 5.0,2 - 5.0,2
+11:33:21 [trace] backupPath: /home/killar/.config/furnace/backups
+11:33:21 [trace] curFileName: 
+11:33:21 [debug] saving backup...
+11:33:21 [trace] writing file...
+11:33:21 [debug] backup saved.
+11:33:21 [trace] finish selection: 5.0,2 - 5.0,2
+11:33:21 [trace] finish selection: 5.0,3 - 5.0,3
+11:33:22 [trace] finish selection: 5.0,3 - 5.0,3
+11:33:22 [trace] finish selection: 5.0,4 - 5.0,4
+11:33:23 [trace] finish selection: 5.0,3 - 5.0,3
+11:33:23 [trace] finish selection: 5.0,4 - 5.0,4
+11:33:23 [trace] finish selection: 5.0,5 - 5.0,5
+11:33:24 [trace] finish selection: 5.0,6 - 5.0,6
+11:33:24 [trace] finish selection: 5.0,7 - 5.0,7
+11:33:24 [trace] finish selection: 5.0,8 - 5.0,8
+11:33:25 [trace] finish selection: 5.0,9 - 5.0,9
+11:33:25 [trace] finish selection: 5.0,10 - 5.0,10
+11:33:25 [trace] finish selection: 5.0,11 - 5.0,11
+11:33:25 [trace] finish selection: 5.0,10 - 5.0,10
+11:33:26 [trace] finish selection: 5.0,11 - 5.0,11
+11:33:26 [trace] finish selection: 5.0,12 - 5.0,12
+11:33:26 [trace] finish selection: 5.0,13 - 5.0,13
+11:33:26 [trace] finish selection: 5.0,14 - 5.0,14
+11:33:26 [trace] finish selection: 5.0,15 - 5.0,15
+11:33:30 [trace] playSub() called
+11:33:30 [trace] goal: 0 goalRow: 0
+11:33:30 [trace] playSub() took 34µs
+11:33:32 [trace] finish selection: 5.0,16 - 5.0,16
+11:33:33 [trace] finish selection: 5.0,16 - 5.0,16
+11:33:34 [trace] finish selection: 5.0,17 - 5.0,17
+11:33:34 [trace] finish selection: 5.0,18 - 5.0,18
+11:33:35 [trace] finish selection: 5.0,19 - 5.0,19
+11:33:35 [trace] finish selection: 5.0,20 - 5.0,20
+11:33:35 [trace] finish selection: 5.0,21 - 5.0,21
+11:33:35 [trace] finish selection: 5.0,22 - 5.0,22
+11:33:36 [trace] finish selection: 5.0,23 - 5.0,23
+11:33:36 [trace] finish selection: 5.0,24 - 5.0,24
+11:33:36 [trace] finish selection: 5.0,25 - 5.0,25
+11:33:36 [trace] finish selection: 5.0,26 - 5.0,26
+11:33:37 [trace] finish selection: 5.0,27 - 5.0,27
+11:33:37 [trace] finish selection: 5.0,28 - 5.0,28
+11:33:37 [trace] finish selection: 5.0,29 - 5.0,29
+11:33:37 [trace] finish selection: 5.0,30 - 5.0,30
+11:33:39 [trace] playSub() called
+11:33:39 [trace] goal: 0 goalRow: 0
+11:33:39 [trace] playSub() took 35µs
+11:33:44 [trace] finish selection: 5.0,32 - 5.0,32
+11:33:45 [trace] finish selection: 5.0,32 - 5.0,32
+11:33:45 [trace] finish selection: 5.0,33 - 5.0,33
+11:33:45 [trace] finish selection: 5.0,34 - 5.0,34
+11:33:46 [trace] finish selection: 5.0,35 - 5.0,35
+11:33:46 [trace] finish selection: 5.0,36 - 5.0,36
+11:33:46 [trace] finish selection: 5.0,37 - 5.0,37
+11:33:46 [trace] finish selection: 5.0,38 - 5.0,38
+11:33:47 [trace] finish selection: 5.0,39 - 5.0,39
+11:33:47 [trace] finish selection: 5.0,40 - 5.0,40
+11:33:47 [trace] finish selection: 5.0,41 - 5.0,41
+11:33:47 [trace] finish selection: 5.0,42 - 5.0,42
+11:33:48 [trace] finish selection: 5.0,43 - 5.0,43
+11:33:48 [trace] finish selection: 5.0,44 - 5.0,44
+11:33:48 [trace] finish selection: 5.0,45 - 5.0,45
+11:33:48 [trace] finish selection: 5.0,46 - 5.0,46
+11:33:50 [trace] playSub() called
+11:33:50 [trace] goal: 0 goalRow: 0
+11:33:50 [trace] playSub() took 28µs
+11:33:51 [trace] backupPath: /home/killar/.config/furnace/backups
+11:33:51 [trace] curFileName: 
+11:33:51 [debug] saving backup...
+11:33:51 [trace] writing file...
+11:33:51 [debug] backup saved.
+11:34:03 [trace] finish selection: 5.0,0 - 5.4,48
+11:34:05 [trace] finish selection: 5.0,0 - 5.4,48
+11:34:05 [trace] finish selection: 6.0,0 - 6.0,0
+11:34:05 [trace] finish selection: 6.0,0 - 6.0,0
+11:34:07 [trace] playSub() called
+11:34:07 [trace] goal: 0 goalRow: 0
+11:34:07 [trace] playSub() took 27µs
+11:34:10 [trace] finish selection: 7.0,0 - 7.0,0
+11:34:10 [trace] finish selection: 7.0,0 - 7.0,0
+11:34:12 [trace] playSub() called
+11:34:12 [trace] goal: 0 goalRow: 0
+11:34:12 [trace] playSub() took 34µs
+11:34:18 [trace] playSub() called
+11:34:18 [trace] goal: 0 goalRow: 0
+11:34:18 [trace] playSub() took 35µs
+11:34:21 [trace] backupPath: /home/killar/.config/furnace/backups
+11:34:21 [trace] curFileName: 
+11:34:21 [debug] saving backup...
+11:34:21 [trace] writing file...
+11:34:21 [debug] backup saved.
+11:34:21 [trace] playSub() called
+11:34:21 [trace] goal: 0 goalRow: 0
+11:34:21 [trace] playSub() took 34µs
+11:34:28 [trace] playSub() called
+11:34:28 [trace] goal: 0 goalRow: 0
+11:34:28 [trace] playSub() took 40µs
+11:34:35 [trace] playSub() called
+11:34:35 [trace] goal: 0 goalRow: 0
+11:34:35 [trace] playSub() took 34µs
+11:34:41 [trace] playSub() called
+11:34:41 [trace] goal: 0 goalRow: 0
+11:34:41 [trace] playSub() took 27µs
+11:34:51 [trace] backupPath: /home/killar/.config/furnace/backups
+11:34:51 [trace] curFileName: 
+11:34:51 [debug] saving backup...
+11:34:51 [trace] writing file...
+11:34:51 [debug] backup saved.
+11:34:52 [trace] finish selection: 5.0,0 - 7.4,46
+11:34:53 [trace] finish selection: 5.0,0 - 7.4,46
+11:34:56 [trace] finish selection: 5.0,0 - 5.0,0
+11:34:57 [trace] finish selection: 5.0,0 - 5.0,0
+11:35:21 [trace] backupPath: /home/killar/.config/furnace/backups
+11:35:21 [trace] curFileName: 
+11:35:21 [debug] saving backup...
+11:35:21 [trace] writing file...
+11:35:21 [debug] backup saved.
+11:35:51 [trace] backupPath: /home/killar/.config/furnace/backups
+11:35:51 [trace] curFileName: 
+11:35:51 [debug] saving backup...
+11:35:51 [trace] writing file...
+11:35:51 [debug] backup saved.
+11:36:06 [debug] opening save file dialog with curPath /home/killar/Documents/furnace/projects/NES/
+11:36:14 [debug] returning /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:36:14 [debug] curPath: /home/killar/Documents/furnace/projects/NES
+11:36:14 [debug] saving file...
+11:36:14 [trace] opening file for writing...
+11:36:14 [debug] save complete.
+11:36:25 [trace] backupPath: /home/killar/.config/furnace/backups
+11:36:25 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:36:25 [debug] saving backup...
+11:36:25 [trace] writing file...
+11:36:25 [debug] backup saved.
+11:36:40 [trace] finish selection: 4.0,0 - 4.0,0
+11:36:40 [trace] finish selection: 4.0,0 - 4.0,0
+11:36:42 [trace] finish selection: 4.0,1 - 4.0,1
+11:36:42 [trace] finish selection: 4.0,0 - 4.0,0
+11:36:55 [trace] backupPath: /home/killar/.config/furnace/backups
+11:36:55 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:36:55 [debug] saving backup...
+11:36:55 [trace] writing file...
+11:36:55 [debug] backup saved.
+11:37:25 [trace] backupPath: /home/killar/.config/furnace/backups
+11:37:25 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:37:25 [debug] saving backup...
+11:37:25 [trace] writing file...
+11:37:25 [debug] backup saved.
+11:37:55 [trace] backupPath: /home/killar/.config/furnace/backups
+11:37:55 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:37:55 [debug] saving backup...
+11:37:55 [trace] writing file...
+11:37:55 [debug] backup saved.
+11:38:25 [trace] backupPath: /home/killar/.config/furnace/backups
+11:38:25 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:38:25 [debug] saving backup...
+11:38:25 [trace] writing file...
+11:38:25 [debug] backup saved.
+11:38:55 [trace] backupPath: /home/killar/.config/furnace/backups
+11:38:55 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:38:55 [debug] saving backup...
+11:38:55 [trace] writing file...
+11:38:55 [debug] backup saved.
+11:39:02 [trace] terminating dispatch...
+11:39:02 [trace] initializing dispatch...
+11:39:02 [debug] rendering samples...
+11:39:04 [debug] opening save file dialog with curPath /home/killar/Documents/furnace/projects/NES/
+11:39:08 [debug] returning /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:39:08 [debug] curPath: /home/killar/Documents/furnace/projects/NES
+11:39:08 [debug] saving file...
+11:39:08 [trace] opening file for writing...
+11:39:08 [debug] save complete.
+11:39:13 [debug] rendering samples...
+11:39:13 [trace] initInternal(1,0)
+11:39:13 [trace] initInternal(8,0)
+11:39:13 [trace] 0 padded length: 64
+11:39:15 [debug] rendering samples...
+11:39:16 [debug] opening load file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+11:39:17 [debug] - returning /home/killar/Documents/furnace/samples/NES/Sunsoft_Bass.wav
+11:39:17 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+11:39:17 [debug] sample is 16-bit signed
+11:39:17 [trace] initInternal(16,12187)
+11:39:17 [debug] rendering samples...
+11:39:17 [trace] initInternal(1,12187)
+11:39:17 [trace] initInternal(8,12187)
+11:39:17 [trace] 0 padded length: 1600
+11:39:18 [debug] updating sample texture.
+11:39:23 [trace] initInternal(0,12187)
+11:39:23 [trace] initInternal(1,12187)
+11:39:23 [trace] initInternal(3,12187)
+11:39:23 [trace] initInternal(4,12187)
+11:39:23 [trace] initInternal(5,12187)
+11:39:23 [trace] initInternal(6,12187)
+11:39:23 [trace] initInternal(7,12187)
+11:39:23 [trace] initInternal(8,12187)
+11:39:23 [trace] initInternal(9,12187)
+11:39:23 [trace] initInternal(10,12187)
+11:39:23 [trace] initInternal(11,12187)
+11:39:23 [trace] initInternal(12,12187)
+11:39:23 [trace] initInternal(16,12296)
+11:39:23 [trace] initInternal(0,12296)
+11:39:23 [trace] initInternal(3,12296)
+11:39:23 [trace] initInternal(4,12296)
+11:39:23 [trace] initInternal(5,12296)
+11:39:23 [trace] initInternal(6,12296)
+11:39:23 [trace] initInternal(7,12296)
+11:39:23 [trace] initInternal(8,12296)
+11:39:23 [trace] initInternal(9,12296)
+11:39:23 [trace] initInternal(10,12296)
+11:39:23 [trace] initInternal(11,12296)
+11:39:23 [trace] initInternal(12,12296)
+11:39:23 [debug] rendering samples...
+11:39:23 [trace] initInternal(16,12296)
+11:39:23 [trace] initInternal(8,12296)
+11:39:23 [trace] 0 padded length: 1600
+11:39:23 [debug] updating sample texture.
+11:39:24 [debug] rendering samples...
+11:39:24 [trace] initInternal(16,12296)
+11:39:24 [trace] initInternal(8,12296)
+11:39:24 [trace] 0 padded length: 1600
+11:39:24 [debug] updating sample texture.
+11:39:30 [debug] saving file...
+11:39:30 [trace] opening file for writing...
+11:39:30 [debug] save complete.
+11:39:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:39:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:39:37 [debug] saving backup...
+11:39:37 [trace] writing file...
+11:39:37 [debug] backup saved.
+11:40:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:40:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:40:07 [debug] saving backup...
+11:40:07 [trace] writing file...
+11:40:07 [debug] backup saved.
+11:40:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:40:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:40:37 [debug] saving backup...
+11:40:37 [trace] writing file...
+11:40:37 [debug] backup saved.
+11:40:41 [debug] growing dispatch 0 bbIn to 41814
+11:41:01 [trace] finish selection: 1.0,0 - 1.0,0
+11:41:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:41:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:41:07 [debug] saving backup...
+11:41:07 [trace] writing file...
+11:41:07 [debug] backup saved.
+11:41:07 [trace] finish selection: 1.0,0 - 1.0,0
+11:41:08 [trace] finish selection: 1.0,0 - 1.0,0
+11:41:08 [trace] finish selection: 1.0,1 - 1.0,1
+11:41:09 [trace] finish selection: 1.0,2 - 1.0,2
+11:41:09 [trace] finish selection: 1.0,3 - 1.0,3
+11:41:12 [trace] finish selection: 1.0,4 - 1.0,4
+11:41:12 [trace] finish selection: 1.0,5 - 1.0,5
+11:41:12 [trace] finish selection: 1.0,6 - 1.0,6
+11:41:13 [trace] finish selection: 1.0,7 - 1.0,7
+11:41:15 [trace] finish selection: 1.0,8 - 1.0,8
+11:41:15 [trace] finish selection: 1.0,9 - 1.0,9
+11:41:16 [trace] finish selection: 1.0,10 - 1.0,10
+11:41:16 [trace] finish selection: 1.0,9 - 1.0,9
+11:41:17 [trace] finish selection: 1.0,8 - 1.0,8
+11:41:17 [trace] finish selection: 1.0,9 - 1.0,9
+11:41:18 [trace] finish selection: 1.0,10 - 1.0,10
+11:41:18 [trace] finish selection: 1.0,11 - 1.0,11
+11:41:24 [trace] finish selection: 1.0,12 - 1.0,12
+11:41:26 [trace] finish selection: 1.0,13 - 1.0,13
+11:41:26 [trace] finish selection: 1.0,14 - 1.0,14
+11:41:27 [trace] finish selection: 1.0,15 - 1.0,15
+11:41:29 [trace] finish selection: 1.0,16 - 1.0,16
+11:41:30 [trace] finish selection: 1.0,17 - 1.0,17
+11:41:31 [trace] finish selection: 1.0,18 - 1.0,18
+11:41:32 [trace] finish selection: 1.0,19 - 1.0,19
+11:41:34 [trace] playSub() called
+11:41:34 [trace] goal: 0 goalRow: 0
+11:41:34 [trace] playSub() took 28µs
+11:41:37 [trace] finish selection: 1.0,18 - 1.0,18
+11:41:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:41:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:41:37 [debug] saving backup...
+11:41:37 [trace] writing file...
+11:41:37 [debug] backup saved.
+11:41:38 [trace] finish selection: 1.0,20 - 1.0,20
+11:41:42 [trace] finish selection: 1.0,20 - 1.0,20
+11:41:42 [trace] finish selection: 1.0,21 - 1.0,21
+11:41:45 [trace] finish selection: 1.0,22 - 1.0,22
+11:41:47 [trace] finish selection: 1.0,23 - 1.0,23
+11:41:47 [trace] finish selection: 1.0,24 - 1.0,24
+11:41:48 [trace] finish selection: 1.0,25 - 1.0,25
+11:41:48 [trace] finish selection: 1.0,26 - 1.0,26
+11:41:51 [trace] finish selection: 1.0,27 - 1.0,27
+11:41:53 [trace] finish selection: 1.0,28 - 1.0,28
+11:41:53 [trace] finish selection: 1.0,29 - 1.0,29
+11:41:54 [trace] finish selection: 1.0,30 - 1.0,30
+11:41:56 [trace] finish selection: 1.0,31 - 1.0,31
+11:41:56 [trace] finish selection: 1.0,30 - 1.0,30
+11:41:59 [trace] finish selection: 1.0,31 - 1.0,31
+11:42:00 [trace] finish selection: 1.0,32 - 1.0,32
+11:42:00 [trace] finish selection: 1.0,33 - 1.0,33
+11:42:00 [trace] finish selection: 1.0,32 - 1.0,32
+11:42:01 [trace] finish selection: 1.0,33 - 1.0,33
+11:42:01 [trace] finish selection: 1.0,32 - 1.0,32
+11:42:02 [trace] finish selection: 1.0,33 - 1.0,33
+11:42:02 [trace] finish selection: 1.0,34 - 1.0,34
+11:42:03 [trace] finish selection: 1.0,33 - 1.0,33
+11:42:03 [trace] finish selection: 1.0,33 - 1.0,33
+11:42:05 [trace] playSub() called
+11:42:05 [trace] goal: 0 goalRow: 0
+11:42:05 [trace] playSub() took 19µs
+11:42:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:42:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:42:07 [debug] saving backup...
+11:42:07 [trace] writing file...
+11:42:07 [debug] backup saved.
+11:42:16 [trace] playSub() called
+11:42:16 [trace] goal: 0 goalRow: 0
+11:42:16 [trace] playSub() took 19µs
+11:42:21 [trace] playSub() called
+11:42:21 [trace] goal: 0 goalRow: 0
+11:42:21 [trace] playSub() took 19µs
+11:42:25 [trace] finish selection: 1.0,30 - 1.0,30
+11:42:28 [trace] finish selection: 1.0,30 - 1.0,30
+11:42:29 [trace] playSub() called
+11:42:29 [trace] goal: 0 goalRow: 0
+11:42:29 [trace] playSub() took 15µs
+11:42:35 [trace] finish selection: 1.0,35 - 1.0,35
+11:42:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:42:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:42:37 [debug] saving backup...
+11:42:37 [trace] writing file...
+11:42:37 [debug] backup saved.
+11:42:46 [trace] finish selection: 1.0,36 - 1.0,36
+11:42:54 [trace] finish selection: 1.0,36 - 1.0,36
+11:42:57 [trace] finish selection: 1.0,37 - 1.0,37
+11:42:58 [trace] finish selection: 1.0,38 - 1.0,38
+11:43:00 [trace] finish selection: 1.0,39 - 1.0,39
+11:43:04 [trace] finish selection: 1.0,40 - 1.0,40
+11:43:07 [trace] finish selection: 1.0,41 - 1.0,41
+11:43:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:43:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:43:07 [debug] saving backup...
+11:43:07 [trace] writing file...
+11:43:07 [debug] backup saved.
+11:43:08 [trace] finish selection: 1.0,42 - 1.0,42
+11:43:13 [trace] finish selection: 1.0,43 - 1.0,43
+11:43:15 [trace] finish selection: 1.0,44 - 1.0,44
+11:43:16 [trace] finish selection: 1.0,45 - 1.0,45
+11:43:16 [trace] finish selection: 1.0,46 - 1.0,46
+11:43:19 [trace] finish selection: 1.0,47 - 1.0,47
+11:43:21 [trace] finish selection: 1.0,48 - 1.0,48
+11:43:23 [trace] finish selection: 1.0,49 - 1.0,49
+11:43:24 [trace] finish selection: 1.0,50 - 1.0,50
+11:43:24 [trace] finish selection: 1.0,51 - 1.0,51
+11:43:24 [trace] finish selection: 1.0,52 - 1.0,52
+11:43:25 [trace] finish selection: 1.0,53 - 1.0,53
+11:43:25 [trace] finish selection: 1.0,54 - 1.0,54
+11:43:26 [trace] finish selection: 1.0,55 - 1.0,55
+11:43:26 [trace] finish selection: 1.0,56 - 1.0,56
+11:43:26 [trace] finish selection: 1.0,57 - 1.0,57
+11:43:26 [trace] finish selection: 1.0,58 - 1.0,58
+11:43:27 [trace] finish selection: 1.0,59 - 1.0,59
+11:43:27 [trace] finish selection: 1.0,60 - 1.0,60
+11:43:28 [trace] finish selection: 1.0,61 - 1.0,61
+11:43:29 [trace] finish selection: 1.0,62 - 1.0,62
+11:43:33 [trace] playSub() called
+11:43:33 [trace] goal: 0 goalRow: 0
+11:43:33 [trace] playSub() took 14µs
+11:43:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:43:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:43:37 [debug] saving backup...
+11:43:37 [trace] writing file...
+11:43:37 [debug] backup saved.
+11:43:40 [trace] playSub() called
+11:43:40 [trace] goal: 0 goalRow: 0
+11:43:40 [trace] playSub() took 15µs
+11:43:52 [trace] playSub() called
+11:43:52 [trace] goal: 0 goalRow: 0
+11:43:52 [trace] playSub() took 14µs
+11:44:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:44:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:44:07 [debug] saving backup...
+11:44:07 [trace] writing file...
+11:44:07 [debug] backup saved.
+11:44:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:44:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:44:37 [debug] saving backup...
+11:44:37 [trace] writing file...
+11:44:37 [debug] backup saved.
+11:44:54 [trace] playSub() called
+11:44:54 [trace] goal: 0 goalRow: 0
+11:44:54 [trace] playSub() took 14µs
+11:44:59 [trace] end of orders reached
+11:44:59 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+11:45:04 [trace] playSub() called
+11:45:04 [trace] goal: 0 goalRow: 0
+11:45:04 [trace] playSub() took 18µs
+11:45:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:45:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:45:07 [debug] saving backup...
+11:45:07 [trace] writing file...
+11:45:07 [debug] backup saved.
+11:45:10 [trace] playSub() called
+11:45:10 [trace] goal: 0 goalRow: 0
+11:45:10 [trace] playSub() took 14µs
+11:45:20 [trace] finish selection: 1.0,12 - 1.4,63
+11:45:23 [trace] finish selection: 1.4,63 - 1.4,63
+11:45:29 [trace] finish selection: 1.0,12 - 1.4,63
+11:45:30 [trace] finish selection: 1.0,12 - 1.4,63
+11:45:31 [trace] finish selection: 1.0,12 - 1.4,63
+11:45:31 [trace] finish selection: 1.0,13 - 1.0,13
+11:45:31 [trace] finish selection: 1.0,14 - 1.0,14
+11:45:31 [trace] finish selection: 1.0,15 - 1.0,15
+11:45:32 [trace] finish selection: 1.0,16 - 1.0,16
+11:45:32 [trace] finish selection: 1.0,15 - 1.0,15
+11:45:32 [trace] finish selection: 1.0,14 - 1.0,14
+11:45:32 [trace] finish selection: 1.0,13 - 1.0,13
+11:45:32 [trace] finish selection: 1.0,12 - 1.0,12
+11:45:33 [trace] finish selection: 1.0,11 - 1.0,11
+11:45:33 [trace] finish selection: 1.0,10 - 1.0,10
+11:45:33 [trace] finish selection: 1.0,9 - 1.0,9
+11:45:33 [trace] finish selection: 1.0,8 - 1.0,8
+11:45:33 [trace] finish selection: 1.0,7 - 1.0,7
+11:45:33 [trace] finish selection: 1.0,6 - 1.0,6
+11:45:33 [trace] finish selection: 1.0,7 - 1.0,7
+11:45:34 [trace] finish selection: 1.0,8 - 1.0,8
+11:45:34 [trace] finish selection: 1.0,8 - 1.0,8
+11:45:35 [trace] finish selection: 1.0,9 - 1.0,9
+11:45:35 [trace] finish selection: 1.0,10 - 1.0,10
+11:45:35 [trace] finish selection: 1.0,11 - 1.0,11
+11:45:35 [trace] finish selection: 1.0,12 - 1.0,12
+11:45:35 [trace] finish selection: 1.0,13 - 1.0,13
+11:45:35 [trace] finish selection: 1.0,14 - 1.0,14
+11:45:35 [trace] finish selection: 1.0,15 - 1.0,15
+11:45:35 [trace] finish selection: 1.0,16 - 1.0,16
+11:45:35 [trace] finish selection: 1.0,17 - 1.0,17
+11:45:35 [trace] finish selection: 1.0,18 - 1.0,18
+11:45:35 [trace] finish selection: 1.0,17 - 1.0,17
+11:45:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:45:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:45:37 [debug] saving backup...
+11:45:37 [trace] writing file...
+11:45:37 [debug] backup saved.
+11:45:37 [trace] finish selection: 1.0,16 - 1.0,16
+11:45:39 [trace] finish selection: 1.0,17 - 1.0,17
+11:45:39 [trace] finish selection: 1.0,18 - 1.0,18
+11:45:40 [trace] finish selection: 1.0,19 - 1.0,19
+11:45:40 [trace] finish selection: 1.0,20 - 1.0,20
+11:45:40 [trace] finish selection: 1.0,21 - 1.0,21
+11:45:40 [trace] finish selection: 1.0,22 - 1.0,22
+11:45:41 [trace] finish selection: 1.0,23 - 1.0,23
+11:45:42 [trace] finish selection: 1.0,24 - 1.0,24
+11:45:42 [trace] finish selection: 1.0,25 - 1.0,25
+11:45:42 [trace] finish selection: 1.0,24 - 1.0,24
+11:45:43 [trace] finish selection: 1.0,25 - 1.0,25
+11:45:44 [trace] finish selection: 1.0,24 - 1.0,24
+11:45:44 [trace] finish selection: 1.0,25 - 1.0,25
+11:45:44 [trace] finish selection: 1.0,26 - 1.0,26
+11:45:44 [trace] finish selection: 1.0,27 - 1.0,27
+11:45:45 [trace] finish selection: 1.0,28 - 1.0,28
+11:45:45 [trace] finish selection: 1.0,29 - 1.0,29
+11:45:45 [trace] finish selection: 1.0,30 - 1.0,30
+11:45:45 [trace] finish selection: 1.0,31 - 1.0,31
+11:45:45 [trace] finish selection: 1.0,32 - 1.0,32
+11:45:47 [trace] playSub() called
+11:45:47 [trace] goal: 0 goalRow: 0
+11:45:47 [trace] playSub() took 14µs
+11:45:52 [trace] playSub() called
+11:45:52 [trace] goal: 0 goalRow: 0
+11:45:52 [trace] playSub() took 18µs
+11:45:55 [trace] playSub() called
+11:45:55 [trace] goal: 0 goalRow: 0
+11:45:55 [trace] playSub() took 13µs
+11:45:59 [trace] playSub() called
+11:45:59 [trace] goal: 0 goalRow: 0
+11:45:59 [trace] playSub() took 18µs
+11:46:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:46:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:46:07 [debug] saving backup...
+11:46:07 [trace] writing file...
+11:46:07 [debug] backup saved.
+11:46:27 [trace] playSub() called
+11:46:27 [trace] goal: 0 goalRow: 0
+11:46:27 [trace] playSub() took 18µs
+11:46:34 [trace] finish selection: 1.0,40 - 1.0,40
+11:46:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:46:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:46:37 [debug] saving backup...
+11:46:37 [trace] writing file...
+11:46:37 [debug] backup saved.
+11:46:41 [trace] finish selection: 1.0,40 - 1.0,40
+11:46:45 [trace] finish selection: 1.0,41 - 1.0,41
+11:46:46 [trace] finish selection: 1.0,42 - 1.0,42
+11:46:47 [trace] finish selection: 1.0,43 - 1.0,43
+11:46:49 [trace] playSub() called
+11:46:49 [trace] goal: 0 goalRow: 0
+11:46:49 [trace] playSub() took 18µs
+11:46:52 [trace] finish selection: 1.0,43 - 1.0,43
+11:46:53 [trace] finish selection: 1.0,43 - 1.0,43
+11:46:53 [trace] finish selection: 1.0,43 - 1.0,43
+11:46:54 [trace] finish selection: 1.0,44 - 1.0,44
+11:46:55 [trace] finish selection: 1.0,45 - 1.0,45
+11:46:59 [trace] finish selection: 1.0,46 - 1.0,46
+11:46:59 [trace] finish selection: 1.0,47 - 1.0,47
+11:46:59 [trace] finish selection: 1.0,48 - 1.0,48
+11:47:00 [trace] finish selection: 1.0,49 - 1.0,49
+11:47:00 [trace] finish selection: 1.0,48 - 1.0,48
+11:47:01 [trace] finish selection: 1.0,49 - 1.0,49
+11:47:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:47:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:47:07 [debug] saving backup...
+11:47:07 [trace] writing file...
+11:47:07 [debug] backup saved.
+11:47:13 [trace] finish selection: 1.0,48 - 1.0,48
+11:47:16 [trace] finish selection: 1.0,49 - 1.0,49
+11:47:16 [trace] finish selection: 1.0,50 - 1.0,50
+11:47:17 [trace] finish selection: 1.0,51 - 1.0,51
+11:47:17 [trace] finish selection: 1.0,52 - 1.0,52
+11:47:18 [trace] finish selection: 1.0,53 - 1.0,53
+11:47:30 [trace] finish selection: 1.0,52 - 1.0,52
+11:47:31 [trace] finish selection: 1.0,53 - 1.0,53
+11:47:32 [trace] finish selection: 1.0,54 - 1.0,54
+11:47:35 [trace] finish selection: 1.0,55 - 1.0,55
+11:47:35 [trace] finish selection: 1.0,56 - 1.0,56
+11:47:37 [trace] finish selection: 1.0,57 - 1.0,57
+11:47:37 [trace] finish selection: 1.0,56 - 1.0,56
+11:47:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:47:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:47:37 [debug] saving backup...
+11:47:37 [trace] writing file...
+11:47:37 [debug] backup saved.
+11:47:38 [trace] finish selection: 1.0,55 - 1.0,55
+11:47:39 [trace] finish selection: 1.0,56 - 1.0,56
+11:47:41 [trace] finish selection: 1.0,57 - 1.0,57
+11:47:41 [trace] finish selection: 1.0,58 - 1.0,58
+11:47:43 [trace] finish selection: 1.0,59 - 1.0,59
+11:47:43 [trace] finish selection: 1.0,60 - 1.0,60
+11:47:43 [trace] finish selection: 1.0,61 - 1.0,61
+11:47:46 [trace] finish selection: 1.0,60 - 1.0,60
+11:47:46 [trace] finish selection: 1.0,61 - 1.0,61
+11:47:48 [trace] playSub() called
+11:47:48 [trace] goal: 0 goalRow: 0
+11:47:48 [trace] playSub() took 14µs
+11:47:51 [trace] end of orders reached
+11:47:51 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:47:55 [trace] end of orders reached
+11:47:55 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+11:47:58 [trace] end of orders reached
+11:47:58 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+11:47:59 [trace] playSub() called
+11:47:59 [trace] goal: 0 goalRow: 0
+11:47:59 [trace] playSub() took 19µs
+11:48:03 [trace] end of orders reached
+11:48:03 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:48:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:48:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:48:07 [debug] saving backup...
+11:48:07 [trace] writing file...
+11:48:07 [debug] backup saved.
+11:48:09 [trace] finish selection: 1.3,16 - 1.3,16
+11:48:14 [trace] finish selection: 1.3,16 - 1.3,16
+11:48:15 [trace] playSub() called
+11:48:15 [trace] goal: 0 goalRow: 0
+11:48:15 [trace] playSub() took 14µs
+11:48:19 [trace] end of orders reached
+11:48:19 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:48:22 [trace] end of orders reached
+11:48:22 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+11:48:24 [trace] finish selection: 1.4,16 - 1.4,16
+11:48:25 [trace] finish selection: 1.4,16 - 1.4,16
+11:48:26 [trace] playSub() called
+11:48:26 [trace] goal: 0 goalRow: 0
+11:48:26 [trace] playSub() took 14µs
+11:48:29 [trace] end of orders reached
+11:48:29 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:48:32 [trace] end of orders reached
+11:48:32 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+11:48:35 [trace] finish selection: 1.2,0 - 1.2,0
+11:48:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:48:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:48:37 [debug] saving backup...
+11:48:37 [trace] writing file...
+11:48:37 [debug] backup saved.
+11:48:37 [trace] finish selection: 1.2,0 - 1.2,0
+11:48:38 [trace] finish selection: 1.2,1 - 1.2,1
+11:48:39 [trace] finish selection: 1.2,2 - 1.2,2
+11:48:39 [trace] finish selection: 1.2,3 - 1.2,3
+11:48:39 [trace] finish selection: 1.2,4 - 1.2,4
+11:48:39 [trace] finish selection: 1.2,5 - 1.2,5
+11:48:39 [trace] finish selection: 1.2,6 - 1.2,6
+11:48:39 [trace] finish selection: 1.2,7 - 1.2,7
+11:48:39 [trace] finish selection: 1.2,8 - 1.2,8
+11:48:39 [trace] finish selection: 1.2,9 - 1.2,9
+11:48:39 [trace] finish selection: 1.2,10 - 1.2,10
+11:48:40 [trace] finish selection: 1.2,9 - 1.2,9
+11:48:40 [trace] finish selection: 1.2,8 - 1.2,8
+11:48:40 [trace] finish selection: 1.2,7 - 1.2,7
+11:48:40 [trace] finish selection: 1.2,6 - 1.2,6
+11:48:40 [trace] finish selection: 1.2,5 - 1.2,5
+11:48:40 [trace] finish selection: 1.2,4 - 1.2,4
+11:48:40 [trace] finish selection: 1.2,3 - 1.2,3
+11:48:40 [trace] finish selection: 1.2,2 - 1.2,2
+11:48:40 [trace] finish selection: 1.2,1 - 1.2,1
+11:48:41 [trace] finish selection: 1.2,0 - 1.2,0
+11:48:41 [trace] finish selection: 1.2,0 - 1.2,0
+11:48:41 [trace] finish selection: 1.1,0 - 1.1,0
+11:48:41 [trace] finish selection: 1.0,0 - 1.0,0
+11:48:42 [trace] finish selection: 1.0,1 - 1.0,1
+11:48:44 [trace] playSub() called
+11:48:44 [trace] goal: 0 goalRow: 0
+11:48:44 [trace] playSub() took 13µs
+11:48:47 [trace] end of orders reached
+11:48:47 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:48:50 [trace] end of orders reached
+11:48:50 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+11:48:53 [trace] end of orders reached
+11:48:53 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+11:48:56 [trace] end of orders reached
+11:48:56 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+11:49:00 [trace] end of orders reached
+11:49:00 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+11:49:04 [trace] playSub() called
+11:49:04 [trace] goal: 0 goalRow: 0
+11:49:04 [trace] playSub() took 14µs
+11:49:06 [trace] playSub() called
+11:49:06 [trace] goal: 0 goalRow: 0
+11:49:06 [trace] playSub() took 14µs
+11:49:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:49:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:49:07 [debug] saving backup...
+11:49:07 [trace] writing file...
+11:49:07 [debug] backup saved.
+11:49:37 [trace] backupPath: /home/killar/.config/furnace/backups
+11:49:37 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:49:37 [debug] saving backup...
+11:49:37 [trace] writing file...
+11:49:37 [debug] backup saved.
+11:50:03 [trace] finish selection: 1.0,16 - 1.4,63
+11:50:04 [trace] finish selection: 1.0,16 - 1.4,63
+11:50:06 [trace] finish selection: 2.0,16 - 2.0,16
+11:50:06 [trace] finish selection: 2.0,16 - 2.0,16
+11:50:07 [trace] backupPath: /home/killar/.config/furnace/backups
+11:50:07 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:50:07 [debug] saving backup...
+11:50:07 [trace] writing file...
+11:50:07 [debug] backup saved.
+11:50:08 [trace] finish selection: 2.3,16 - 2.3,16
+11:50:09 [trace] finish selection: 2.3,16 - 2.3,16
+11:50:09 [trace] finish selection: 2.3,16 - 2.3,16
+11:50:09 [trace] finish selection: 2.4,16 - 2.4,16
+11:50:09 [trace] finish selection: 2.3,16 - 2.3,16
+11:50:09 [trace] finish selection: 2.2,16 - 2.2,16
+11:50:10 [trace] finish selection: 2.1,16 - 2.1,16
+11:50:10 [trace] finish selection: 2.1,17 - 2.1,17
+11:50:11 [trace] finish selection: 2.1,18 - 2.1,18
+11:50:11 [trace] finish selection: 2.1,19 - 2.1,19
+11:50:11 [trace] finish selection: 2.1,20 - 2.1,20
+11:50:11 [trace] finish selection: 2.1,21 - 2.1,21
+11:50:11 [trace] finish selection: 2.1,22 - 2.1,22
+11:50:11 [trace] finish selection: 2.1,23 - 2.1,23
+11:50:11 [trace] finish selection: 2.1,24 - 2.1,24
+11:50:12 [trace] finish selection: 2.1,25 - 2.1,25
+11:50:12 [trace] finish selection: 2.1,26 - 2.1,26
+11:50:12 [trace] finish selection: 2.1,27 - 2.1,27
+11:50:12 [trace] finish selection: 2.1,28 - 2.1,28
+11:50:12 [trace] finish selection: 2.1,29 - 2.1,29
+11:50:12 [trace] finish selection: 2.1,30 - 2.1,30
+11:50:12 [trace] finish selection: 2.1,31 - 2.1,31
+11:50:13 [trace] finish selection: 2.1,32 - 2.1,32
+11:50:13 [trace] finish selection: 2.1,33 - 2.1,33
+11:50:14 [trace] finish selection: 2.1,34 - 2.1,34
+11:50:14 [trace] finish selection: 2.1,35 - 2.1,35
+11:50:14 [trace] finish selection: 2.1,36 - 2.1,36
+11:50:14 [trace] finish selection: 2.1,37 - 2.1,37
+11:50:14 [trace] finish selection: 2.1,38 - 2.1,38
+11:50:14 [trace] finish selection: 2.1,39 - 2.1,39
+11:50:14 [trace] finish selection: 2.1,40 - 2.1,40
+11:50:14 [trace] finish selection: 2.1,41 - 2.1,41
+11:50:14 [trace] finish selection: 2.1,42 - 2.1,42
+11:50:15 [trace] finish selection: 2.1,43 - 2.1,43
+11:50:15 [trace] finish selection: 2.1,44 - 2.1,44
+11:50:15 [trace] finish selection: 2.1,45 - 2.1,45
+11:50:15 [trace] finish selection: 2.1,46 - 2.1,46
+11:50:15 [trace] finish selection: 2.1,47 - 2.1,47
+11:50:15 [trace] finish selection: 2.1,48 - 2.1,48
+11:50:16 [trace] finish selection: 2.1,49 - 2.1,49
+11:50:16 [trace] finish selection: 2.1,50 - 2.1,50
+11:50:16 [trace] finish selection: 2.1,51 - 2.1,51
+11:50:16 [trace] finish selection: 2.1,52 - 2.1,52
+11:50:16 [trace] finish selection: 2.1,53 - 2.1,53
+11:50:17 [trace] finish selection: 2.1,54 - 2.1,54
+11:50:17 [trace] finish selection: 2.1,55 - 2.1,55
+11:50:17 [trace] finish selection: 2.1,56 - 2.1,56
+11:50:17 [trace] finish selection: 2.1,57 - 2.1,57
+11:50:17 [trace] finish selection: 2.1,58 - 2.1,58
+11:50:17 [trace] finish selection: 2.1,59 - 2.1,59
+11:50:18 [trace] finish selection: 2.1,60 - 2.1,60
+11:50:20 [trace] playSub() called
+11:50:20 [trace] goal: 0 goalRow: 0
+11:50:20 [trace] playSub() took 18µs
+11:50:23 [trace] end of orders reached
+11:50:23 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:50:24 [trace] finish selection: 2.0,0 - 2.0,0
+11:50:25 [trace] finish selection: 2.0,0 - 2.0,0
+11:50:26 [trace] playSub() called
+11:50:26 [trace] goal: 0 goalRow: 0
+11:50:26 [trace] playSub() took 19µs
+11:50:27 [debug] saving file...
+11:50:27 [trace] opening file for writing...
+11:50:27 [debug] save complete.
+11:50:30 [trace] end of orders reached
+11:50:30 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:56:15 [trace] playSub() called
+11:56:15 [trace] goal: 0 goalRow: 0
+11:56:15 [trace] playSub() took 14µs
+11:56:17 [trace] playSub() called
+11:56:17 [trace] goal: 0 goalRow: 0
+11:56:17 [trace] playSub() took 18µs
+11:56:36 [trace] backupPath: /home/killar/.config/furnace/backups
+11:56:36 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:56:36 [debug] saving backup...
+11:56:36 [trace] writing file...
+11:56:36 [debug] backup saved.
+11:56:38 [trace] finish selection: 1.0,0 - 1.0,0
+11:56:47 [trace] finish selection: 1.0,0 - 1.0,0
+11:56:50 [trace] finish selection: 1.0,1 - 1.0,1
+11:56:51 [trace] finish selection: 1.0,2 - 1.0,2
+11:56:51 [trace] finish selection: 1.0,3 - 1.0,3
+11:56:53 [trace] finish selection: 1.0,4 - 1.0,4
+11:56:53 [trace] finish selection: 1.0,5 - 1.0,5
+11:56:54 [trace] finish selection: 1.0,6 - 1.0,6
+11:56:54 [trace] finish selection: 1.0,7 - 1.0,7
+11:56:54 [trace] finish selection: 1.0,8 - 1.0,8
+11:56:57 [trace] finish selection: 1.0,9 - 1.0,9
+11:56:58 [trace] finish selection: 1.0,8 - 1.0,8
+11:56:58 [trace] finish selection: 1.0,9 - 1.0,9
+11:57:01 [trace] finish selection: 1.0,10 - 1.0,10
+11:57:01 [trace] finish selection: 1.0,11 - 1.0,11
+11:57:03 [trace] finish selection: 1.0,12 - 1.0,12
+11:57:05 [trace] finish selection: 1.0,13 - 1.0,13
+11:57:06 [trace] backupPath: /home/killar/.config/furnace/backups
+11:57:06 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:57:06 [debug] saving backup...
+11:57:06 [trace] writing file...
+11:57:06 [debug] backup saved.
+11:57:07 [trace] finish selection: 1.0,14 - 1.0,14
+11:57:09 [trace] finish selection: 1.0,15 - 1.0,15
+11:57:09 [trace] finish selection: 1.0,16 - 1.0,16
+11:57:16 [trace] finish selection: 1.0,17 - 1.0,17
+11:57:16 [trace] finish selection: 1.0,18 - 1.0,18
+11:57:17 [trace] finish selection: 1.0,19 - 1.0,19
+11:57:17 [trace] finish selection: 1.0,18 - 1.0,18
+11:57:17 [trace] finish selection: 1.0,17 - 1.0,17
+11:57:17 [trace] finish selection: 1.0,16 - 1.0,16
+11:57:18 [trace] finish selection: 1.0,17 - 1.0,17
+11:57:19 [trace] finish selection: 1.0,18 - 1.0,18
+11:57:20 [trace] finish selection: 1.0,19 - 1.0,19
+11:57:20 [trace] finish selection: 1.0,20 - 1.0,20
+11:57:21 [trace] finish selection: 1.0,21 - 1.0,21
+11:57:21 [trace] finish selection: 1.0,22 - 1.0,22
+11:57:21 [trace] finish selection: 1.0,23 - 1.0,23
+11:57:23 [trace] playSub() called
+11:57:23 [trace] goal: 1 goalRow: 0
+11:57:23 [trace] playSub() took 86µs
+11:57:26 [trace] finish selection: 1.0,28 - 1.0,28
+11:57:36 [trace] backupPath: /home/killar/.config/furnace/backups
+11:57:36 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:57:36 [debug] saving backup...
+11:57:36 [trace] writing file...
+11:57:36 [debug] backup saved.
+11:57:39 [trace] finish selection: 1.0,28 - 1.0,28
+11:57:41 [trace] finish selection: 1.0,29 - 1.0,29
+11:57:42 [trace] finish selection: 1.0,30 - 1.0,30
+11:57:42 [trace] finish selection: 1.0,31 - 1.0,31
+11:57:45 [trace] finish selection: 1.0,32 - 1.0,32
+11:57:48 [trace] finish selection: 1.0,33 - 1.0,33
+11:57:48 [trace] finish selection: 1.0,34 - 1.0,34
+11:57:49 [trace] finish selection: 1.0,35 - 1.0,35
+11:57:51 [trace] finish selection: 1.0,36 - 1.0,36
+11:57:51 [trace] finish selection: 1.0,37 - 1.0,37
+11:57:54 [trace] finish selection: 1.0,38 - 1.0,38
+11:57:54 [trace] finish selection: 1.0,37 - 1.0,37
+11:57:55 [trace] finish selection: 1.0,36 - 1.0,36
+11:57:55 [trace] finish selection: 1.0,37 - 1.0,37
+11:57:59 [trace] finish selection: 1.0,38 - 1.0,38
+11:57:59 [trace] finish selection: 1.0,39 - 1.0,39
+11:58:00 [trace] finish selection: 1.0,40 - 1.0,40
+11:58:00 [trace] finish selection: 1.0,41 - 1.0,41
+11:58:02 [trace] finish selection: 1.0,42 - 1.0,42
+11:58:04 [trace] playSub() called
+11:58:04 [trace] goal: 1 goalRow: 0
+11:58:04 [trace] playSub() took 199µs
+11:58:06 [trace] backupPath: /home/killar/.config/furnace/backups
+11:58:06 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:58:06 [debug] saving backup...
+11:58:06 [trace] writing file...
+11:58:06 [debug] backup saved.
+11:58:08 [trace] finish selection: 1.0,47 - 1.0,47
+11:58:18 [trace] finish selection: 1.0,47 - 1.0,47
+11:58:19 [trace] finish selection: 1.0,46 - 1.0,46
+11:58:19 [trace] finish selection: 1.0,45 - 1.0,45
+11:58:20 [trace] finish selection: 1.0,44 - 1.0,44
+11:58:20 [trace] finish selection: 1.0,45 - 1.0,45
+11:58:25 [trace] finish selection: 1.0,46 - 1.0,46
+11:58:26 [trace] finish selection: 1.0,47 - 1.0,47
+11:58:29 [trace] playSub() called
+11:58:29 [trace] goal: 1 goalRow: 0
+11:58:29 [trace] playSub() took 88µs
+11:58:33 [trace] finish selection: 1.0,52 - 1.0,52
+11:58:36 [trace] backupPath: /home/killar/.config/furnace/backups
+11:58:36 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:58:36 [debug] saving backup...
+11:58:36 [trace] writing file...
+11:58:36 [debug] backup saved.
+11:58:37 [trace] finish selection: 1.0,52 - 1.0,52
+11:58:41 [trace] finish selection: 1.0,53 - 1.0,53
+11:58:42 [trace] finish selection: 1.0,52 - 1.0,52
+11:58:43 [trace] finish selection: 1.0,52 - 1.0,52
+11:58:44 [trace] finish selection: 1.0,53 - 1.0,53
+11:58:44 [trace] finish selection: 1.0,54 - 1.0,54
+11:58:44 [trace] finish selection: 1.0,55 - 1.0,55
+11:58:45 [trace] finish selection: 1.0,56 - 1.0,56
+11:58:45 [trace] finish selection: 1.0,57 - 1.0,57
+11:58:53 [trace] playSub() called
+11:58:53 [trace] goal: 1 goalRow: 0
+11:58:53 [trace] playSub() took 80µs
+11:58:56 [trace] end of orders reached
+11:58:56 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:59:03 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:04 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:06 [trace] backupPath: /home/killar/.config/furnace/backups
+11:59:06 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:59:06 [debug] saving backup...
+11:59:06 [trace] writing file...
+11:59:06 [debug] backup saved.
+11:59:07 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:07 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:12 [trace] finish selection: 1.0,63 - 1.0,63
+11:59:12 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:12 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:13 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:14 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:14 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:15 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:17 [trace] playSub() called
+11:59:17 [trace] goal: 1 goalRow: 0
+11:59:17 [trace] playSub() took 80µs
+11:59:20 [trace] end of orders reached
+11:59:20 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:59:25 [trace] playSub() called
+11:59:25 [trace] goal: 0 goalRow: 0
+11:59:25 [trace] playSub() took 14µs
+11:59:33 [trace] playSub() called
+11:59:33 [trace] goal: 1 goalRow: 0
+11:59:33 [trace] playSub() took 91µs
+11:59:36 [trace] backupPath: /home/killar/.config/furnace/backups
+11:59:36 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+11:59:36 [debug] saving backup...
+11:59:36 [trace] writing file...
+11:59:36 [debug] backup saved.
+11:59:36 [trace] end of orders reached
+11:59:36 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+11:59:43 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:45 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:45 [trace] finish selection: 1.0,60 - 1.0,60
+11:59:45 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:46 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:46 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:47 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:47 [trace] finish selection: 1.0,61 - 1.0,61
+11:59:48 [trace] finish selection: 1.0,62 - 1.0,62
+11:59:50 [trace] playSub() called
+11:59:50 [trace] goal: 1 goalRow: 0
+11:59:50 [trace] playSub() took 114µs
+11:59:54 [trace] end of orders reached
+11:59:54 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:00:01 [trace] finish selection: 1.0,0 - 1.4,63
+12:00:02 [trace] finish selection: 1.0,0 - 1.4,63
+12:00:04 [trace] finish selection: 2.0,0 - 2.0,0
+12:00:05 [trace] finish selection: 2.0,0 - 2.0,0
+12:00:06 [trace] backupPath: /home/killar/.config/furnace/backups
+12:00:06 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:00:06 [debug] saving backup...
+12:00:06 [trace] writing file...
+12:00:06 [debug] backup saved.
+12:00:08 [trace] finish selection: 1.1,0 - 1.1,0
+12:00:09 [trace] finish selection: 1.1,0 - 1.1,0
+12:00:09 [trace] finish selection: 1.1,1 - 1.1,1
+12:00:10 [trace] finish selection: 1.1,2 - 1.1,2
+12:00:10 [trace] finish selection: 1.1,3 - 1.1,3
+12:00:10 [trace] finish selection: 1.1,4 - 1.1,4
+12:00:10 [trace] finish selection: 1.1,5 - 1.1,5
+12:00:10 [trace] finish selection: 1.1,6 - 1.1,6
+12:00:10 [trace] finish selection: 1.1,7 - 1.1,7
+12:00:10 [trace] finish selection: 1.1,8 - 1.1,8
+12:00:11 [trace] finish selection: 1.1,9 - 1.1,9
+12:00:11 [trace] finish selection: 1.1,8 - 1.1,8
+12:00:11 [trace] finish selection: 1.1,9 - 1.1,9
+12:00:11 [trace] finish selection: 1.1,10 - 1.1,10
+12:00:11 [trace] finish selection: 1.1,11 - 1.1,11
+12:00:12 [trace] finish selection: 1.1,12 - 1.1,12
+12:00:12 [trace] finish selection: 1.1,13 - 1.1,13
+12:00:12 [trace] finish selection: 1.1,14 - 1.1,14
+12:00:12 [trace] finish selection: 1.1,15 - 1.1,15
+12:00:12 [trace] finish selection: 1.1,16 - 1.1,16
+12:00:12 [trace] finish selection: 1.1,17 - 1.1,17
+12:00:13 [trace] finish selection: 1.1,18 - 1.1,18
+12:00:13 [trace] finish selection: 1.1,19 - 1.1,19
+12:00:13 [trace] finish selection: 1.1,20 - 1.1,20
+12:00:13 [trace] finish selection: 1.1,21 - 1.1,21
+12:00:13 [trace] finish selection: 1.1,22 - 1.1,22
+12:00:13 [trace] finish selection: 1.1,23 - 1.1,23
+12:00:14 [trace] finish selection: 1.1,24 - 1.1,24
+12:00:14 [trace] finish selection: 1.1,25 - 1.1,25
+12:00:14 [trace] finish selection: 1.1,26 - 1.1,26
+12:00:14 [trace] finish selection: 1.1,27 - 1.1,27
+12:00:14 [trace] finish selection: 1.1,28 - 1.1,28
+12:00:15 [trace] finish selection: 1.1,29 - 1.1,29
+12:00:15 [trace] finish selection: 1.1,30 - 1.1,30
+12:00:15 [trace] finish selection: 1.1,31 - 1.1,31
+12:00:15 [trace] finish selection: 1.1,32 - 1.1,32
+12:00:15 [trace] finish selection: 1.1,33 - 1.1,33
+12:00:16 [trace] finish selection: 1.1,34 - 1.1,34
+12:00:16 [trace] finish selection: 1.1,35 - 1.1,35
+12:00:16 [trace] finish selection: 1.1,36 - 1.1,36
+12:00:16 [trace] finish selection: 1.1,37 - 1.1,37
+12:00:16 [trace] finish selection: 1.1,38 - 1.1,38
+12:00:16 [trace] finish selection: 1.1,39 - 1.1,39
+12:00:17 [trace] finish selection: 1.1,40 - 1.1,40
+12:00:17 [trace] finish selection: 1.1,41 - 1.1,41
+12:00:17 [trace] finish selection: 1.1,42 - 1.1,42
+12:00:17 [trace] finish selection: 1.1,43 - 1.1,43
+12:00:17 [trace] finish selection: 1.1,44 - 1.1,44
+12:00:17 [trace] finish selection: 1.1,45 - 1.1,45
+12:00:18 [trace] finish selection: 1.1,46 - 1.1,46
+12:00:18 [trace] finish selection: 1.1,47 - 1.1,47
+12:00:18 [trace] finish selection: 1.1,48 - 1.1,48
+12:00:18 [trace] finish selection: 1.1,49 - 1.1,49
+12:00:18 [trace] finish selection: 1.1,50 - 1.1,50
+12:00:19 [trace] finish selection: 1.1,51 - 1.1,51
+12:00:19 [trace] finish selection: 1.1,52 - 1.1,52
+12:00:19 [trace] finish selection: 1.1,53 - 1.1,53
+12:00:19 [trace] finish selection: 1.1,54 - 1.1,54
+12:00:19 [trace] finish selection: 1.1,55 - 1.1,55
+12:00:19 [trace] finish selection: 1.1,56 - 1.1,56
+12:00:20 [trace] finish selection: 1.1,57 - 1.1,57
+12:00:20 [trace] finish selection: 1.1,58 - 1.1,58
+12:00:20 [trace] finish selection: 1.1,59 - 1.1,59
+12:00:20 [trace] finish selection: 1.1,60 - 1.1,60
+12:00:20 [trace] finish selection: 1.1,61 - 1.1,61
+12:00:21 [debug] saving file...
+12:00:21 [trace] opening file for writing...
+12:00:21 [debug] save complete.
+12:00:27 [trace] playSub() called
+12:00:27 [trace] goal: 0 goalRow: 0
+12:00:27 [trace] playSub() took 14µs
+12:00:33 [trace] end of orders reached
+12:00:33 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:00:35 [debug] saving file...
+12:00:35 [trace] opening file for writing...
+12:00:35 [debug] save complete.
+12:00:40 [trace] finish selection: 1.0,0 - 1.0,0
+12:00:45 [trace] finish selection: 1.0,0 - 1.0,0
+12:00:46 [trace] finish selection: 1.0,1 - 1.0,1
+12:00:46 [trace] finish selection: 1.0,2 - 1.0,2
+12:00:46 [trace] finish selection: 1.0,3 - 1.0,3
+12:00:46 [trace] finish selection: 1.0,4 - 1.0,4
+12:00:47 [trace] finish selection: 1.0,3 - 1.0,3
+12:00:47 [trace] finish selection: 1.0,2 - 1.0,2
+12:00:47 [trace] finish selection: 1.0,1 - 1.0,1
+12:00:48 [trace] finish selection: 1.0,0 - 1.0,0
+12:00:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:00:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:00:50 [debug] saving backup...
+12:00:50 [trace] writing file...
+12:00:50 [debug] backup saved.
+12:00:50 [trace] finish selection: 0.4,0 - 0.4,0
+12:00:51 [trace] finish selection: 1.0,0 - 1.0,0
+12:00:52 [trace] finish selection: 1.0,0 - 1.0,0
+12:00:52 [trace] finish selection: 1.0,1 - 1.0,1
+12:00:52 [trace] finish selection: 1.0,2 - 1.0,2
+12:00:53 [trace] finish selection: 1.0,3 - 1.0,3
+12:00:54 [trace] finish selection: 1.0,4 - 1.0,4
+12:00:55 [trace] finish selection: 1.0,5 - 1.0,5
+12:00:56 [trace] finish selection: 1.0,6 - 1.0,6
+12:00:56 [trace] finish selection: 1.0,7 - 1.0,7
+12:00:56 [trace] finish selection: 1.0,8 - 1.0,8
+12:00:56 [trace] finish selection: 1.0,9 - 1.0,9
+12:00:57 [trace] finish selection: 1.0,10 - 1.0,10
+12:00:57 [trace] finish selection: 1.0,9 - 1.0,9
+12:00:58 [trace] finish selection: 1.0,9 - 1.0,9
+12:00:58 [trace] finish selection: 1.0,8 - 1.0,8
+12:00:58 [trace] finish selection: 1.0,7 - 1.0,7
+12:00:59 [trace] finish selection: 1.0,6 - 1.0,6
+12:00:59 [trace] finish selection: 1.0,5 - 1.0,5
+12:00:59 [trace] finish selection: 1.0,4 - 1.0,4
+12:01:00 [trace] finish selection: 1.0,5 - 1.0,5
+12:01:00 [trace] finish selection: 1.0,6 - 1.0,6
+12:01:00 [trace] finish selection: 1.0,7 - 1.0,7
+12:01:01 [trace] finish selection: 1.0,8 - 1.0,8
+12:01:04 [trace] finish selection: 1.0,9 - 1.0,9
+12:01:04 [trace] finish selection: 1.0,10 - 1.0,10
+12:01:04 [trace] finish selection: 1.0,11 - 1.0,11
+12:01:05 [trace] finish selection: 1.0,12 - 1.0,12
+12:01:05 [trace] finish selection: 1.0,13 - 1.0,13
+12:01:05 [trace] finish selection: 1.0,14 - 1.0,14
+12:01:06 [trace] finish selection: 1.0,15 - 1.0,15
+12:01:06 [trace] finish selection: 1.0,16 - 1.0,16
+12:01:07 [trace] finish selection: 1.0,17 - 1.0,17
+12:01:07 [trace] finish selection: 1.0,18 - 1.0,18
+12:01:07 [trace] finish selection: 1.0,19 - 1.0,19
+12:01:07 [trace] finish selection: 1.0,20 - 1.0,20
+12:01:08 [trace] finish selection: 1.0,21 - 1.0,21
+12:01:08 [trace] finish selection: 1.0,22 - 1.0,22
+12:01:09 [trace] finish selection: 1.0,23 - 1.0,23
+12:01:10 [trace] finish selection: 1.0,24 - 1.0,24
+12:01:12 [trace] finish selection: 1.0,25 - 1.0,25
+12:01:13 [trace] finish selection: 1.0,26 - 1.0,26
+12:01:13 [trace] finish selection: 1.0,27 - 1.0,27
+12:01:14 [trace] finish selection: 1.0,26 - 1.0,26
+12:01:14 [trace] finish selection: 1.0,25 - 1.0,25
+12:01:14 [trace] finish selection: 1.0,24 - 1.0,24
+12:01:15 [trace] finish selection: 1.0,25 - 1.0,25
+12:01:15 [trace] finish selection: 1.0,26 - 1.0,26
+12:01:15 [trace] finish selection: 1.0,27 - 1.0,27
+12:01:16 [trace] finish selection: 1.0,28 - 1.0,28
+12:01:19 [trace] playSub() called
+12:01:19 [trace] goal: 2 goalRow: 0
+12:01:19 [trace] playSub() took 136µs
+12:01:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:01:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:01:20 [debug] saving backup...
+12:01:20 [trace] writing file...
+12:01:20 [debug] backup saved.
+12:01:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:01:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:01:50 [debug] saving backup...
+12:01:50 [trace] writing file...
+12:01:50 [debug] backup saved.
+12:02:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:02:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:02:20 [debug] saving backup...
+12:02:20 [trace] writing file...
+12:02:20 [debug] backup saved.
+12:02:27 [trace] finish selection: 1.0,32 - 1.0,32
+12:02:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:02:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:02:50 [debug] saving backup...
+12:02:50 [trace] writing file...
+12:02:50 [debug] backup saved.
+12:02:53 [trace] finish selection: 1.0,32 - 1.0,32
+12:02:55 [trace] finish selection: 1.0,32 - 1.0,32
+12:02:55 [trace] finish selection: 1.0,33 - 1.0,33
+12:02:56 [trace] finish selection: 1.0,34 - 1.0,34
+12:02:58 [trace] finish selection: 1.0,35 - 1.0,35
+12:03:07 [trace] finish selection: 1.0,36 - 1.0,36
+12:03:07 [trace] finish selection: 1.0,37 - 1.0,37
+12:03:07 [trace] finish selection: 1.0,38 - 1.0,38
+12:03:07 [trace] finish selection: 1.0,39 - 1.0,39
+12:03:08 [trace] finish selection: 1.0,38 - 1.0,38
+12:03:08 [trace] finish selection: 1.0,39 - 1.0,39
+12:03:08 [trace] finish selection: 1.0,38 - 1.0,38
+12:03:09 [trace] finish selection: 1.0,39 - 1.0,39
+12:03:09 [trace] finish selection: 1.0,40 - 1.0,40
+12:03:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:03:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:03:20 [debug] saving backup...
+12:03:20 [trace] writing file...
+12:03:20 [debug] backup saved.
+12:03:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:03:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:03:50 [debug] saving backup...
+12:03:50 [trace] writing file...
+12:03:50 [debug] backup saved.
+12:04:18 [trace] playSub() called
+12:04:18 [trace] goal: 2 goalRow: 0
+12:04:18 [trace] playSub() took 142µs
+12:04:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:04:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:04:20 [debug] saving backup...
+12:04:20 [trace] writing file...
+12:04:20 [debug] backup saved.
+12:04:21 [trace] finish selection: 1.0,33 - 1.0,33
+12:04:24 [trace] finish selection: 1.0,33 - 1.0,33
+12:04:25 [trace] finish selection: 1.0,34 - 1.0,34
+12:04:25 [trace] finish selection: 1.0,35 - 1.0,35
+12:04:25 [trace] finish selection: 1.0,36 - 1.0,36
+12:04:25 [trace] finish selection: 1.0,35 - 1.0,35
+12:04:25 [trace] finish selection: 1.0,36 - 1.0,36
+12:04:26 [trace] finish selection: 1.0,37 - 1.0,37
+12:04:26 [trace] finish selection: 1.0,38 - 1.0,38
+12:04:26 [trace] finish selection: 1.0,39 - 1.0,39
+12:04:26 [trace] finish selection: 1.0,40 - 1.0,40
+12:04:27 [trace] finish selection: 1.0,41 - 1.0,41
+12:04:28 [trace] playSub() called
+12:04:28 [trace] goal: 2 goalRow: 0
+12:04:28 [trace] playSub() took 138µs
+12:04:32 [trace] finish selection: 1.0,44 - 1.0,44
+12:04:42 [trace] finish selection: 1.0,44 - 1.0,44
+12:04:42 [trace] finish selection: 1.0,43 - 1.0,43
+12:04:44 [trace] playSub() called
+12:04:44 [trace] goal: 2 goalRow: 0
+12:04:44 [trace] playSub() took 137µs
+12:04:48 [trace] finish selection: 1.0,44 - 1.0,44
+12:04:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:04:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:04:50 [debug] saving backup...
+12:04:50 [trace] writing file...
+12:04:50 [debug] backup saved.
+12:04:55 [trace] finish selection: 1.0,44 - 1.0,44
+12:04:56 [trace] finish selection: 1.0,43 - 1.0,43
+12:04:56 [trace] finish selection: 1.0,42 - 1.0,42
+12:04:56 [trace] finish selection: 1.0,41 - 1.0,41
+12:04:57 [trace] finish selection: 1.0,40 - 1.0,40
+12:04:57 [trace] finish selection: 1.0,41 - 1.0,41
+12:04:58 [trace] finish selection: 1.0,42 - 1.0,42
+12:04:58 [trace] finish selection: 1.0,43 - 1.0,43
+12:04:58 [trace] finish selection: 1.0,44 - 1.0,44
+12:04:59 [trace] finish selection: 1.0,45 - 1.0,45
+12:04:59 [trace] finish selection: 1.0,46 - 1.0,46
+12:04:59 [trace] finish selection: 1.0,45 - 1.0,45
+12:05:00 [trace] finish selection: 1.0,45 - 1.0,45
+12:05:00 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:00 [trace] finish selection: 1.0,47 - 1.0,47
+12:05:01 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:01 [trace] finish selection: 1.0,47 - 1.0,47
+12:05:02 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:07 [trace] finish selection: 1.0,45 - 1.0,45
+12:05:07 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:09 [trace] finish selection: 1.0,47 - 1.0,47
+12:05:13 [trace] finish selection: 1.0,48 - 1.0,48
+12:05:13 [trace] finish selection: 1.0,49 - 1.0,49
+12:05:16 [trace] finish selection: 1.0,50 - 1.0,50
+12:05:17 [trace] finish selection: 1.0,51 - 1.0,51
+12:05:17 [trace] finish selection: 1.0,52 - 1.0,52
+12:05:18 [trace] finish selection: 1.0,53 - 1.0,53
+12:05:20 [trace] finish selection: 1.0,54 - 1.0,54
+12:05:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:05:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:05:20 [debug] saving backup...
+12:05:20 [trace] writing file...
+12:05:20 [debug] backup saved.
+12:05:20 [trace] finish selection: 1.0,55 - 1.0,55
+12:05:21 [trace] finish selection: 1.0,56 - 1.0,56
+12:05:22 [trace] finish selection: 1.0,57 - 1.0,57
+12:05:22 [trace] finish selection: 1.0,58 - 1.0,58
+12:05:22 [trace] finish selection: 1.0,59 - 1.0,59
+12:05:22 [trace] finish selection: 1.0,60 - 1.0,60
+12:05:23 [trace] finish selection: 1.0,61 - 1.0,61
+12:05:23 [trace] finish selection: 1.0,62 - 1.0,62
+12:05:24 [trace] finish selection: 1.0,63 - 1.0,63
+12:05:24 [trace] finish selection: 1.0,63 - 1.0,63
+12:05:24 [trace] finish selection: 1.0,62 - 1.0,62
+12:05:25 [trace] finish selection: 1.0,61 - 1.0,61
+12:05:25 [trace] finish selection: 1.0,62 - 1.0,62
+12:05:25 [trace] finish selection: 1.0,61 - 1.0,61
+12:05:25 [trace] finish selection: 1.0,60 - 1.0,60
+12:05:26 [trace] finish selection: 1.0,59 - 1.0,59
+12:05:26 [trace] finish selection: 1.0,60 - 1.0,60
+12:05:26 [trace] finish selection: 1.0,59 - 1.0,59
+12:05:26 [trace] finish selection: 1.0,58 - 1.0,58
+12:05:26 [trace] finish selection: 1.0,57 - 1.0,57
+12:05:26 [trace] finish selection: 1.0,58 - 1.0,58
+12:05:27 [trace] finish selection: 1.0,57 - 1.0,57
+12:05:27 [trace] finish selection: 1.0,56 - 1.0,56
+12:05:27 [trace] finish selection: 1.0,55 - 1.0,55
+12:05:27 [trace] finish selection: 1.0,54 - 1.0,54
+12:05:27 [trace] finish selection: 1.0,53 - 1.0,53
+12:05:28 [trace] finish selection: 1.0,54 - 1.0,54
+12:05:28 [trace] finish selection: 1.0,53 - 1.0,53
+12:05:28 [trace] finish selection: 1.0,52 - 1.0,52
+12:05:28 [trace] finish selection: 1.0,51 - 1.0,51
+12:05:28 [trace] finish selection: 1.0,52 - 1.0,52
+12:05:28 [trace] finish selection: 1.0,51 - 1.0,51
+12:05:29 [trace] finish selection: 1.0,50 - 1.0,50
+12:05:29 [trace] finish selection: 1.0,49 - 1.0,49
+12:05:29 [trace] finish selection: 1.0,48 - 1.0,48
+12:05:29 [trace] finish selection: 1.0,47 - 1.0,47
+12:05:29 [trace] finish selection: 1.0,48 - 1.0,48
+12:05:30 [trace] finish selection: 1.0,47 - 1.0,47
+12:05:30 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:30 [trace] finish selection: 1.0,45 - 1.0,45
+12:05:30 [trace] finish selection: 1.0,46 - 1.0,46
+12:05:30 [trace] finish selection: 1.0,45 - 1.0,45
+12:05:32 [trace] playSub() called
+12:05:32 [trace] goal: 2 goalRow: 0
+12:05:32 [trace] playSub() took 137µs
+12:05:35 [trace] end of orders reached
+12:05:35 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:05:46 [trace] finish selection: 1.0,0 - 1.1,28
+12:05:47 [trace] finish selection: 1.0,0 - 1.1,28
+12:05:48 [trace] finish selection: 1.0,0 - 1.1,28
+12:05:49 [trace] finish selection: 2.0,0 - 2.0,0
+12:05:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:05:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:05:50 [debug] saving backup...
+12:05:50 [trace] writing file...
+12:05:50 [debug] backup saved.
+12:05:50 [trace] finish selection: 2.0,0 - 2.0,0
+12:05:52 [trace] finish selection: 2.1,0 - 2.1,0
+12:05:52 [trace] finish selection: 2.1,0 - 2.1,0
+12:05:53 [trace] finish selection: 2.1,1 - 2.1,1
+12:05:54 [trace] finish selection: 2.1,2 - 2.1,2
+12:05:54 [trace] finish selection: 2.1,3 - 2.1,3
+12:05:54 [debug] saving file...
+12:05:54 [trace] opening file for writing...
+12:05:54 [debug] save complete.
+12:05:55 [trace] finish selection: 2.1,4 - 2.1,4
+12:05:55 [trace] finish selection: 2.1,5 - 2.1,5
+12:05:56 [trace] finish selection: 2.1,6 - 2.1,6
+12:05:56 [trace] finish selection: 2.1,7 - 2.1,7
+12:05:56 [trace] finish selection: 2.1,8 - 2.1,8
+12:05:56 [trace] finish selection: 2.1,9 - 2.1,9
+12:05:57 [trace] finish selection: 2.1,10 - 2.1,10
+12:05:57 [trace] finish selection: 2.1,11 - 2.1,11
+12:05:57 [trace] finish selection: 2.1,12 - 2.1,12
+12:05:57 [trace] finish selection: 2.1,13 - 2.1,13
+12:05:57 [trace] finish selection: 2.1,14 - 2.1,14
+12:05:58 [trace] finish selection: 2.1,15 - 2.1,15
+12:05:58 [trace] finish selection: 2.1,16 - 2.1,16
+12:05:58 [trace] finish selection: 2.1,17 - 2.1,17
+12:05:58 [trace] finish selection: 2.1,18 - 2.1,18
+12:05:58 [trace] finish selection: 2.1,19 - 2.1,19
+12:05:59 [trace] finish selection: 2.1,20 - 2.1,20
+12:05:59 [trace] finish selection: 2.1,21 - 2.1,21
+12:05:59 [trace] finish selection: 2.1,22 - 2.1,22
+12:05:59 [trace] finish selection: 2.1,23 - 2.1,23
+12:06:00 [trace] finish selection: 2.1,24 - 2.1,24
+12:06:00 [trace] finish selection: 2.1,25 - 2.1,25
+12:06:00 [trace] finish selection: 2.1,26 - 2.1,26
+12:06:00 [trace] finish selection: 2.1,27 - 2.1,27
+12:06:00 [trace] finish selection: 2.1,28 - 2.1,28
+12:06:02 [trace] playSub() called
+12:06:02 [trace] goal: 2 goalRow: 0
+12:06:02 [trace] playSub() took 137µs
+12:06:06 [trace] finish selection: 1.0,32 - 1.1,32
+12:06:06 [trace] finish selection: 1.0,32 - 1.1,32
+12:06:09 [trace] finish selection: 1.0,32 - 1.1,63
+12:06:09 [trace] finish selection: 1.0,32 - 1.1,63
+12:06:10 [trace] finish selection: 2.0,32 - 2.0,32
+12:06:10 [trace] finish selection: 2.0,32 - 2.0,32
+12:06:11 [trace] playSub() called
+12:06:11 [trace] goal: 2 goalRow: 0
+12:06:11 [trace] playSub() took 137µs
+12:06:15 [trace] end of orders reached
+12:06:15 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:06:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:06:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:06:20 [debug] saving backup...
+12:06:20 [trace] writing file...
+12:06:20 [debug] backup saved.
+12:06:24 [trace] end of orders reached
+12:06:24 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:06:34 [trace] end of orders reached
+12:06:34 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+12:06:40 [trace] playSub() called
+12:06:40 [trace] goal: 1 goalRow: 0
+12:06:40 [trace] playSub() took 80µs
+12:06:46 [trace] finish selection: 1.0,61 - 2.1,61
+12:06:47 [trace] finish selection: 1.0,61 - 2.1,61
+12:06:48 [trace] finish selection: 1.0,60 - 1.0,60
+12:06:48 [trace] finish selection: 1.0,60 - 1.0,60
+12:06:49 [trace] playSub() called
+12:06:49 [trace] goal: 1 goalRow: 0
+12:06:49 [trace] playSub() took 102µs
+12:06:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:06:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:06:50 [debug] saving backup...
+12:06:50 [trace] writing file...
+12:06:50 [debug] backup saved.
+12:06:55 [trace] end of orders reached
+12:06:55 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:07:05 [trace] end of orders reached
+12:07:05 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+12:07:17 [trace] playSub() called
+12:07:17 [trace] goal: 1 goalRow: 0
+12:07:17 [trace] playSub() took 91µs
+12:07:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:07:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:07:20 [debug] saving backup...
+12:07:20 [trace] writing file...
+12:07:20 [debug] backup saved.
+12:07:23 [trace] end of orders reached
+12:07:23 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:07:35 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:35 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:36 [trace] finish selection: 4.0,33 - 4.0,33
+12:07:36 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:37 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:37 [trace] finish selection: 4.0,33 - 4.0,33
+12:07:38 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:40 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:40 [trace] finish selection: 4.0,33 - 4.0,33
+12:07:41 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:49 [trace] finish selection: 4.0,32 - 4.0,32
+12:07:49 [trace] finish selection: 4.0,33 - 4.0,33
+12:07:49 [trace] finish selection: 4.0,34 - 4.0,34
+12:07:49 [trace] finish selection: 4.0,35 - 4.0,35
+12:07:50 [trace] finish selection: 4.0,36 - 4.0,36
+12:07:50 [trace] finish selection: 4.0,37 - 4.0,37
+12:07:50 [trace] finish selection: 4.0,38 - 4.0,38
+12:07:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:07:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:07:50 [debug] saving backup...
+12:07:50 [trace] writing file...
+12:07:50 [debug] backup saved.
+12:07:50 [trace] finish selection: 4.0,39 - 4.0,39
+12:07:50 [trace] finish selection: 4.0,40 - 4.0,40
+12:07:51 [trace] finish selection: 4.0,41 - 4.0,41
+12:07:52 [trace] finish selection: 4.0,42 - 4.0,42
+12:07:52 [trace] finish selection: 4.0,43 - 4.0,43
+12:07:53 [trace] finish selection: 4.0,44 - 4.0,44
+12:07:53 [trace] finish selection: 4.0,45 - 4.0,45
+12:07:53 [trace] finish selection: 4.0,46 - 4.0,46
+12:07:53 [trace] finish selection: 4.0,47 - 4.0,47
+12:07:54 [trace] finish selection: 4.0,48 - 4.0,48
+12:07:54 [trace] finish selection: 4.0,49 - 4.0,49
+12:07:54 [trace] finish selection: 4.0,50 - 4.0,50
+12:07:54 [trace] finish selection: 4.0,51 - 4.0,51
+12:07:54 [trace] finish selection: 4.0,52 - 4.0,52
+12:07:55 [trace] finish selection: 4.0,53 - 4.0,53
+12:07:55 [trace] finish selection: 4.0,54 - 4.0,54
+12:07:55 [trace] finish selection: 4.0,55 - 4.0,55
+12:07:55 [trace] finish selection: 4.0,56 - 4.0,56
+12:07:56 [trace] finish selection: 4.0,57 - 4.0,57
+12:07:56 [trace] finish selection: 4.0,58 - 4.0,58
+12:07:59 [trace] playSub() called
+12:07:59 [trace] goal: 2 goalRow: 0
+12:07:59 [trace] playSub() took 146µs
+12:08:02 [trace] end of orders reached
+12:08:02 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:08:03 [trace] playSub() called
+12:08:03 [trace] goal: 0 goalRow: 0
+12:08:03 [trace] playSub() took 14µs
+12:08:15 [debug] updating sample texture.
+12:08:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:08:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:08:20 [debug] saving backup...
+12:08:20 [trace] writing file...
+12:08:20 [debug] backup saved.
+12:08:24 [debug] rendering samples...
+12:08:24 [trace] initInternal(16,12296)
+12:08:24 [trace] initInternal(8,12296)
+12:08:24 [trace] initInternal(1,0)
+12:08:24 [trace] initInternal(8,0)
+12:08:24 [trace] 0 padded length: 1600
+12:08:24 [trace] 1 padded length: 64
+12:08:24 [trace] initInternal(1,12296)
+12:08:24 [debug] rendering samples...
+12:08:24 [trace] initInternal(16,12296)
+12:08:24 [trace] initInternal(8,12296)
+12:08:24 [trace] initInternal(16,12296)
+12:08:24 [trace] initInternal(8,12296)
+12:08:24 [trace] 0 padded length: 1600
+12:08:24 [trace] 1 padded length: 1600
+12:08:25 [debug] updating sample texture.
+12:08:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:08:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:08:50 [debug] saving backup...
+12:08:50 [trace] writing file...
+12:08:50 [debug] backup saved.
+12:08:50 [debug] updating sample texture.
+12:08:56 [trace] finish selection: 4.0,42 - 4.0,42
+12:08:56 [trace] finish selection: 4.0,42 - 4.0,42
+12:08:56 [trace] finish selection: 4.0,43 - 4.0,43
+12:09:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:09:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:09:20 [debug] saving backup...
+12:09:20 [trace] writing file...
+12:09:20 [debug] backup saved.
+12:09:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:09:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:09:50 [debug] saving backup...
+12:09:50 [trace] writing file...
+12:09:50 [debug] backup saved.
+12:09:56 [trace] finish selection: 4.0,32 - 4.0,32
+12:09:58 [trace] finish selection: 4.0,32 - 4.0,32
+12:09:58 [trace] finish selection: 4.0,33 - 4.0,33
+12:09:58 [trace] finish selection: 4.0,34 - 4.0,34
+12:09:58 [trace] finish selection: 4.0,35 - 4.0,35
+12:09:59 [trace] finish selection: 4.0,36 - 4.0,36
+12:10:00 [trace] finish selection: 4.0,37 - 4.0,37
+12:10:04 [trace] finish selection: 4.0,38 - 4.0,38
+12:10:04 [trace] finish selection: 4.0,39 - 4.0,39
+12:10:04 [trace] finish selection: 4.0,40 - 4.0,40
+12:10:04 [trace] finish selection: 4.0,41 - 4.0,41
+12:10:05 [trace] finish selection: 4.0,42 - 4.0,42
+12:10:05 [trace] finish selection: 4.0,43 - 4.0,43
+12:10:13 [trace] finish selection: 4.0,32 - 4.0,32
+12:10:13 [trace] finish selection: 4.0,33 - 4.0,33
+12:10:13 [trace] finish selection: 4.0,34 - 4.0,34
+12:10:15 [trace] finish selection: 4.0,33 - 4.0,33
+12:10:15 [trace] finish selection: 4.0,32 - 4.0,32
+12:10:15 [trace] finish selection: 4.0,33 - 4.0,33
+12:10:15 [trace] finish selection: 4.0,34 - 4.0,34
+12:10:16 [trace] finish selection: 4.0,35 - 4.0,35
+12:10:16 [trace] finish selection: 4.0,34 - 4.0,34
+12:10:16 [trace] finish selection: 4.0,35 - 4.0,35
+12:10:16 [trace] finish selection: 4.0,36 - 4.0,36
+12:10:16 [trace] finish selection: 4.0,37 - 4.0,37
+12:10:17 [trace] finish selection: 4.0,38 - 4.0,38
+12:10:17 [trace] finish selection: 4.0,39 - 4.0,39
+12:10:17 [trace] finish selection: 4.0,40 - 4.0,40
+12:10:17 [trace] finish selection: 4.0,41 - 4.0,41
+12:10:17 [trace] finish selection: 4.0,42 - 4.0,42
+12:10:17 [trace] finish selection: 4.0,43 - 4.0,43
+12:10:18 [trace] finish selection: 4.0,44 - 4.0,44
+12:10:18 [trace] finish selection: 4.0,45 - 4.0,45
+12:10:18 [trace] finish selection: 4.0,46 - 4.0,46
+12:10:18 [trace] finish selection: 4.0,47 - 4.0,47
+12:10:19 [trace] finish selection: 4.0,46 - 4.0,46
+12:10:19 [trace] finish selection: 4.0,47 - 4.0,47
+12:10:19 [trace] finish selection: 4.0,48 - 4.0,48
+12:10:19 [trace] finish selection: 4.0,49 - 4.0,49
+12:10:19 [trace] finish selection: 4.0,50 - 4.0,50
+12:10:19 [trace] finish selection: 4.0,51 - 4.0,51
+12:10:20 [trace] finish selection: 4.0,52 - 4.0,52
+12:10:20 [trace] finish selection: 4.0,53 - 4.0,53
+12:10:20 [trace] finish selection: 4.0,54 - 4.0,54
+12:10:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:10:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:10:20 [debug] saving backup...
+12:10:20 [trace] writing file...
+12:10:20 [debug] backup saved.
+12:10:20 [trace] finish selection: 4.0,55 - 4.0,55
+12:10:21 [trace] finish selection: 4.0,56 - 4.0,56
+12:10:21 [trace] finish selection: 4.0,57 - 4.0,57
+12:10:21 [trace] finish selection: 4.0,58 - 4.0,58
+12:10:23 [trace] playSub() called
+12:10:23 [trace] goal: 2 goalRow: 0
+12:10:23 [trace] playSub() took 137µs
+12:10:27 [trace] end of orders reached
+12:10:27 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:10:36 [trace] finish selection: 4.0,36 - 4.0,36
+12:10:39 [trace] finish selection: 4.0,36 - 4.0,36
+12:10:39 [trace] finish selection: 4.0,37 - 4.0,37
+12:10:40 [trace] finish selection: 4.0,38 - 4.0,38
+12:10:40 [trace] finish selection: 4.0,39 - 4.0,39
+12:10:40 [trace] finish selection: 4.0,38 - 4.0,38
+12:10:41 [trace] finish selection: 4.0,37 - 4.0,37
+12:10:41 [trace] finish selection: 4.0,37 - 4.0,37
+12:10:41 [trace] finish selection: 4.0,38 - 4.0,38
+12:10:42 [trace] finish selection: 4.0,39 - 4.0,39
+12:10:42 [trace] finish selection: 4.0,40 - 4.0,40
+12:10:42 [trace] finish selection: 4.0,41 - 4.0,41
+12:10:42 [trace] finish selection: 4.0,42 - 4.0,42
+12:10:43 [trace] finish selection: 4.0,43 - 4.0,43
+12:10:44 [trace] finish selection: 4.0,44 - 4.0,44
+12:10:44 [trace] finish selection: 4.0,45 - 4.0,45
+12:10:45 [trace] finish selection: 4.0,46 - 4.0,46
+12:10:45 [trace] finish selection: 4.0,47 - 4.0,47
+12:10:45 [trace] finish selection: 4.0,48 - 4.0,48
+12:10:46 [trace] finish selection: 4.0,49 - 4.0,49
+12:10:46 [trace] finish selection: 4.0,50 - 4.0,50
+12:10:46 [trace] finish selection: 4.0,51 - 4.0,51
+12:10:47 [trace] finish selection: 4.0,52 - 4.0,52
+12:10:47 [trace] finish selection: 4.0,53 - 4.0,53
+12:10:47 [trace] finish selection: 4.0,54 - 4.0,54
+12:10:47 [trace] finish selection: 4.0,55 - 4.0,55
+12:10:48 [trace] finish selection: 4.0,56 - 4.0,56
+12:10:48 [trace] finish selection: 4.0,57 - 4.0,57
+12:10:48 [trace] finish selection: 4.0,58 - 4.0,58
+12:10:49 [trace] finish selection: 4.0,59 - 4.0,59
+12:10:49 [trace] finish selection: 4.0,58 - 4.0,58
+12:10:50 [trace] finish selection: 4.0,59 - 4.0,59
+12:10:50 [trace] finish selection: 4.0,60 - 4.0,60
+12:10:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:10:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:10:50 [debug] saving backup...
+12:10:50 [trace] writing file...
+12:10:50 [debug] backup saved.
+12:10:52 [trace] finish selection: 4.0,61 - 4.0,61
+12:10:53 [trace] finish selection: 4.0,62 - 4.0,62
+12:10:54 [trace] finish selection: 4.0,61 - 4.0,61
+12:10:54 [trace] finish selection: 4.0,61 - 4.0,61
+12:10:54 [trace] finish selection: 4.0,60 - 4.0,60
+12:10:55 [trace] finish selection: 4.0,61 - 4.0,61
+12:10:55 [trace] finish selection: 4.0,62 - 4.0,62
+12:10:55 [trace] finish selection: 4.0,63 - 4.0,63
+12:10:55 [trace] finish selection: 4.0,62 - 4.0,62
+12:10:58 [trace] playSub() called
+12:10:58 [trace] goal: 2 goalRow: 0
+12:10:58 [trace] playSub() took 137µs
+12:11:02 [trace] loop reached
+12:11:02 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:11:05 [trace] loop reached
+12:11:05 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:11:08 [trace] loop reached
+12:11:08 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+12:11:11 [trace] loop reached
+12:11:11 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:11:14 [trace] loop reached
+12:11:14 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+12:11:17 [trace] finish selection: 4.0,46 - 4.0,46
+12:11:17 [trace] finish selection: 4.0,55 - 4.0,55
+12:11:18 [trace] loop reached
+12:11:18 [debug] last loop pos: 896 for a size of 1024 and runLeftG of 32768
+12:11:18 [trace] finish selection: 4.0,9 - 4.0,9
+12:11:18 [trace] finish selection: 4.0,12 - 4.0,12
+12:11:19 [trace] finish selection: 4.0,18 - 4.0,18
+12:11:19 [trace] finish selection: 4.0,29 - 4.0,29
+12:11:19 [trace] finish selection: 4.0,32 - 4.0,32
+12:11:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:11:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:11:20 [debug] saving backup...
+12:11:20 [trace] writing file...
+12:11:20 [debug] backup saved.
+12:11:21 [trace] loop reached
+12:11:21 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+12:11:22 [trace] finish selection: 4.0,23 - 4.0,23
+12:11:22 [trace] finish selection: 4.0,26 - 4.0,26
+12:11:22 [trace] finish selection: 4.0,31 - 4.0,31
+12:11:22 [trace] finish selection: 4.0,34 - 4.0,34
+12:11:23 [trace] finish selection: 4.0,38 - 4.0,38
+12:11:23 [trace] finish selection: 4.0,41 - 4.0,41
+12:11:23 [trace] finish selection: 4.0,45 - 4.0,45
+12:11:23 [trace] finish selection: 4.0,47 - 4.0,47
+12:11:24 [trace] loop reached
+12:11:24 [debug] last loop pos: 512 for a size of 1024 and runLeftG of 131072
+12:11:24 [trace] finish selection: 4.0,8 - 4.0,8
+12:11:25 [trace] finish selection: 4.0,11 - 4.0,11
+12:11:25 [trace] finish selection: 4.0,16 - 4.0,16
+12:11:27 [trace] loop reached
+12:11:27 [debug] last loop pos: 320 for a size of 1024 and runLeftG of 180224
+12:11:30 [trace] loop reached
+12:11:30 [debug] last loop pos: 128 for a size of 1024 and runLeftG of 229376
+12:11:47 [trace] finish selection: 4.0,10 - 4.0,10
+12:11:48 [trace] finish selection: 4.0,10 - 4.0,10
+12:11:49 [trace] finish selection: 4.0,9 - 4.0,9
+12:11:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:11:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:11:50 [debug] saving backup...
+12:11:50 [trace] writing file...
+12:11:50 [debug] backup saved.
+12:11:55 [trace] finish selection: 4.0,55 - 4.0,55
+12:11:55 [trace] finish selection: 4.0,55 - 4.0,55
+12:11:56 [trace] finish selection: 4.0,55 - 4.0,55
+12:11:57 [trace] finish selection: 4.0,56 - 4.0,56
+12:12:01 [trace] finish selection: 4.0,44 - 4.0,44
+12:12:04 [trace] finish selection: 4.0,44 - 4.0,44
+12:12:04 [trace] finish selection: 4.0,45 - 4.0,45
+12:12:04 [trace] finish selection: 4.0,44 - 4.0,44
+12:12:04 [trace] finish selection: 4.0,43 - 4.0,43
+12:12:05 [trace] finish selection: 4.0,42 - 4.0,42
+12:12:05 [trace] finish selection: 4.0,41 - 4.0,41
+12:12:05 [trace] finish selection: 4.0,40 - 4.0,40
+12:12:05 [trace] finish selection: 4.0,39 - 4.0,39
+12:12:05 [trace] finish selection: 4.0,38 - 4.0,38
+12:12:06 [trace] finish selection: 4.0,37 - 4.0,37
+12:12:06 [trace] finish selection: 4.0,36 - 4.0,36
+12:12:06 [trace] finish selection: 4.0,35 - 4.0,35
+12:12:06 [trace] finish selection: 4.0,34 - 4.0,34
+12:12:06 [trace] finish selection: 4.0,33 - 4.0,33
+12:12:07 [trace] finish selection: 4.0,32 - 4.0,32
+12:12:07 [trace] finish selection: 4.0,33 - 4.0,33
+12:12:08 [trace] finish selection: 4.0,34 - 4.0,34
+12:12:08 [trace] finish selection: 4.0,33 - 4.0,33
+12:12:08 [trace] finish selection: 4.0,33 - 4.0,33
+12:12:08 [trace] finish selection: 4.0,34 - 4.0,34
+12:12:09 [trace] finish selection: 4.0,35 - 4.0,35
+12:12:09 [trace] finish selection: 4.0,36 - 4.0,36
+12:12:09 [trace] finish selection: 4.0,37 - 4.0,37
+12:12:09 [trace] finish selection: 4.0,38 - 4.0,38
+12:12:10 [trace] finish selection: 4.0,39 - 4.0,39
+12:12:10 [trace] finish selection: 4.0,40 - 4.0,40
+12:12:10 [trace] finish selection: 4.0,41 - 4.0,41
+12:12:10 [trace] finish selection: 4.0,42 - 4.0,42
+12:12:11 [trace] finish selection: 4.0,43 - 4.0,43
+12:12:11 [trace] finish selection: 4.0,44 - 4.0,44
+12:12:11 [trace] finish selection: 4.0,45 - 4.0,45
+12:12:11 [trace] finish selection: 4.0,46 - 4.0,46
+12:12:12 [trace] finish selection: 4.0,47 - 4.0,47
+12:12:12 [trace] finish selection: 4.0,48 - 4.0,48
+12:12:12 [trace] finish selection: 4.0,49 - 4.0,49
+12:12:12 [trace] finish selection: 4.0,50 - 4.0,50
+12:12:12 [trace] finish selection: 4.0,51 - 4.0,51
+12:12:13 [trace] finish selection: 4.0,52 - 4.0,52
+12:12:13 [trace] finish selection: 4.0,53 - 4.0,53
+12:12:13 [trace] finish selection: 4.0,54 - 4.0,54
+12:12:13 [trace] finish selection: 4.0,55 - 4.0,55
+12:12:14 [trace] finish selection: 4.0,56 - 4.0,56
+12:12:14 [trace] finish selection: 4.0,57 - 4.0,57
+12:12:14 [trace] finish selection: 4.0,58 - 4.0,58
+12:12:15 [trace] finish selection: 4.0,57 - 4.0,57
+12:12:15 [trace] finish selection: 4.0,57 - 4.0,57
+12:12:15 [trace] finish selection: 4.0,58 - 4.0,58
+12:12:15 [trace] finish selection: 4.0,59 - 4.0,59
+12:12:16 [trace] finish selection: 4.0,60 - 4.0,60
+12:12:16 [trace] finish selection: 4.0,61 - 4.0,61
+12:12:16 [trace] finish selection: 4.0,62 - 4.0,62
+12:12:16 [trace] finish selection: 4.0,63 - 4.0,63
+12:12:17 [trace] finish selection: 4.0,63 - 4.0,63
+12:12:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:12:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:12:20 [debug] saving backup...
+12:12:20 [trace] writing file...
+12:12:20 [debug] backup saved.
+12:12:21 [trace] playSub() called
+12:12:21 [trace] goal: 2 goalRow: 0
+12:12:21 [trace] playSub() took 137µs
+12:12:24 [trace] loop reached
+12:12:24 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:12:27 [trace] loop reached
+12:12:27 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:12:30 [trace] loop reached
+12:12:31 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+12:12:34 [trace] loop reached
+12:12:34 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:12:37 [trace] loop reached
+12:12:37 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+12:12:40 [trace] loop reached
+12:12:40 [debug] last loop pos: 896 for a size of 1024 and runLeftG of 32768
+12:12:43 [trace] loop reached
+12:12:43 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+12:12:46 [trace] loop reached
+12:12:47 [debug] last loop pos: 512 for a size of 1024 and runLeftG of 131072
+12:12:49 [debug] saving file...
+12:12:49 [trace] opening file for writing...
+12:12:49 [debug] save complete.
+12:12:50 [trace] loop reached
+12:12:50 [debug] last loop pos: 320 for a size of 1024 and runLeftG of 180224
+12:12:53 [trace] loop reached
+12:12:53 [debug] last loop pos: 128 for a size of 1024 and runLeftG of 229376
+12:12:56 [trace] loop reached
+12:12:56 [debug] last loop pos: 960 for a size of 1024 and runLeftG of 16384
+12:12:59 [trace] loop reached
+12:12:59 [debug] last loop pos: 768 for a size of 1024 and runLeftG of 65536
+12:13:02 [trace] loop reached
+12:13:03 [debug] last loop pos: 576 for a size of 1024 and runLeftG of 114688
+12:13:05 [trace] backupPath: /home/killar/.config/furnace/backups
+12:13:05 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:13:05 [debug] saving backup...
+12:13:05 [trace] writing file...
+12:13:05 [debug] backup saved.
+12:13:06 [trace] loop reached
+12:13:06 [debug] last loop pos: 384 for a size of 1024 and runLeftG of 163840
+12:13:09 [trace] loop reached
+12:13:09 [debug] last loop pos: 192 for a size of 1024 and runLeftG of 212992
+12:13:12 [trace] loop reached
+12:13:12 [debug] last loop pos: 0 for a size of 1024 and runLeftG of 262144
+12:13:15 [trace] loop reached
+12:13:15 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:13:18 [trace] loop reached
+12:13:19 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:13:22 [trace] loop reached
+12:13:22 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+12:13:25 [trace] loop reached
+12:13:25 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:13:28 [trace] loop reached
+12:13:28 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+12:13:31 [trace] loop reached
+12:13:31 [debug] last loop pos: 896 for a size of 1024 and runLeftG of 32768
+12:13:34 [trace] loop reached
+12:13:35 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+12:13:35 [trace] backupPath: /home/killar/.config/furnace/backups
+12:13:35 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:13:35 [debug] saving backup...
+12:13:35 [trace] writing file...
+12:13:35 [debug] backup saved.
+12:13:38 [trace] finish selection: 3.4,57 - 3.4,59
+12:13:38 [trace] loop reached
+12:13:38 [debug] last loop pos: 512 for a size of 1024 and runLeftG of 131072
+12:13:39 [trace] finish selection: 3.1,14 - 3.1,15
+12:13:39 [trace] finish selection: 3.0,31 - 3.0,33
+12:13:41 [trace] loop reached
+12:13:41 [debug] last loop pos: 320 for a size of 1024 and runLeftG of 180224
+12:13:44 [trace] loop reached
+12:13:44 [debug] last loop pos: 128 for a size of 1024 and runLeftG of 229376
+12:13:47 [trace] loop reached
+12:13:47 [debug] last loop pos: 960 for a size of 1024 and runLeftG of 16384
+12:13:50 [trace] loop reached
+12:13:51 [debug] last loop pos: 768 for a size of 1024 and runLeftG of 65536
+12:13:54 [trace] loop reached
+12:13:54 [debug] last loop pos: 576 for a size of 1024 and runLeftG of 114688
+12:13:57 [trace] loop reached
+12:13:57 [debug] last loop pos: 384 for a size of 1024 and runLeftG of 163840
+12:14:00 [trace] loop reached
+12:14:00 [debug] last loop pos: 192 for a size of 1024 and runLeftG of 212992
+12:14:03 [trace] loop reached
+12:14:03 [debug] last loop pos: 0 for a size of 1024 and runLeftG of 262144
+12:14:05 [trace] backupPath: /home/killar/.config/furnace/backups
+12:14:05 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:14:05 [debug] saving backup...
+12:14:05 [trace] writing file...
+12:14:05 [debug] backup saved.
+12:14:06 [trace] loop reached
+12:14:07 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:14:10 [trace] loop reached
+12:14:10 [debug] last loop pos: 640 for a size of 1024 and runLeftG of 98304
+12:14:13 [trace] loop reached
+12:14:13 [debug] last loop pos: 448 for a size of 1024 and runLeftG of 147456
+12:14:16 [trace] loop reached
+12:14:16 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:14:16 [debug] updating sample texture.
+12:14:19 [trace] loop reached
+12:14:19 [debug] last loop pos: 64 for a size of 1024 and runLeftG of 245760
+12:14:22 [trace] loop reached
+12:14:23 [debug] last loop pos: 896 for a size of 1024 and runLeftG of 32768
+12:14:26 [trace] loop reached
+12:14:26 [debug] last loop pos: 704 for a size of 1024 and runLeftG of 81920
+12:14:29 [trace] loop reached
+12:14:29 [debug] last loop pos: 512 for a size of 1024 and runLeftG of 131072
+12:14:32 [trace] loop reached
+12:14:32 [debug] last loop pos: 320 for a size of 1024 and runLeftG of 180224
+12:14:35 [trace] loop reached
+12:14:35 [debug] last loop pos: 128 for a size of 1024 and runLeftG of 229376
+12:14:35 [trace] backupPath: /home/killar/.config/furnace/backups
+12:14:35 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:14:35 [debug] saving backup...
+12:14:35 [trace] writing file...
+12:14:35 [debug] backup saved.
+12:14:38 [trace] loop reached
+12:14:39 [debug] last loop pos: 960 for a size of 1024 and runLeftG of 16384
+12:14:42 [trace] loop reached
+12:14:42 [debug] last loop pos: 768 for a size of 1024 and runLeftG of 65536
+12:14:56 [trace] finish selection: 4.0,42 - 4.0,42
+12:15:05 [trace] backupPath: /home/killar/.config/furnace/backups
+12:15:05 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:15:05 [debug] saving backup...
+12:15:05 [trace] writing file...
+12:15:05 [debug] backup saved.
+12:15:26 [trace] playSub() called
+12:15:26 [trace] goal: 2 goalRow: 0
+12:15:26 [trace] playSub() took 150µs
+12:15:29 [trace] end of orders reached
+12:15:29 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:15:36 [trace] backupPath: /home/killar/.config/furnace/backups
+12:15:36 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:15:36 [debug] saving backup...
+12:15:36 [trace] writing file...
+12:15:36 [debug] backup saved.
+12:15:38 [trace] end of orders reached
+12:15:38 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:15:41 [trace] playSub() called
+12:15:41 [trace] goal: 0 goalRow: 3
+12:15:41 [trace] playSub() took 25µs
+12:15:43 [debug] saving file...
+12:15:43 [trace] opening file for writing...
+12:15:43 [debug] save complete.
+12:15:50 [trace] end of orders reached
+12:15:50 [debug] last loop pos: 1001 for a size of 1024 and runLeftG of 5888
+12:16:00 [trace] end of orders reached
+12:16:00 [debug] last loop pos: 425 for a size of 1024 and runLeftG of 153344
+12:16:09 [trace] end of orders reached
+12:16:10 [debug] last loop pos: 873 for a size of 1024 and runLeftG of 38656
+12:16:19 [trace] end of orders reached
+12:16:19 [debug] last loop pos: 297 for a size of 1024 and runLeftG of 186112
+12:16:26 [trace] backupPath: /home/killar/.config/furnace/backups
+12:16:26 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:16:26 [debug] saving backup...
+12:16:26 [trace] writing file...
+12:16:26 [debug] backup saved.
+12:16:29 [debug] updating sample texture.
+12:16:56 [trace] backupPath: /home/killar/.config/furnace/backups
+12:16:56 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:16:56 [debug] saving backup...
+12:16:56 [trace] writing file...
+12:16:56 [debug] backup saved.
+12:17:17 [debug] updating sample texture.
+12:17:26 [trace] backupPath: /home/killar/.config/furnace/backups
+12:17:26 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:17:26 [debug] saving backup...
+12:17:26 [trace] writing file...
+12:17:26 [debug] backup saved.
+12:17:56 [trace] backupPath: /home/killar/.config/furnace/backups
+12:17:56 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:17:56 [debug] saving backup...
+12:17:56 [trace] writing file...
+12:17:56 [debug] backup saved.
+12:18:22 [debug] updating sample texture.
+12:18:24 [debug] opening save file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+12:18:26 [trace] backupPath: /home/killar/.config/furnace/backups
+12:18:26 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:18:26 [debug] saving backup...
+12:18:26 [trace] writing file...
+12:18:26 [debug] backup saved.
+12:18:31 [debug] returning 
+12:18:31 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+12:18:34 [debug] updating sample texture.
+12:18:34 [debug] updating sample texture.
+12:18:36 [debug] updating sample texture.
+12:18:56 [trace] backupPath: /home/killar/.config/furnace/backups
+12:18:56 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:18:56 [debug] saving backup...
+12:18:56 [trace] writing file...
+12:18:56 [debug] backup saved.
+12:18:57 [debug] opening save file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+12:19:04 [debug] returning /home/killar/Documents/furnace/samples/NES/Sunsoft_Bass-1o.wav
+12:19:04 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+12:19:26 [trace] backupPath: /home/killar/.config/furnace/backups
+12:19:26 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:19:26 [debug] saving backup...
+12:19:26 [trace] writing file...
+12:19:26 [debug] backup saved.
+12:19:33 [trace] playSub() called
+12:19:33 [trace] goal: 2 goalRow: 0
+12:19:33 [trace] playSub() took 226µs
+12:19:34 [debug] saving file...
+12:19:34 [trace] opening file for writing...
+12:19:34 [debug] save complete.
+12:19:36 [trace] end of orders reached
+12:19:36 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:20:25 [debug] updating sample texture.
+12:20:29 [debug] rendering samples...
+12:20:29 [trace] initInternal(16,12296)
+12:20:29 [trace] initInternal(8,12296)
+12:20:29 [trace] 0 padded length: 1600
+12:20:29 [trace] 1 padded length: 1600
+12:20:29 [debug] updating sample texture.
+12:20:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:20:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:20:50 [debug] saving backup...
+12:20:50 [trace] writing file...
+12:20:50 [debug] backup saved.
+12:21:16 [debug] updating sample texture.
+12:21:20 [debug] opening load file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+12:21:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:21:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:21:20 [debug] saving backup...
+12:21:20 [trace] writing file...
+12:21:20 [debug] backup saved.
+12:21:22 [debug] - returning /home/killar/Documents/furnace/samples/NES/Sunsoft_Bass-1o.wav
+12:21:22 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+12:21:22 [debug] sample is 16-bit signed
+12:21:22 [trace] initInternal(16,12296)
+12:21:22 [debug] rendering samples...
+12:21:22 [trace] initInternal(16,12296)
+12:21:22 [trace] initInternal(8,12296)
+12:21:22 [trace] initInternal(1,12296)
+12:21:22 [trace] initInternal(8,12296)
+12:21:22 [trace] 0 padded length: 1600
+12:21:22 [trace] 1 padded length: 1600
+12:21:22 [debug] updating sample texture.
+12:21:36 [debug] opening save file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+12:21:44 [debug] returning 
+12:21:44 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+12:21:47 [debug] opening load file dialog with curPath /home/killar/Documents/furnace/samples/NES/
+12:21:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:21:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:21:50 [debug] saving backup...
+12:21:50 [trace] writing file...
+12:21:50 [debug] backup saved.
+12:21:50 [debug] - returning /home/killar/Documents/furnace/samples/NES/Moog_Fsharp_compressed.wav
+12:21:50 [debug] curPath: /home/killar/Documents/furnace/samples/NES
+12:21:50 [debug] sample is 16-bit signed
+12:21:50 [trace] initInternal(16,22408)
+12:21:50 [debug] rendering samples...
+12:21:50 [trace] initInternal(16,12296)
+12:21:50 [trace] initInternal(8,12296)
+12:21:50 [trace] initInternal(1,22408)
+12:21:50 [trace] initInternal(8,22408)
+12:21:50 [trace] 0 padded length: 1600
+12:21:50 [trace] 1 padded length: 2816
+12:21:50 [debug] updating sample texture.
+12:21:59 [trace] finish selection: 4.0,42 - 4.0,42
+12:22:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:22:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:22:20 [debug] saving backup...
+12:22:20 [trace] writing file...
+12:22:20 [debug] backup saved.
+12:22:50 [trace] backupPath: /home/killar/.config/furnace/backups
+12:22:50 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:22:50 [debug] saving backup...
+12:22:50 [trace] writing file...
+12:22:50 [debug] backup saved.
+12:23:20 [trace] backupPath: /home/killar/.config/furnace/backups
+12:23:20 [trace] curFileName: /home/killar/Documents/furnace/projects/NES/dedede_masked.fur
+12:23:20 [debug] saving backup...
+12:23:20 [trace] writing file...
+12:23:20 [debug] backup saved.
+12:23:23 [trace] playSub() called
+12:23:23 [trace] goal: 2 goalRow: 0
+12:23:23 [trace] playSub() took 225µs
+12:23:26 [trace] end of orders reached
+12:23:26 [debug] last loop pos: 832 for a size of 1024 and runLeftG of 49152
+12:23:36 [trace] end of orders reached
+12:23:36 [debug] last loop pos: 256 for a size of 1024 and runLeftG of 196608
+12:23:41 [debug] saving file...
+12:23:41 [trace] opening file for writing...
+12:23:41 [debug] save complete.
+12:23:41 [info] closing GUI.
+12:23:41 [info] stopping engine.
+12:23:41 [info] closing audio output.
+12:23:41 [info] closing MIDI input.
+12:23:41 [trace] terminating dispatch...
+12:23:41 [info] saving config.
+12:23:41 [debug] rotating config files...
+12:23:41 [trace] remove /home/killar/.config/furnace/furnace.cfg.4
+12:23:41 [trace] move /home/killar/.config/furnace/furnace.cfg.3 to /home/killar/.config/furnace/furnace.cfg.4
+12:23:41 [trace] move /home/killar/.config/furnace/furnace.cfg.2 to /home/killar/.config/furnace/furnace.cfg.3
+12:23:41 [trace] move /home/killar/.config/furnace/furnace.cfg.1 to /home/killar/.config/furnace/furnace.cfg.2
+12:23:41 [trace] move /home/killar/.config/furnace/furnace.cfg to /home/killar/.config/furnace/furnace.cfg.1
+12:23:41 [debug] opening config for write: /home/killar/.config/furnace/furnace.cfg
+12:23:41 [debug] config file written successfully.
