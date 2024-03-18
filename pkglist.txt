@@ -48,7 +48,6 @@ kdenlive
 kdeplasma-addons
 kdialog
 kgamma
-khotkeys
 kinfocenter
 kmenuedit
 konsole
@@ -58,7 +57,6 @@ kscreenlocker
 ksshaskpass
 ksystemstats
 kwallet-pam
-kwayland-integration
 kwin
 kwrited
 layer-shell-qt
@@ -66,14 +64,7 @@ less
 libgig
 libkscreen
 libksysguard
-lib32-nvidia-390xx-utils
-libnvidia-container
-libnvidia-container-tools
 libreoffice-fresh
-libticables
-libticalcs
-libticonv
-libtifiles
 libva-mesa-driver
 linux
 linux-firmware
@@ -88,9 +79,6 @@ networkmanager
 ninja
 npm
 ntfs-3g
-nvidia-390xx-utils
-nvidia-390xx-dkms
-nvidia-settings
 obs-studio-stable
 openssh
 os-prober
@@ -128,10 +116,7 @@ spectacle
 stow
 systemsettings
 tiled
-tilem
-tilp
 tmux
-torbrowser-launcher
 unzip
 update-grub
 vim
@@ -139,6 +124,5 @@ vlc
 wget
 xdg-desktop-portal-kde
 xorg-xrandr
-zasm
 zoxide
 zsh
