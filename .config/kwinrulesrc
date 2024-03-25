@@ -1,9 +1,0 @@
-[$Version]
-update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
-
-[696410ef-55d2-4297-90ba-cb4b6c0fcb8a]
-Description=No titlebars
-noborder=true
-noborderrule=3
-wmclass=.*
-wmclassmatch=3
