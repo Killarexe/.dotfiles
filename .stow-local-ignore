@@ -15,7 +15,7 @@ _darcs
 \.gitignore
 \.gitmodules
 install.sh
-update.sh
+setup.sh
 pkglist.txt
 
 .+~          # emacs backup files

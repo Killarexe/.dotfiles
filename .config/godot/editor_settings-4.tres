@@ -156,3 +156,4 @@ metadata/script_setup_templates_dictionary = {
 "Node3D": "0NodeDefault",
 "RayCast3D": "0NodeDefault"
 }
+metadata/export_template_download_directory = "/home/killar/.cache/godot"
