@@ -3,3 +3,5 @@
 [user]
 	email = killar.exe@gmail.com
 	name = Killar.exe
+[core]
+	autocrlf = input

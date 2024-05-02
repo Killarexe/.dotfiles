@@ -21,11 +21,13 @@ if [[ -f /etc/pacman.conf ]]; then
   echo $STR >> /etc/pacman.conf
 else
   echo "\t\tError: /etc/pacman.conf does not exist! Check if pacman is downloaded..."
+  exit 1
 fi
 
 echo "Downloading pakages..."
 sudo pacman -Syu - < pkglist.txt &> /dev/null
-
+echo "Downloading AURs..."
+yay -Syu - < aurlist.txt &> /dev/null
 echo "Stow dotfiles..."
 stow .
 

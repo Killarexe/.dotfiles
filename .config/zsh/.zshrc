@@ -68,4 +68,4 @@ fi
 
 source "$HOME/.cargo/env"
 
-neofetch
+fastfetch

@@ -29,7 +29,7 @@ alias grep=rg
 alias docker='sudo docker'
 
 alias rshell='ssh hover@192.168.1.156'
-
+alias vencord_setup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 alias stjavahome='sudo update-alternatives --config java'
 
 #-----------

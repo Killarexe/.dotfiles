@@ -148,12 +148,19 @@ text_editor/theme/highlighting/comment_markers/critical_list = "ALERT,ATTENTION,
 text_editor/theme/highlighting/comment_markers/warning_list = "BUG,DEPRECATED,FIXME,HACK,TASK,TBD,TODO,WARNING"
 text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,NOTICE,TEST,TESTING"
 text_editor/help/sort_functions_alphabetically = true
+export/android/java_sdk_path = ""
+network/language_server/poll_limit_usec = 100000
 metadata/script_setup_templates_dictionary = {
+"Camera2D": "0NodeDefault",
 "CanvasLayer": "0NodeDefault",
 "CharacterBody3D": "0NodeDefault",
 "Control": "0NodeDefault",
 "Node": "0NodeDefault",
+"Node2D": "0NodeDefault",
 "Node3D": "0NodeDefault",
-"RayCast3D": "0NodeDefault"
+"RayCast3D": "0NodeDefault",
+"RigidBody3D": "0NodeDefault",
+"Sprite2D": "0NodeDefault",
+"TileMap": "0NodeDefault"
 }
 metadata/export_template_download_directory = "/home/killar/.cache/godot"

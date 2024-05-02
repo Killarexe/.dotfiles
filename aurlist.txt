@@ -1,0 +1,16 @@
+aseprite
+aseprite-debug
+cc65
+cc65-debug
+libticables
+libticables-debug
+libticalcs
+libticalcs-debug
+libticonv
+libticonv-debug
+libtifiles
+libtifiles-debug
+tilp
+tilp-debug
+zasm
+zasm-debug
