@@ -17,6 +17,7 @@ _darcs
 install.sh
 setup.sh
 pkglist.txt
+aurlist.txt
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
