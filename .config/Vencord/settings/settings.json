@@ -1,6 +1,6 @@
 {
     "notifyAboutUpdates": true,
-    "autoUpdate": false,
+    "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
     "themeLinks": [
@@ -232,7 +232,9 @@
             "ignoreSelf": false,
             "ignoreUsers": "",
             "ignoreChannels": "",
-            "ignoreGuilds": ""
+            "ignoreGuilds": "",
+            "logEdits": true,
+            "logDeletes": true
         },
         "MessageTags": {
             "enabled": false
@@ -495,6 +497,33 @@
         },
         "ShowHiddenThings": {
             "enabled": false
+        },
+        "BetterRoleContext": {
+            "enabled": false
+        },
+        "BetterSessions": {
+            "enabled": false
+        },
+        "BetterSettings": {
+            "enabled": false
+        },
+        "FriendsSince": {
+            "enabled": false
+        },
+        "ImplicitRelationships": {
+            "enabled": false
+        },
+        "OverrideForumDefaults": {
+            "enabled": false
+        },
+        "ResurrectHome": {
+            "enabled": false
+        },
+        "StreamerModeOnStream": {
+            "enabled": false
+        },
+        "UnlockedAvatarZoom": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -507,6 +536,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1714324675682
+        "settingsSyncVersion": 1714900298315
     }
 }
