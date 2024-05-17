@@ -1,4 +1,4 @@
-// Vencord 6ad17ff
+// Vencord f74da73
 // Standalone: true
 // Platform: Universal
 // Updater disabled: false
