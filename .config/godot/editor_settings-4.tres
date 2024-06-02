@@ -41,7 +41,7 @@ text_editor/theme/highlighting/code_folding_color = Color(0.501961, 0.501961, 0.
 text_editor/theme/highlighting/search_result_color = Color(0.368627, 0.376471, 0.411765, 1)
 text_editor/theme/highlighting/search_result_border_color = Color(0, 0, 0, 0)
 export/android/android_sdk_path = "/opt/android-sdk"
-export/android/debug_keystore = ""
+export/android/debug_keystore = "/home/killar/debug.keystore"
 export/android/debug_keystore_user = "androiddebugkey"
 export/android/debug_keystore_pass = "android"
 export/android/force_system_user = false
@@ -55,7 +55,7 @@ export/web/http_port = 8060
 export/web/use_tls = false
 export/web/tls_key = ""
 export/web/tls_certificate = ""
-export/windows/rcedit = ""
+export/windows/rcedit = "/run/media/killar/66DE01C4DE018E0D/Windows/regedit.exe"
 export/windows/osslsigncode = ""
 export/windows/wine = ""
 interface/editor/save_on_focus_loss = false
@@ -167,6 +167,7 @@ metadata/script_setup_templates_dictionary = {
 "RayCast3D": "0NodeDefault",
 "RigidBody3D": "0NodeDefault",
 "Sprite2D": "0NodeDefault",
+"TextureRect": "0NodeDefault",
 "TileMap": "0NodeDefault"
 }
 metadata/export_template_download_directory = "/home/killar/.cache/godot"

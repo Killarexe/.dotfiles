@@ -308,9 +308,6 @@
         "OpenInApp": {
             "enabled": false
         },
-        "Party mode 🎉": {
-            "enabled": false
-        },
         "PermissionFreeWill": {
             "enabled": false
         },
@@ -524,6 +521,9 @@
         },
         "UnlockedAvatarZoom": {
             "enabled": false
+        },
+        "PartyMode": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -536,6 +536,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1714900298315
+        "settingsSyncVersion": 1716556066552
     }
 }
