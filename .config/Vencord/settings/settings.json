@@ -48,7 +48,8 @@
             "enabled": true
         },
         "NoTrack": {
-            "enabled": true
+            "enabled": true,
+            "disableAnalytics": true
         },
         "Settings": {
             "enabled": true,
@@ -77,7 +78,8 @@
             "keepIcons": false,
             "closeAllFolders": false,
             "forceOpen": false,
-            "sidebarAnim": true
+            "sidebarAnim": true,
+            "closeOthers": false
         },
         "BetterGifAltText": {
             "enabled": false
@@ -122,7 +124,8 @@
             "enabled": true
         },
         "CustomRPC": {
-            "enabled": false
+            "enabled": true,
+            "type": 0
         },
         "Dearrow": {
             "enabled": false
@@ -137,7 +140,7 @@
             "enabled": false
         },
         "Experiments": {
-            "enabled": false
+            "enabled": true
         },
         "F8Break": {
             "enabled": false
@@ -170,7 +173,7 @@
             "enabled": false
         },
         "ForceOwnerCrown": {
-            "enabled": false
+            "enabled": true
         },
         "FriendInvites": {
             "enabled": false
@@ -270,7 +273,7 @@
             "enabled": false
         },
         "NoProfileThemes": {
-            "enabled": false
+            "enabled": true
         },
         "NoRPC": {
             "enabled": false
@@ -285,7 +288,7 @@
             "enabled": false
         },
         "NoTypingAnimation": {
-            "enabled": false
+            "enabled": true
         },
         "NoUnblockToJump": {
             "enabled": false
@@ -297,7 +300,7 @@
             "enabled": false
         },
         "NSFWGateBypass": {
-            "enabled": false
+            "enabled": true
         },
         "OnePingPerDM": {
             "enabled": false
@@ -309,7 +312,7 @@
             "enabled": false
         },
         "PermissionFreeWill": {
-            "enabled": false
+            "enabled": true
         },
         "PermissionsViewer": {
             "enabled": false
@@ -321,7 +324,7 @@
             "enabled": false
         },
         "PinDMs": {
-            "enabled": false
+            "enabled": true
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -360,7 +363,7 @@
             "enabled": false
         },
         "RoleColorEverywhere": {
-            "enabled": false
+            "enabled": true
         },
         "SearchReply": {
             "enabled": false
@@ -373,9 +376,6 @@
         },
         "ServerListIndicators": {
             "enabled": false
-        },
-        "ServerProfile": {
-            "enabled": true
         },
         "ShikiCodeblocks": {
             "enabled": false
@@ -392,7 +392,7 @@
             "hideUnreads": true
         },
         "ShowMeYourName": {
-            "enabled": false
+            "enabled": true
         },
         "SilentMessageToggle": {
             "enabled": false
@@ -400,7 +400,8 @@
         "SilentTyping": {
             "enabled": true,
             "isEnabled": true,
-            "showIcon": false
+            "showIcon": false,
+            "contextMenu": true
         },
         "SortFriendRequests": {
             "enabled": false
@@ -431,7 +432,8 @@
         },
         "Translate": {
             "enabled": true,
-            "autoTranslate": false
+            "autoTranslate": false,
+            "showChatBarButton": true
         },
         "TypingIndicator": {
             "enabled": true,
@@ -463,7 +465,7 @@
             "enabled": false
         },
         "VcNarrator": {
-            "enabled": false
+            "enabled": true
         },
         "VencordToolbox": {
             "enabled": false
@@ -493,7 +495,7 @@
             "enabled": false
         },
         "ShowHiddenThings": {
-            "enabled": false
+            "enabled": true
         },
         "BetterRoleContext": {
             "enabled": false
@@ -505,7 +507,7 @@
             "enabled": false
         },
         "FriendsSince": {
-            "enabled": false
+            "enabled": true
         },
         "ImplicitRelationships": {
             "enabled": false
@@ -524,6 +526,72 @@
         },
         "PartyMode": {
             "enabled": false
+        },
+        "MessageUpdaterAPI": {
+            "enabled": true
+        },
+        "AutomodContext": {
+            "enabled": false
+        },
+        "CtrlEnterSend": {
+            "enabled": false
+        },
+        "CustomIdle": {
+            "enabled": false
+        },
+        "DontRoundMyTimestamps": {
+            "enabled": false
+        },
+        "ImageLink": {
+            "enabled": false
+        },
+        "MaskedLinkPaste": {
+            "enabled": false
+        },
+        "MessageLatency": {
+            "enabled": false
+        },
+        "NoDefaultHangStatus": {
+            "enabled": false
+        },
+        "NoServerEmojis": {
+            "enabled": false
+        },
+        "PauseInvitesForever": {
+            "enabled": false
+        },
+        "ReplaceGoogleSearch": {
+            "enabled": false
+        },
+        "ReplyTimestamp": {
+            "enabled": false
+        },
+        "Summaries": {
+            "enabled": false
+        },
+        "ShowTimeoutDuration": {
+            "enabled": false
+        },
+        "ValidReply": {
+            "enabled": false
+        },
+        "VoiceDownload": {
+            "enabled": true
+        },
+        "WatchTogetherAdblock": {
+            "enabled": false
+        },
+        "ServerInfo": {
+            "enabled": true
+        },
+        "AppleMusicRichPresence": {
+            "enabled": false
+        },
+        "CopyEmojiMarkdown": {
+            "enabled": false
+        },
+        "NoOnboardingDelay": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -536,6 +604,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1716556066552
+        "settingsSyncVersion": 1718007364255
     }
 }
