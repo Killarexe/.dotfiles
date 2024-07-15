@@ -592,6 +592,9 @@
         },
         "NoOnboardingDelay": {
             "enabled": false
+        },
+        "UserSettingsAPI": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -604,6 +607,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1718007364255
+        "settingsSyncVersion": 1720625727560
     }
 }
