@@ -344,7 +344,7 @@ for_window [class=OpenTTD] focus
 # xcompmgr: https://wiki.archlinux.org/title/Xcompmgr
 # manpage: https://man.archlinux.org/man/xcompmgr.1.en
 # install xcompmgr package to use it (yay -S xcompmgr)
-#exec --no-startup-id xcompmgr -C -n &
+exec --no-startup-id xcompmgr -C -n &
 # or an more specialized config like this:
 #exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
 #
@@ -390,11 +390,11 @@ exec --no-startup-id dex --autostart --environment i3
 
 # start a script to setup displays
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
-exec --no-startup-id ~/.screenlayout/monitor.sh
+exec --no-startup-id ~/.screenlayout/default.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png
+exec --no-startup-id sleep 2 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png ~/Pictures/wallpapers/little_rage_player_wallpaper.png ~/Pictures/wallpapers/little_rage_logo_wallpaper.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
