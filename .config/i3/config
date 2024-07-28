@@ -323,6 +323,7 @@ assign [class="Xfce4-terminal"] $ws1
 assign [class="Brave"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="discord"] $ws4
+assign [class="vesktop"] $ws4
 assign [class="OpenTTD"] $ws5
 
 # automatic set focus new window if it opens on another workspace than the current:
@@ -330,6 +331,7 @@ for_window [class=Xfce4-terminal] focus
 for_window [class=Thunar] focus
 for_window [class=Brave] focus
 for_window [class=discord] focus
+for_window [class=vesktop] focus
 for_window [class=OpenTTD] focus
 
 ##############
@@ -394,7 +396,7 @@ exec --no-startup-id ~/.screenlayout/default.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 2 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png ~/Pictures/wallpapers/little_rage_player_wallpaper.png ~/Pictures/wallpapers/little_rage_logo_wallpaper.png
+exec --no-startup-id sleep 3 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png ~/Pictures/wallpapers/little_rage_player_wallpaper.png ~/Pictures/wallpapers/little_rage_logo_wallpaper.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -511,7 +513,7 @@ bar {
 #	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
-		    #tray_output primary
+		    tray_output primary
 		    tray_padding 0
 
 # When strip_workspace_numbers is set to yes,
