@@ -1,0 +1,6 @@
+# Vencord JS shit
+.config/Vencord/dist
+
+.config/zsh/.zcompdump
+
+.config/godot/recent_dirs

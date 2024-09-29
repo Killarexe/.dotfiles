@@ -9,6 +9,8 @@ fi
 
 source "${ZINIT_HOME}/zinit.zsh"
 
+LS_COLORS=$LS_COLORS:'di=0;36:' ; export LS_COLORS
+
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
@@ -64,6 +66,8 @@ alias grep=rg
 
 alias rshell='ssh hover@192.168.1.156'
 alias vencord_setup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
+
+alias bird='curl parrot.live'
 
 #-----------
 # Exports
