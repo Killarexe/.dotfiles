@@ -11,7 +11,7 @@
     "frameless": false,
     "transparent": false,
     "winCtrlQ": false,
-    "disableMinSize": false,
+    "disableMinSize": true,
     "winNativeTitleBar": false,
     "plugins": {
         "BadgeAPI": {
@@ -124,7 +124,7 @@
             "enabled": true
         },
         "CustomRPC": {
-            "enabled": true,
+            "enabled": false,
             "type": 0
         },
         "Dearrow": {
@@ -140,7 +140,8 @@
             "enabled": false
         },
         "Experiments": {
-            "enabled": true
+            "enabled": true,
+            "toolbarDevMenu": false
         },
         "F8Break": {
             "enabled": false
@@ -186,9 +187,6 @@
             "enabled": false
         },
         "GreetStickerPicker": {
-            "enabled": false
-        },
-        "HideAttachments": {
             "enabled": false
         },
         "iLoveSpam": {
@@ -237,7 +235,8 @@
             "ignoreChannels": "",
             "ignoreGuilds": "",
             "logEdits": true,
-            "logDeletes": true
+            "logDeletes": true,
+            "collapseDeleted": false
         },
         "MessageTags": {
             "enabled": false
@@ -312,7 +311,9 @@
             "enabled": false
         },
         "PermissionFreeWill": {
-            "enabled": true
+            "enabled": true,
+            "lockout": true,
+            "onboarding": true
         },
         "PermissionsViewer": {
             "enabled": false
@@ -324,7 +325,13 @@
             "enabled": false
         },
         "PinDMs": {
-            "enabled": true
+            "enabled": true,
+            "pinOrder": 0,
+            "dmSectionCollapsed": false,
+            "canCollapseDmSection": false,
+            "userBasedCategoryList": {
+                "546273121968193536": []
+            }
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -333,9 +340,6 @@
             "enabled": false
         },
         "PreviewMessage": {
-            "enabled": false
-        },
-        "PronounDB": {
             "enabled": false
         },
         "QuickMention": {
@@ -363,16 +367,20 @@
             "enabled": false
         },
         "RoleColorEverywhere": {
-            "enabled": true
-        },
-        "SearchReply": {
-            "enabled": false
+            "enabled": true,
+            "chatMentions": true,
+            "memberList": true,
+            "voiceUsers": true,
+            "reactorsList": true,
+            "colorChatMessages": false,
+            "pollResults": true
         },
         "SecretRingToneEnabler": {
             "enabled": false
         },
         "SendTimestamps": {
-            "enabled": true
+            "enabled": true,
+            "replaceMessageContents": true
         },
         "ServerListIndicators": {
             "enabled": false
@@ -392,7 +400,10 @@
             "hideUnreads": true
         },
         "ShowMeYourName": {
-            "enabled": true
+            "enabled": true,
+            "displayNames": false,
+            "mode": "user-nick",
+            "inReplies": false
         },
         "SilentMessageToggle": {
             "enabled": false
@@ -400,7 +411,7 @@
         "SilentTyping": {
             "enabled": true,
             "isEnabled": true,
-            "showIcon": false,
+            "showIcon": true,
             "contextMenu": true
         },
         "SortFriendRequests": {
@@ -462,10 +473,10 @@
             "enabled": true
         },
         "VoiceChatDoubleClick": {
-            "enabled": false
+            "enabled": true
         },
         "VcNarrator": {
-            "enabled": true
+            "enabled": false
         },
         "VencordToolbox": {
             "enabled": false
@@ -495,7 +506,12 @@
             "enabled": false
         },
         "ShowHiddenThings": {
-            "enabled": true
+            "enabled": true,
+            "showTimeouts": true,
+            "showInvitesPaused": true,
+            "showModView": true,
+            "disableDiscoveryFilters": true,
+            "disableDisallowedDiscoveryFilters": true
         },
         "BetterRoleContext": {
             "enabled": false
@@ -578,9 +594,6 @@
         "VoiceDownload": {
             "enabled": true
         },
-        "WatchTogetherAdblock": {
-            "enabled": false
-        },
         "ServerInfo": {
             "enabled": true
         },
@@ -595,6 +608,51 @@
         },
         "UserSettingsAPI": {
             "enabled": true
+        },
+        "YoutubeAdblock": {
+            "enabled": false
+        },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
+        "MentionAvatars": {
+            "enabled": false
+        },
+        "AlwaysExpandRoles": {
+            "enabled": false
+        },
+        "FullSearchContext": {
+            "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": false
+        },
+        "CopyFileContents": {
+            "enabled": false
+        },
+        "NoMaskedUrlPaste": {
+            "enabled": false
+        },
+        "StickerPaste": {
+            "enabled": false
+        },
+        "UserMessagesPronouns": {
+            "enabled": false
+        },
+        "DynamicImageModalAPI": {
+            "enabled": true
+        },
+        "FixImagesQuality": {
+            "enabled": false
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
+        },
+        "HideMedia": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -607,6 +665,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1720625727560
+        "settingsSyncVersion": 1738508507786
     }
 }

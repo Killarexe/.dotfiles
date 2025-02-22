@@ -193,10 +193,10 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # keybinding in fancy rofi (automated):
-bindsym F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
+#bindsym F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
 # alternative
 # keybinding list in editor:
-# bindsym $mod+F1 exec --no-startup-id xed ~/.config/i3/keybindings
+ bindsym $mod+F1 exec --no-startup-id xed ~/.config/i3/keybindings
 
 # Backlight control
 #bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +10 && notify-send "Brightness - $(xbacklight -get | cut -d '.' -f 1)%"
@@ -290,7 +290,7 @@ bindsym $mod+p exec --no-startup-id /usr/local/bin/switch-audio-port
 bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Take a screenshot upon pressing $mod+x (select an area)
-bindsym --release $mod+x exec --no-startup-id import ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+bindsym --release $mod+x exec --no-startup-id import ~/shot.png && mv ~/shot.png ~/"$(date +"%Y-%m-%d-%T")-screenshot.png" && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Power Profiles menu switcher (rofi)
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
@@ -308,18 +308,9 @@ set $ws4 "4:"
 set $ws5 "5:󰊗"
 set $ws6 "6:"
 set $ws7 "7:"
-set $ws8 "8"
+set $ws8 "8:"
 set $ws9 "9"
 set $ws10 "10"
-
-# use workspaces on different displays:
-# where you have to replace VGA-0/HDMI-0 with the names for your displays
-# you can get from xrandr command
-#workspace $ws1 output VGA-0
-#workspace $ws2 output VGA-0
-#workspace $ws3 output HDMI-0
-#workspace $ws4 output HDMI-0
-#workspace $ws5 output HDMI-0
 
 # bind program to workspace and focus to them on startup:
 assign [class="Xfce4-terminal"] $ws1
@@ -328,7 +319,10 @@ assign [class="Thunar"] $ws3
 assign [class="discord"] $ws4
 assign [class="vesktop"] $ws4
 assign [class="OpenTTD"] $ws5
-assign [class="godot"] $ws6
+assign [class="Godot"] $ws6
+assign [class="LibreOffice"] $ws7
+assign [class="LibreSprite"] $ws8
+assign [class="GIMP"] $ws8
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=Xfce4-terminal] focus
@@ -337,36 +331,10 @@ for_window [class=firefox] focus
 for_window [class=discord] focus
 for_window [class=vesktop] focus
 for_window [class=OpenTTD] focus
-for_window [class=godot] focus
-
-##############
-# compositor #
-##############
-
-# transparency
-# uncomment one of them to be used
-# options could need changes, related to used GPU and drivers.
-# to find the right setting consult the archwiki or ask at the forum.
-#
-# xcompmgr: https://wiki.archlinux.org/title/Xcompmgr
-# manpage: https://man.archlinux.org/man/xcompmgr.1.en
-# install xcompmgr package to use it (yay -S xcompmgr)
-exec --no-startup-id xcompmgr -C -n &
-# or an more specialized config like this:
-#exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-#
-# or:
-#
-# picom: https://wiki.archlinux.org/title/Picom
-# manpage: https://man.archlinux.org/man/picom.1.en
-# The default configuration is available in /etc/xdg/picom.conf 
-# For modifications, it can be copied to ~/.config/picom/picom.conf or ~/.config/picom.conf
-# install picom package (yay -S picom)
-# start using default config 
-#exec_always --no-startup-id picom -b
-#
-# for custom config:
-#exec_always --no-startup-id picom --config  ~/.config/picom.conf
+for_window [class=Godot] focus
+for_window [class=LibreOffice] focus
+for_window [class=LibreSprite] focus
+for_window [class=GIMP] focus
 
 #############################################
 # autostart applications/services on login: #
@@ -401,7 +369,7 @@ exec --no-startup-id ~/.screenlayout/default.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 3 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png ~/Pictures/wallpapers/little_rage_player_wallpaper.png ~/Pictures/wallpapers/little_rage_logo_wallpaper.png
+exec --no-startup-id sleep 3 && feh --bg-fill ~/Pictures/wallpapers/little_rage_icon_wallpaper.png ~/Pictures/wallpapers/little_rage_player_wallpaper.png ~/Pictures/wallpapers/little_rage_logo_wallpaper.png && xcompmgr -o.55
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600

@@ -1,0 +1,9 @@
+# Vencord JS shit
+/.config/Vencord/dist/
+/.config/Vencord/dist/*
+
+/.config/zsh/.zcompdump
+
+/.config/godot/recent_dirs
+/.config/godot/projects/
+/.config/godot/feature_profiles/

@@ -1,0 +1,117 @@
+version = 2
+final_space = true
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = "path"
+    style = "diamond"
+    leading_diamond = ""
+    trailing_diamond = ""
+    foreground = "p:blue"
+    background = "p:darkgray"
+    template = " {{ .Path }}"
+
+    [blocks.segments.properties]
+      style = "folder"
+      home_icon = "󰟒"
+
+      [blocks.segments.properties.mapped_locations]
+        "/home/killar/projects/" = "󱧼"
+        "/home/killar/Music" = "󱍙"
+        "/home/killar/Videos" = "󱧺"
+        "/home/killar/Pictures/" = "󰉏"
+        "/home/killar/Desktop/" = "󰇄"
+
+  [[blocks.segments]]
+    type = "rust"
+    style = "diamond"
+    leading_diamond = ""
+    trailing_diamond = ""
+    foreground = "p:red"
+    background = "p:darkgray"
+    template = "  {{ .Full }} "
+
+  [[blocks.segments]]
+    type = "java"
+    style = "diamond"
+    leading_diamond = ""
+    trailing_diamond = ""
+    foreground = "p:red"
+    background = "p:darkgray"
+    template = "  {{ .Full }}"
+
+  [[blocks.segments]]
+    type = "git"
+    style = "diamond"
+    leading_diamond = ""
+    trailing_diamond = ""
+    foreground = "p:yellow"
+    background = "p:darkgray"
+    template = "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}"
+
+    [blocks.segments.properties]
+      fetch_status = true
+      fetch_upstream_icon = true
+
+[[blocks]]
+  type = "prompt"
+  alignment = "right"
+
+  [[blocks.segments]]
+    type = "executiontime"
+    style = "diamond"
+    leading_diamond = ""
+    trailing_diamond = ""
+    foreground = "p:yellow"
+    background = "p:darkgray"
+    template = "󱦟 {{ .FormattedMs }}"
+
+    [blocks.segments.properties]
+      threshold = 5000
+      style = "round"
+
+  [[blocks.segments]]
+    type = "status"
+    style = "diamond"
+    foreground = "p:white"
+    background = "p:green"
+    background_templates = [ "{{ if .Error }}p:red{{ end }}" ]
+    trailing_diamond = ""
+    template = "<p:black></> {{ if .Error}} {{ .Code }}{{ else }}{{ end }}"
+
+    [blocks.segments.properties]
+      always_enabled = true
+
+[[blocks]]
+  type = "prompt"
+  alignment = "left"
+  newline = true
+
+  [[blocks.segments]]
+    type = "text"
+    style = "plain"
+    foreground = "p:violet"
+    background = "transparent"
+    template = " 󰅂"
+
+[transient_prompt]
+  foreground = "p:lightblue"
+  background = "transparent"
+  template = "󰅂 "
+
+[palette]
+  red = "#E57474"
+  green = "#8CCF7E"
+  yellow = "#E5C76B"
+  blue = "#67B0E8"
+  violet = "#C47FD5"
+  lightblue = "#6CBFBF"
+  white = "#DADADA"
+  gray = "#B3B9B8"
+  darkgray = "#232A2D"
+  black = "#141B1E"
