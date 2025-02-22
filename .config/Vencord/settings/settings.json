@@ -325,6 +325,7 @@
             "enabled": false
         },
         "PinDMs": {
+<<<<<<< HEAD
             "enabled": true,
             "pinOrder": 0,
             "dmSectionCollapsed": false,
@@ -332,6 +333,13 @@
             "userBasedCategoryList": {
                 "546273121968193536": []
             }
+||||||| 3468055
+            "enabled": true
+=======
+            "enabled": true,
+            "dmSectioncollapsed": false,
+            "pinOrder": 0
+>>>>>>> 137eb11a20a398fab351e22918831052a22a033a
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -367,6 +375,7 @@
             "enabled": false
         },
         "RoleColorEverywhere": {
+<<<<<<< HEAD
             "enabled": true,
             "chatMentions": true,
             "memberList": true,
@@ -374,6 +383,19 @@
             "reactorsList": true,
             "colorChatMessages": false,
             "pollResults": true
+||||||| 3468055
+            "enabled": true
+        },
+        "SearchReply": {
+            "enabled": false
+=======
+            "enabled": true,
+            "chatMentions": true,
+            "memberList": true,
+            "voiceUsers": true,
+            "reactorsList": true,
+            "colorChatMessages": false
+>>>>>>> 137eb11a20a398fab351e22918831052a22a033a
         },
         "SecretRingToneEnabler": {
             "enabled": false
@@ -608,6 +630,7 @@
         },
         "UserSettingsAPI": {
             "enabled": true
+<<<<<<< HEAD
         },
         "YoutubeAdblock": {
             "enabled": false
@@ -653,6 +676,36 @@
         },
         "HideMedia": {
             "enabled": false
+||||||| 3468055
+=======
+        },
+        "YoutubeAdblock": {
+            "enabled": false
+        },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
+        "MentionAvatars": {
+            "enabled": false
+        },
+        "AlwaysExpandRoles": {
+            "enabled": false
+        },
+        "FullSearchContext": {
+            "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": false
+        },
+        "CopyFileContents": {
+            "enabled": false
+        },
+        "NoMaskedUrlPaste": {
+            "enabled": false
+        },
+        "StickerPaste": {
+            "enabled": false
+>>>>>>> 137eb11a20a398fab351e22918831052a22a033a
         }
     },
     "notifications": {
@@ -665,6 +718,12 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
+<<<<<<< HEAD
         "settingsSyncVersion": 1738508507786
+||||||| 3468055
+        "settingsSyncVersion": 1720625727560
+=======
+        "settingsSyncVersion": 1727526846875
+>>>>>>> 137eb11a20a398fab351e22918831052a22a033a
     }
 }
