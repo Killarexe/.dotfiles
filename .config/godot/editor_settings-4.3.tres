@@ -167,8 +167,6 @@ metadata/script_setup_templates_dictionary = {
 }
 metadata/export_template_download_directory = "/home/killar/Téléchargements"
 metadata/script_setup_use_script_templates = true
-||||||| 3468055
-=======
 [gd_resource type="EditorSettings" format=3]
 
 [resource]
@@ -619,4 +617,3 @@ metadata/script_setup_templates_dictionary = {
 }
 metadata/export_template_download_directory = "/home/killar/Téléchargements"
 metadata/script_setup_use_script_templates = true
->>>>>>> 137eb11a20a398fab351e22918831052a22a033a

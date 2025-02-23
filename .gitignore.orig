@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vencord JS shit
 /.config/Vencord/dist/
 /.config/Vencord/dist/*
@@ -7,9 +8,12 @@
 /.config/godot/recent_dirs
 /.config/godot/projects/
 /.config/godot/feature_profiles/
+||||||| 3468055
+=======
 # Vencord JS shit
 .config/Vencord/dist
 
 .config/zsh/.zcompdump
 
 .config/godot/recent_dirs
+>>>>>>> 137eb11a20a398fab351e22918831052a22a033a
