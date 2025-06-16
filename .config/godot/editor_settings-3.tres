@@ -34,7 +34,6 @@ asset_library/available_urls = {
 "godotengine.org (Official)": "https://godotengine.org/asset-library/api"
 }
 asset_library/use_threads = true
-"projects/::home::killar::projects::godot::Towers of the Bane - 7.0" = "/home/killar/projects/godot/Towers of the Bane - 7.0"
 export/android/java_sdk_path = ""
 export/android/android_sdk_path = ""
 export/android/debug_keystore = ""
@@ -139,3 +138,4 @@ editors/3d_gizmos/gizmo_colors/joint_body_a = Color( 0.6, 0.8, 1, 1 )
 editors/3d_gizmos/gizmo_colors/joint_body_b = Color( 0.6, 0.9, 1, 1 )
 text_editor/highlighting/gdscript/function_definition_color = Color( 0.4, 0.9, 1, 1 )
 text_editor/highlighting/gdscript/node_path_color = Color( 0.39, 0.76, 0.35, 1 )
+"projects/::home::killar::projects::godot::Tower OF Bane" = "/home/killar/projects/godot/Tower OF Bane"

@@ -1,0 +1,60 @@
+@import url("https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/hidden.css");
+@import url("https:/:scattgain.github.io/VencordStuff/css/GuildbarRevert.css");
+
+@font-face {
+    font-family: "ProFontWindows Nerd Font Mono";
+    src: url('https://github.com/ryanoasis/nerd-fonts/raw/refs/heads/master/patched-fonts/ProFont/ProFontWinTweaked/ProFontWindowsNerdFontMono-Regular.ttf');
+}
+
+:root {
+    --Font-Used: "ProFontWindows Nerd Font Mono", monospace;
+    --Font-Size: 2px;
+
+    /* mediumxx-smallx-smallsmalllargex-largexx-largesmallerlargerlengthinitialinherit; */
+
+    --Font-Style: normal;
+
+    /* normalitalicobliqueinitialinherit; */
+
+    --Font-Weight: 300;
+    --pad: 8px;
+    /* normalboldbolderlighternumberinitialinherit */
+
+    --Font-Variant: smallx;
+
+    /* normalsmall-capsinitialinherit */
+
+    --guildbar-avatar-size: 48px;
+    --blob-scale: 48;
+
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --guildbar-blob-scale: var(--blob-scale);
+}
+
+*:not([class*="hljs"]):not(code){
+
+    font-family: var(--Font-Used)!important;
+
+    font-style: var(--Font-Style)!important;
+
+    font-weight: var(--Font-Weight)!important;
+
+    font-variant: var(--Font-Variant)!important;
+
+}
+
+.markup:not(code) {
+    font-size: var(--Font-Size)!important;
+}
+
+[class*="membersGroup"]:has([role=button]),
+[class*="member"] [class*="container"]:has([class*="badges"]) {
+    display: none;
+}
+
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
+.separator_f84418 {
+    display: none;
+}

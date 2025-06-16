@@ -2,9 +2,7 @@
     "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [
-        "https://raw.githubusercontent.com/Everblush/Discord/refs/heads/main/everblush.css"
-    ],
+    "themeLinks": [],
     "eagerPatches": false,
     "enabledThemes": [],
     "enableReactDevtools": false,
@@ -76,7 +74,8 @@
             "closeAllHomeButton": false,
             "closeAllFolders": false,
             "forceOpen": false,
-            "sidebarAnim": true
+            "sidebarAnim": true,
+            "closeOthers": false
         },
         "BetterGifAltText": {
             "enabled": false
@@ -115,7 +114,8 @@
             "enabled": false
         },
         "ClientTheme": {
-            "enabled": false
+            "enabled": true,
+            "color": "141b1e"
         },
         "ColorSighted": {
             "enabled": false
@@ -149,7 +149,9 @@
         },
         "Dearrow": {
             "enabled": true,
-            "hideButton": false
+            "hideButton": false,
+            "replaceElements": 0,
+            "dearrowByDefault": true
         },
         "Decor": {
             "enabled": false
@@ -175,7 +177,8 @@
             "enableStreamQualityBypass": true,
             "enableEmojiBypass": true,
             "transformEmojis": true,
-            "transformStickers": true
+            "transformStickers": true,
+            "transformCompoundSentence": false
         },
         "FakeProfileThemes": {
             "enabled": false
@@ -214,7 +217,8 @@
             "enabled": true
         },
         "GameActivityToggle": {
-            "enabled": false
+            "enabled": true,
+            "oldIcon": false
         },
         "GifPaste": {
             "enabled": false
@@ -235,7 +239,12 @@
             "enabled": false
         },
         "ImageZoom": {
-            "enabled": true
+            "enabled": true,
+            "size": 100,
+            "zoom": 2,
+            "saveZoomValues": true,
+            "nearestNeighbour": false,
+            "square": false
         },
         "ImplicitRelationships": {
             "enabled": false
@@ -244,8 +253,11 @@
             "enabled": false
         },
         "IrcColors": {
-            "enabled": true,
-            "memberListColors": true
+            "enabled": false,
+            "memberListColors": true,
+            "lightness": 70,
+            "applyColorOnlyInDms": false,
+            "applyColorOnlyToUsersWithoutColor": false
         },
         "KeepCurrentChannel": {
             "enabled": false
@@ -281,7 +293,15 @@
         "MessageLogger": {
             "enabled": true,
             "collapseDeleted": false,
-            "deleteStyle": "text"
+            "deleteStyle": "text",
+            "ignoreBots": false,
+            "ignoreSelf": false,
+            "ignoreUsers": "",
+            "ignoreChannels": "",
+            "ignoreGuilds": "",
+            "logEdits": true,
+            "logDeletes": true,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false
@@ -390,7 +410,8 @@
             "canCollapseDmSection": false,
             "userBasedCategoryList": {
                 "546273121968193536": []
-            }
+            },
+            "pinOrder": 0
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -470,7 +491,10 @@
             "showModView": true
         },
         "ShowMeYourName": {
-            "enabled": true
+            "enabled": true,
+            "displayNames": false,
+            "mode": "user-nick",
+            "inReplies": false
         },
         "ShowTimeoutDuration": {
             "enabled": false
@@ -479,7 +503,10 @@
             "enabled": false
         },
         "SilentTyping": {
-            "enabled": true
+            "enabled": true,
+            "isEnabled": true,
+            "showIcon": false,
+            "contextMenu": true
         },
         "SortFriendRequests": {
             "enabled": false
@@ -515,11 +542,16 @@
             "enabled": false
         },
         "TypingIndicator": {
-            "enabled": true
+            "enabled": true,
+            "includeMutedChannels": false,
+            "includeCurrentChannel": true,
+            "indicatorMode": 3
         },
         "TypingTweaks": {
             "enabled": true,
-            "alternativeFormatting": true
+            "alternativeFormatting": true,
+            "showRoleColors": true,
+            "showAvatars": true
         },
         "Unindent": {
             "enabled": false
@@ -603,6 +635,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1740291627212
+        "settingsSyncVersion": 1744993522212
     }
 }
