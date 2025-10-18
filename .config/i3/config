@@ -58,7 +58,7 @@ gaps inner 6
 gaps outer 3
 
 # show window title bars (not officially supported with i3gaps)
-#default_border normal
+default_border pixel 4
 
 # window title alignment
 #title_align center
@@ -450,6 +450,8 @@ for_window [window_role="About"] floating enable
 
 # set border of floating window
 for_window [class="urxvt"] border pixel 1
+
+for_window [class=.*] border pixel 1
 
 # set size of floating window
 #for_window [window_role="(?i)GtkFileChooserDialog"] resize set 640 480 #to set size of file choose dialog
